@@ -1,11 +1,17 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x3f9220" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x15bbd0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x7e676a0" />
-  <item nodeId="node-0x3f9220">
+  <activeNode nodeId="node-0x15bbd0" />
+  <item nodeId="node-0x15bbd0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
+
+&quot;No! Wait guys! Don&apos;t do this!&quot; Your friends push you out of the bedroom, and lock the door behind you. In your own house! Well, at least you know where the key is to to get back in...wait...do you?
+
+Well, the house isn&apos;t that big. We&apos;ll find it eventually.
+
+Thus, starting your search.
 
 The Prank
 An Interactive Fiction by Dylan Vodzak
@@ -18,10 +24,10 @@ Family Room
     <changed>YES</changed>
     <temporary score="7">NO</temporary>
     <children>
-      <child nodeId="node-0x7e5c0a0" />
+      <child nodeId="node-0x15bc20" />
     </children>
   </item>
-  <item nodeId="node-0x7e5c0a0">
+  <item nodeId="node-0x15bc20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -31,10 +37,10 @@ Office
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7e58e50" />
+      <child nodeId="node-0x15b900" />
     </children>
   </item>
-  <item nodeId="node-0x7e58e50">
+  <item nodeId="node-0x15b900">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Study
@@ -44,10 +50,10 @@ Study
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7e5f8e0" />
+      <child nodeId="node-0x15b950" />
     </children>
   </item>
-  <item nodeId="node-0x7e5f8e0">
+  <item nodeId="node-0x15b950">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -57,10 +63,10 @@ Bedroom
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7e61b50" />
+      <child nodeId="node-0x15b9a0" />
     </children>
   </item>
-  <item nodeId="node-0x7e61b50">
+  <item nodeId="node-0x15b9a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Study
@@ -70,10 +76,10 @@ Study
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7e68360" />
+      <child nodeId="node-0x15b9f0" />
     </children>
   </item>
-  <item nodeId="node-0x7e68360">
+  <item nodeId="node-0x15b9f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -83,10 +89,10 @@ Office
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7e676a0" />
+      <child nodeId="node-0x15ba40" />
     </children>
   </item>
-  <item nodeId="node-0x7e676a0">
+  <item nodeId="node-0x15ba40">
     <command xml:space="preserve">w</command>
     <played>YES</played>
     <changed>YES</changed>
