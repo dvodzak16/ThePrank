@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x3f9220" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x7e676a0" />
+  <item nodeId="node-0x3f9220">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+The Prank
+An Interactive Fiction by Dylan Vodzak
+Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Family Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">NO</temporary>
+    <children>
+      <child nodeId="node-0x7e5c0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e5c0a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e58e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e58e50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e5f8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e5f8e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e61b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e61b50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e68360" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e68360">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e676a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e676a0">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+</Skein>
