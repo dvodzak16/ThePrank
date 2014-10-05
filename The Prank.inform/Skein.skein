@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4875f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x3fa150" />
+  <activeNode nodeId="node-0xc03ea20" />
   <item nodeId="node-0x4875f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -14,14 +14,15 @@ An Interactive Fiction by Dylan Vodzak
 Release 1 / Serial number 141005 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Family Room
-This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="11">NO</temporary>
+    <temporary score="29">NO</temporary>
     <children>
       <child nodeId="node-0x4a11e0" />
+      <child nodeId="node-0x282ae0" />
       <child nodeId="node-0x4a14e0" />
       <child nodeId="node-0x4a1400" />
       <child nodeId="node-0xc03ea20" />
@@ -39,9 +40,10 @@ It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
     <children>
+      <child nodeId="node-0xc032770" />
       <child nodeId="node-0x487710" />
     </children>
   </item>
@@ -91,6 +93,15 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
+  <item nodeId="node-0xc032770">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+  </item>
   <item nodeId="node-0x487640">
     <command xml:space="preserve">x oak door</command>
     <result xml:space="preserve">A nice oak door that leads to your room. It is also the only thing keeping you from stangling your friends.
@@ -102,6 +113,9 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
   </item>
   <item nodeId="node-0x3fa150">
     <command xml:space="preserve">spin safe to 1132</command>
+    <result xml:space="preserve">Click! and nothing else happens.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
@@ -228,12 +242,12 @@ Office
   </item>
   <item nodeId="node-0xc03ea20">
     <command xml:space="preserve">x safe</command>
-    <result xml:space="preserve">A safe that is mounted on the north wall of the room. It appears to have a combination lock. But seriously, who decorated this house?
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here? (HINT: When unlocking the safe, type: spin safe to {Entire value here} For example: spin safe to 1234)
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="28">YES</temporary>
     <children>
       <child nodeId="node-0xc096230" />
     </children>
@@ -334,12 +348,12 @@ Office
   </item>
   <item nodeId="node-0x4a1400">
     <command xml:space="preserve">x carpet</command>
-    <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. A buldge of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
+    <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. An air pocket of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="12">YES</temporary>
+    <temporary score="17">YES</temporary>
     <children>
       <child nodeId="node-0x4a1470" />
     </children>
@@ -370,6 +384,51 @@ Office
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
+  </item>
+  <item nodeId="node-0x282ae0">
+    <command xml:space="preserve">spin safe to 3939</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xc034b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc034b10">
+    <command xml:space="preserve">spin safe to 18385</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xc044df0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc044df0">
+    <command xml:space="preserve">spin safe to 1997</command>
+    <result xml:space="preserve">You hear a, &quot;Click&quot; and the safe door swings open. You can see a flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0af5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0af5c0">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
   </item>
   <item nodeId="node-0x4a11e0">
     <command xml:space="preserve">Take key</command>
