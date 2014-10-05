@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1f1f60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x4875f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x792a2e0" />
-  <item nodeId="node-0x1f1f60">
+  <activeNode nodeId="node-0x3fa150" />
+  <item nodeId="node-0x4875f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -14,58 +14,25 @@ An Interactive Fiction by Dylan Vodzak
 Release 1 / Serial number 141005 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Family Room
-This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="12">NO</temporary>
+    <temporary score="11">NO</temporary>
     <children>
-      <child nodeId="node-0x7903e50" />
-      <child nodeId="node-0x1f1fb0" />
-      <child nodeId="node-0x1f2c20" />
-      <child nodeId="node-0x17bf00" />
-      <child nodeId="node-0x79f1c30" />
-      <child nodeId="node-0x792a890" />
+      <child nodeId="node-0x4a11e0" />
+      <child nodeId="node-0x4a14e0" />
+      <child nodeId="node-0x4a1400" />
+      <child nodeId="node-0xc03ea20" />
+      <child nodeId="node-0x4a1120" />
+      <child nodeId="node-0x4a0fa0" />
+      <child nodeId="node-0x3fa150" />
+      <child nodeId="node-0x487640" />
+      <child nodeId="node-0x487690" />
     </children>
   </item>
-  <item nodeId="node-0x792a890">
-    <command xml:space="preserve">Take key</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x7924230" />
-    </children>
-  </item>
-  <item nodeId="node-0x7924230">
-    <command xml:space="preserve">unlock oak door</command>
-    <result xml:space="preserve">(with the brass key)
-You unlock the oak door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x92a3110" />
-    </children>
-  </item>
-  <item nodeId="node-0x92a3110">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the oak door)
-
-Your Room
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0x79f1c30">
+  <item nodeId="node-0x487690">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -75,10 +42,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x929bd30" />
+      <child nodeId="node-0x487710" />
     </children>
   </item>
-  <item nodeId="node-0x929bd30">
+  <item nodeId="node-0x487710">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">What do you want to unlock the oak door with?
 
@@ -87,10 +54,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7957a10" />
+      <child nodeId="node-0x487780" />
     </children>
   </item>
-  <item nodeId="node-0x7957a10">
+  <item nodeId="node-0x487780">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Family Room
 This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
@@ -100,10 +67,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x794a720" />
+      <child nodeId="node-0x4877f0" />
     </children>
   </item>
-  <item nodeId="node-0x794a720">
+  <item nodeId="node-0x4877f0">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -112,10 +79,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0xaba4b90" />
+      <child nodeId="node-0x487860" />
     </children>
   </item>
-  <item nodeId="node-0xaba4b90">
+  <item nodeId="node-0x487860">
     <command xml:space="preserve">take brass key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -124,7 +91,7 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x17bf00">
+  <item nodeId="node-0x487640">
     <command xml:space="preserve">x oak door</command>
     <result xml:space="preserve">A nice oak door that leads to your room. It is also the only thing keeping you from stangling your friends.
 
@@ -133,78 +100,13 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="1">YES</temporary>
   </item>
-  <item nodeId="node-0x1f2c20">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Office
-
-&gt;</result>
+  <item nodeId="node-0x3fa150">
+    <command xml:space="preserve">spin safe to 1132</command>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x1f2c90" />
-    </children>
+    <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x1f2c90">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Study
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x159c00" />
-    </children>
-  </item>
-  <item nodeId="node-0x159c00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Bedroom
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x159bb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x159bb0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Study
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x159b60" />
-    </children>
-  </item>
-  <item nodeId="node-0x159b60">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Office
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x159b10" />
-    </children>
-  </item>
-  <item nodeId="node-0x159b10">
-    <command xml:space="preserve">w</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-  </item>
-  <item nodeId="node-0x1f1fb0">
+  <item nodeId="node-0x4a0fa0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -214,10 +116,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x1f2000" />
+      <child nodeId="node-0x4a0ff0" />
     </children>
   </item>
-  <item nodeId="node-0x1f2000">
+  <item nodeId="node-0x4a0ff0">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">(with the oak door)
 (first taking the oak door)
@@ -228,10 +130,10 @@ That&apos;s fixed in place.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x1f2b60" />
+      <child nodeId="node-0x4a1040" />
     </children>
   </item>
-  <item nodeId="node-0x1f2b60">
+  <item nodeId="node-0x4a1040">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -240,10 +142,10 @@ That&apos;s fixed in place.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x1f2bb0" />
+      <child nodeId="node-0x4a10b0" />
     </children>
   </item>
-  <item nodeId="node-0x1f2bb0">
+  <item nodeId="node-0x4a10b0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Your Room
 You can see an oak door here.
@@ -253,7 +155,184 @@ You can see an oak door here.
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x7903e50">
+  <item nodeId="node-0x4a1120">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a1250" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a1250">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a12a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a12a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a12f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a12f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a1340" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a1340">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a1390" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a1390">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0xc03ea20">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. It appears to have a combination lock. But seriously, who decorated this house?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc096230" />
+    </children>
+  </item>
+  <item nodeId="node-0xc096230">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the Safe with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0317c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0317c0">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0325d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0325d0">
+    <command xml:space="preserve">unlock key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0f5c70" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0f5c70">
+    <command xml:space="preserve">spin</command>
+    <result xml:space="preserve">What do you want to spin?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0deda0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0deda0">
+    <command xml:space="preserve">spin safe</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0d64d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0d64d0">
+    <command xml:space="preserve">spin safe to 1997</command>
+    <result xml:space="preserve">You hear a, &quot;Click&quot; and the safe door swings open. You can see a flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0c6bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0c6bd0">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc031890" />
+    </children>
+  </item>
+  <item nodeId="node-0xc031890">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a flashlight
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x4a1400">
     <command xml:space="preserve">x carpet</command>
     <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. A buldge of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
 
@@ -262,13 +341,70 @@ You can see an oak door here.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x792a2e0" />
+      <child nodeId="node-0x4a1470" />
     </children>
   </item>
-  <item nodeId="node-0x792a2e0">
+  <item nodeId="node-0x4a1470">
     <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">This might come in handy. I guess it wasn&apos;t an air-pocket in the carpet after all.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x4a14e0">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a1190" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a1190">
+    <command xml:space="preserve">i</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+  </item>
+  <item nodeId="node-0x4a11e0">
+    <command xml:space="preserve">Take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a16d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a16d0">
+    <command xml:space="preserve">unlock oak door</command>
+    <result xml:space="preserve">(with the brass key)
+You unlock the oak door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a1740" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a1740">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+
+Your Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
   </item>
 </Skein>

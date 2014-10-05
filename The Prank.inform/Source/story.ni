@@ -6,7 +6,7 @@ Your friends push you out of the bedroom, and lock the door behind you. In your 
 
 [FAMILY ROOM CHANGES]
 
-Family Room is a room. The description is "This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south."
+Family Room is a room. The description is "This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south."
 
 The  red dresser is scenery. It is a closed openable container. It is in the Family Room. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
 
@@ -20,6 +20,24 @@ Instead of looking under the carpet when the yellow key is lost:
 	move the yellow key to the player;
 	now the yellow key is found;
 	say "Sweet! A yellow key. You're lucky to have looked here."
+	
+The chair is scenery in the Family Room. The description is "A comfy-looking armchair. It is embroided with fake flower on the sides."
+ 
+The ern is scenery in the Family Room. The description is "A fat ern with what appears to be Chinese art along the side of it. It doesn't seem to fit into the room at all. Upon further investigation, you discover that it is empty."
+
+
+The Safe is scenery in the Family Room. "A safe that is mounted on the north wall of the room. It appears to have a combination lock. But seriously, who decorated this house?" 
+
+In the Safe is a flashlight. The Safe is closed and fixed in place. Understand "dial" as the Safe.
+
+Spinning it to is an action applying to one thing and one number. Check spinning it to: if the noun is not the Safe, say "[The noun] does not spin." instead. Report spinning it to: say "You hear a 'Click', but nothing else happens."
+
+Understand "spin [something] to [a number]" as spinning it to. 
+
+After spinning the closed Safe to 1997: now the Safe is open; say "You hear a, 'Click' and the safe door swings open. You can see [a list of things in the Safe]."
+
+
+
 
 [Your Room]
 Your Room is a room. Your Room is south of the oak door.
