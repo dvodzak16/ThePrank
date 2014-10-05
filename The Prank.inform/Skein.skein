@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1f1f60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1f1f60" />
+  <activeNode nodeId="node-0x792a2e0" />
   <item nodeId="node-0x1f1f60">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -14,67 +14,124 @@ An Interactive Fiction by Dylan Vodzak
 Release 1 / Serial number 141005 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Family Room
-This is where my friends and I were hanging out earlier. But we left because there wasn&apos;t much to do, and my room had more games and such inside it. The room is a bit dull, but it has a nice carpet in the center of the room to make up for it. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
 
-You can see an oak door here.
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="12">NO</temporary>
+    <children>
+      <child nodeId="node-0x7903e50" />
+      <child nodeId="node-0x1f1fb0" />
+      <child nodeId="node-0x1f2c20" />
+      <child nodeId="node-0x17bf00" />
+      <child nodeId="node-0x79f1c30" />
+      <child nodeId="node-0x792a890" />
+    </children>
+  </item>
+  <item nodeId="node-0x792a890">
+    <command xml:space="preserve">Take key</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">NO</temporary>
+    <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x1f2c20" />
-      <child nodeId="node-0x1f1fb0" />
+      <child nodeId="node-0x7924230" />
     </children>
   </item>
-  <item nodeId="node-0x1f1fb0">
-    <command xml:space="preserve">n</command>
+  <item nodeId="node-0x7924230">
+    <command xml:space="preserve">unlock oak door</command>
+    <result xml:space="preserve">(with the brass key)
+You unlock the oak door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x92a3110" />
+    </children>
+  </item>
+  <item nodeId="node-0x92a3110">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+
+Your Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x79f1c30">
+    <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x1f2000" />
+      <child nodeId="node-0x929bd30" />
     </children>
   </item>
-  <item nodeId="node-0x1f2000">
+  <item nodeId="node-0x929bd30">
     <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the oak door)
-(first taking the oak door)
-That&apos;s fixed in place.
+    <result xml:space="preserve">What do you want to unlock the oak door with?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x1f2b60" />
+      <child nodeId="node-0x7957a10" />
     </children>
   </item>
-  <item nodeId="node-0x1f2b60">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x1f2bb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1f2bb0">
+  <item nodeId="node-0x7957a10">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Your Room
-You can see an oak door here.
+    <result xml:space="preserve">Family Room
+This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x794a720" />
+    </children>
+  </item>
+  <item nodeId="node-0x794a720">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xaba4b90" />
+    </children>
+  </item>
+  <item nodeId="node-0xaba4b90">
+    <command xml:space="preserve">take brass key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x17bf00">
+    <command xml:space="preserve">x oak door</command>
+    <result xml:space="preserve">A nice oak door that leads to your room. It is also the only thing keeping you from stangling your friends.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
   </item>
   <item nodeId="node-0x1f2c20">
     <command xml:space="preserve">e</command>
@@ -146,5 +203,72 @@ Office
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x1f1fb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f2000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f2000">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the oak door)
+(first taking the oak door)
+That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f2b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f2b60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f2bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f2bb0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Your Room
+You can see an oak door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x7903e50">
+    <command xml:space="preserve">x carpet</command>
+    <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. A buldge of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x792a2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x792a2e0">
+    <command xml:space="preserve">look under carpet</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
   </item>
 </Skein>
