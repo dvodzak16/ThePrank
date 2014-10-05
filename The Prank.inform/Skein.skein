@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4875f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x4875f0" />
+  <activeNode nodeId="node-0x4a12a0" />
   <item nodeId="node-0x4875f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -19,7 +19,7 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="36">NO</temporary>
+    <temporary score="66">NO</temporary>
     <children>
       <child nodeId="node-0x4a11e0" />
       <child nodeId="node-0x282ae0" />
@@ -177,8 +177,8 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="66">YES</temporary>
     <children>
       <child nodeId="node-0x4a1250" />
       <child nodeId="node-0x486420" />
@@ -234,12 +234,13 @@ That&apos;s hardly portable.
   <item nodeId="node-0x4a1250">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-Study
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="66">YES</temporary>
     <children>
       <child nodeId="node-0x4a12a0" />
     </children>
@@ -252,7 +253,7 @@ Bedroom
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="65">YES</temporary>
     <children>
       <child nodeId="node-0x4a12f0" />
     </children>
@@ -432,21 +433,278 @@ For example: spin safe to 1234)
   </item>
   <item nodeId="node-0x4a14e0">
     <command xml:space="preserve">look under carpet</command>
-    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here.
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="59">YES</temporary>
     <children>
       <child nodeId="node-0x4a1190" />
+      <child nodeId="node-0x75e8670" />
     </children>
+  </item>
+  <item nodeId="node-0x75e8670">
+    <command xml:space="preserve">take carpet</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x10bff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10bff0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn&apos;t a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x75b2ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x75b2ca0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x8ad2e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x8ad2e80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x7524570" />
+    </children>
+  </item>
+  <item nodeId="node-0x7524570">
+    <command xml:space="preserve">unlock trunk</command>
+    <result xml:space="preserve">(with the yellow key)
+You unlock the yellow trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x75ab3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x75ab3f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0xbef5b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xbef5b10">
+    <command xml:space="preserve">take red key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x102240" />
+    </children>
+  </item>
+  <item nodeId="node-0x102240">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">You open the yellow trunk, revealing a red key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dd9e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dd9e0">
+    <command xml:space="preserve">take red key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d3b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x75a7180" />
+    </children>
+  </item>
+  <item nodeId="node-0x75a7180">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn&apos;t a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x8ac6f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x8ac6f00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x75d9bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x75d9bf0">
+    <command xml:space="preserve">unlock dresser</command>
+    <result xml:space="preserve">What do you want to unlock the red dresser with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x7556ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7556ab0">
+    <command xml:space="preserve">unlock dresser with red key</command>
+    <result xml:space="preserve">You unlock the red dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x75833d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x75833d0">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">You open the red dresser, revealing a brown key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x8ac9b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x8ac9b10">
+    <command xml:space="preserve">take brown key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x8a3ed20" />
+    </children>
+  </item>
+  <item nodeId="node-0x8a3ed20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn&apos;t a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4b8a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x4b8a30">
+    <command xml:space="preserve">unlock desk with brown key</command>
+    <result xml:space="preserve">You unlock the brown desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x75cc210" />
+    </children>
+  </item>
+  <item nodeId="node-0x75cc210">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a brown key
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x75a1530" />
+    </children>
+  </item>
+  <item nodeId="node-0x75a1530">
+    <command xml:space="preserve">x yellow key</command>
+    <result xml:space="preserve">You see nothing special about the yellow key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
   </item>
   <item nodeId="node-0x4a1190">
     <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a yellow key
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="13">YES</temporary>
+    <temporary score="37">YES</temporary>
   </item>
   <item nodeId="node-0x282ae0">
     <command xml:space="preserve">spin safe to 3939</command>

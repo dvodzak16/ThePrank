@@ -10,18 +10,18 @@ Family Room is a room. The description is "This is where my friends and I were h
 
 The red dresser is scenery. It is a closed openable container. It is in the Family Room. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
 
-The red key unlocks the red dresser. The red key is in the yellow trunk.
+The red key unlocks the red dresser. The red key is in the yellow trunk. The description is "Its a red key for the dresser."
 
 The carpet is scenery in the Family Room. The description is "A carpet that has big yellow hibicus's on it. It doesn't seem very flat however. An air pocket of sorts slightly sticks out. You're surprised you even noticed it. "
 
-The yellow key is a thing. The yellow key can be found or lost. The yellow key is lost. The yellow key unlocks the yellow trunk.
+The yellow key is a thing. The yellow key can be found or lost. The yellow key is lost. The yellow key unlocks the yellow trunk. The description is "Its a yellow key for the trunk."
 
-The brown key is a thing. The brown key is in the red dresser. The brown key unlocks the brown desk.
+The brown key is a thing. The brown key is in the red dresser. The brown key unlocks the brown desk. The description is "Its a brown key for the desk."
 
 Instead of looking under the carpet when the yellow key is lost:
 	move the yellow key to the player;
 	now the yellow key is found;
-	say "Sweet! A yellow key. You're lucky to have looked here."
+	say "Sweet! A yellow key. You're lucky to have looked here. You put it in your pocket."
 	
 The chair is scenery in the Family Room. The description is "A comfy-looking armchair. It is embroided with fake flower on the sides."
  
@@ -74,10 +74,15 @@ Office is a room. It is east of the Family Room. The description is "This is you
 
 The brown desk is scenery in the office. It is a closed and openable container. It is lockable and locked. The description is "This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out."
 
+The bookcase is scenery in the office. The description is "A bookcase filled with a bunch of cool science related books. None of them particularly stand out."
+
+The shelf is scenery in the office. "A shelf filled with knick-knacks that don't seem to have any purpose. It would be wise not to touch them. None of them particularly stand out."
+
 [STUDY CHANGES]
 
 
-Study is a room. It is north of the Office.
+Study is a dark room. It is north of the Office. The description of the Study is "A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. "
+
 
 
 [BEDROOM CHANGES]
