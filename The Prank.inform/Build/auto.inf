@@ -43,7 +43,7 @@ Global Story = BC_0;
 Constant Headline BC_1;
 Constant Story_Author BC_2;
 Release 1;
-Serial "140929";
+Serial "141005";
 
 Default Story 0;
 Default Headline 0;
@@ -4390,7 +4390,7 @@ Global lightflag = false;
 ! ListWriter.i6t: Memory
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant REQUISITION_STACK_SIZE = 3*17;
+Constant REQUISITION_STACK_SIZE = 3*20;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -9572,48 +9572,49 @@ Constant p59 = vector;
 Constant p60 = room_index;
 Constant p61 = door_dir;
 Constant p62 = door_to;
-Constant p63 = absent;
-Constant p64 = cap_short_name;
-Constant p65 = mark_as_room;
-Constant p66 = mark_as_thing;
-Constant p67 = component_parent;
-Constant p68 = component_child;
-Constant p69 = component_sibling;
-Constant p70 = regional_found_in;
-Constant p71 = IK1_Count;
-Constant p72 = IK1_Link;
-Constant p73 = IK2_Count;
-Constant p74 = IK2_Link;
-Constant p75 = IK3_Count;
-Constant p76 = IK3_Link;
-Constant p77 = IK4_Count;
-Constant p78 = IK4_Link;
-Constant p79 = IK5_Count;
-Constant p80 = IK5_Link;
-Constant p81 = IK6_Count;
-Constant p82 = IK6_Link;
-Constant p83 = IK7_Count;
-Constant p84 = IK7_Link;
-Constant p85 = IK8_Count;
-Constant p86 = IK8_Link;
-Constant p87 = IK9_Count;
-Constant p88 = IK9_Link;
-Constant p89 = IK10_Count;
-Constant p90 = IK10_Link;
-Constant p91 = IK11_Count;
-Constant p92 = IK11_Link;
-Constant p93 = IK12_Count;
-Constant p94 = IK12_Link;
-Constant p95 = IK13_Count;
-Constant p96 = IK13_Link;
-Constant p97 = IK14_Count;
-Constant p98 = IK14_Link;
-Constant p99 = IK15_Count;
-Constant p100 = IK15_Link;
-Constant p101 = KD_Count;
-Constant p102 = name;
-Constant p103 = parse_name;
-Constant p104 = action_bitmap;
+Constant p63 = found_in;
+Constant p64 = absent;
+Constant p65 = cap_short_name;
+Constant p66 = mark_as_room;
+Constant p67 = mark_as_thing;
+Constant p68 = component_parent;
+Constant p69 = component_child;
+Constant p70 = component_sibling;
+Constant p71 = regional_found_in;
+Constant p72 = IK1_Count;
+Constant p73 = IK1_Link;
+Constant p74 = IK2_Count;
+Constant p75 = IK2_Link;
+Constant p76 = IK3_Count;
+Constant p77 = IK3_Link;
+Constant p78 = IK4_Count;
+Constant p79 = IK4_Link;
+Constant p80 = IK5_Count;
+Constant p81 = IK5_Link;
+Constant p82 = IK6_Count;
+Constant p83 = IK6_Link;
+Constant p84 = IK7_Count;
+Constant p85 = IK7_Link;
+Constant p86 = IK8_Count;
+Constant p87 = IK8_Link;
+Constant p88 = IK9_Count;
+Constant p89 = IK9_Link;
+Constant p90 = IK10_Count;
+Constant p91 = IK10_Link;
+Constant p92 = IK11_Count;
+Constant p93 = IK11_Link;
+Constant p94 = IK12_Count;
+Constant p95 = IK12_Link;
+Constant p96 = IK13_Count;
+Constant p97 = IK13_Link;
+Constant p98 = IK14_Count;
+Constant p99 = IK14_Link;
+Constant p100 = IK15_Count;
+Constant p101 = IK15_Link;
+Constant p102 = KD_Count;
+Constant p103 = name;
+Constant p104 = parse_name;
+Constant p105 = action_bitmap;
 
 Constant FBNA_PROP_NUMBER = p57_recurring;
 Object property_numberspace_forcer
@@ -9711,95 +9712,97 @@ Array property_metadata -->
     "<nameless>" NULL
     ! offset 165: property door_to
     "<nameless>" K4_door NULL
-    ! offset 168: property absent
+    ! offset 168: property found_in
     "<nameless>" NULL
-    ! offset 170: property cap_short_name
+    ! offset 170: property absent
     "<nameless>" NULL
-    ! offset 172: property mark_as_room
+    ! offset 172: property cap_short_name
     "<nameless>" NULL
-    ! offset 174: property mark_as_thing
+    ! offset 174: property mark_as_room
     "<nameless>" NULL
-    ! offset 176: property component_parent
+    ! offset 176: property mark_as_thing
     "<nameless>" NULL
-    ! offset 178: property component_child
+    ! offset 178: property component_parent
     "<nameless>" NULL
-    ! offset 180: property component_sibling
+    ! offset 180: property component_child
     "<nameless>" NULL
-    ! offset 182: property regional_found_in
+    ! offset 182: property component_sibling
     "<nameless>" NULL
-    ! offset 184: property IK1_Count
+    ! offset 184: property regional_found_in
     "<nameless>" NULL
-    ! offset 186: property IK1_Link
+    ! offset 186: property IK1_Count
     "<nameless>" NULL
-    ! offset 188: property IK2_Count
+    ! offset 188: property IK1_Link
     "<nameless>" NULL
-    ! offset 190: property IK2_Link
+    ! offset 190: property IK2_Count
     "<nameless>" NULL
-    ! offset 192: property IK3_Count
+    ! offset 192: property IK2_Link
     "<nameless>" NULL
-    ! offset 194: property IK3_Link
+    ! offset 194: property IK3_Count
     "<nameless>" NULL
-    ! offset 196: property IK4_Count
+    ! offset 196: property IK3_Link
     "<nameless>" NULL
-    ! offset 198: property IK4_Link
+    ! offset 198: property IK4_Count
     "<nameless>" NULL
-    ! offset 200: property IK5_Count
+    ! offset 200: property IK4_Link
     "<nameless>" NULL
-    ! offset 202: property IK5_Link
+    ! offset 202: property IK5_Count
     "<nameless>" NULL
-    ! offset 204: property IK6_Count
+    ! offset 204: property IK5_Link
     "<nameless>" NULL
-    ! offset 206: property IK6_Link
+    ! offset 206: property IK6_Count
     "<nameless>" NULL
-    ! offset 208: property IK7_Count
+    ! offset 208: property IK6_Link
     "<nameless>" NULL
-    ! offset 210: property IK7_Link
+    ! offset 210: property IK7_Count
     "<nameless>" NULL
-    ! offset 212: property IK8_Count
+    ! offset 212: property IK7_Link
     "<nameless>" NULL
-    ! offset 214: property IK8_Link
+    ! offset 214: property IK8_Count
     "<nameless>" NULL
-    ! offset 216: property IK9_Count
+    ! offset 216: property IK8_Link
     "<nameless>" NULL
-    ! offset 218: property IK9_Link
+    ! offset 218: property IK9_Count
     "<nameless>" NULL
-    ! offset 220: property IK10_Count
+    ! offset 220: property IK9_Link
     "<nameless>" NULL
-    ! offset 222: property IK10_Link
+    ! offset 222: property IK10_Count
     "<nameless>" NULL
-    ! offset 224: property IK11_Count
+    ! offset 224: property IK10_Link
     "<nameless>" NULL
-    ! offset 226: property IK11_Link
+    ! offset 226: property IK11_Count
     "<nameless>" NULL
-    ! offset 228: property IK12_Count
+    ! offset 228: property IK11_Link
     "<nameless>" NULL
-    ! offset 230: property IK12_Link
+    ! offset 230: property IK12_Count
     "<nameless>" NULL
-    ! offset 232: property IK13_Count
+    ! offset 232: property IK12_Link
     "<nameless>" NULL
-    ! offset 234: property IK13_Link
+    ! offset 234: property IK13_Count
     "<nameless>" NULL
-    ! offset 236: property IK14_Count
+    ! offset 236: property IK13_Link
     "<nameless>" NULL
-    ! offset 238: property IK14_Link
+    ! offset 238: property IK14_Count
     "<nameless>" NULL
-    ! offset 240: property IK15_Count
+    ! offset 240: property IK14_Link
     "<nameless>" NULL
-    ! offset 242: property IK15_Link
+    ! offset 242: property IK15_Count
     "<nameless>" NULL
-    ! offset 244: property KD_Count
+    ! offset 244: property IK15_Link
     "<nameless>" NULL
-    ! offset 246: property name
+    ! offset 246: property KD_Count
     "<nameless>" NULL
-    ! offset 248: property parse_name
+    ! offset 248: property name
     "<nameless>" NULL
-    ! offset 250: property action_bitmap
+    ! offset 250: property parse_name
+    "<nameless>" NULL
+    ! offset 252: property action_bitmap
     "<nameless>" NULL
 ;
 
 Constant attributed_property_offsets_SIZE 48;
 Array attributed_property_offsets --> attributed_property_offsets_SIZE;
-Constant valued_property_offsets_SIZE (100 + 105 + INDIV_PROP_START-48);
+Constant valued_property_offsets_SIZE (100 + 106 + INDIV_PROP_START-48);
 Array valued_property_offsets --> valued_property_offsets_SIZE;
 
 [ CreatePropertyOffsets 
@@ -9852,48 +9855,49 @@ Array valued_property_offsets --> valued_property_offsets_SIZE;
     valued_property_offsets-->room_index = 161;
     valued_property_offsets-->door_dir = 163;
     valued_property_offsets-->door_to = 165;
-    attributed_property_offsets-->absent = 168;
-    valued_property_offsets-->cap_short_name = 170;
-    attributed_property_offsets-->mark_as_room = 172;
-    attributed_property_offsets-->mark_as_thing = 174;
-    valued_property_offsets-->component_parent = 176;
-    valued_property_offsets-->component_child = 178;
-    valued_property_offsets-->component_sibling = 180;
-    valued_property_offsets-->regional_found_in = 182;
-    valued_property_offsets-->IK1_Count = 184;
-    valued_property_offsets-->IK1_Link = 186;
-    valued_property_offsets-->IK2_Count = 188;
-    valued_property_offsets-->IK2_Link = 190;
-    valued_property_offsets-->IK3_Count = 192;
-    valued_property_offsets-->IK3_Link = 194;
-    valued_property_offsets-->IK4_Count = 196;
-    valued_property_offsets-->IK4_Link = 198;
-    valued_property_offsets-->IK5_Count = 200;
-    valued_property_offsets-->IK5_Link = 202;
-    valued_property_offsets-->IK6_Count = 204;
-    valued_property_offsets-->IK6_Link = 206;
-    valued_property_offsets-->IK7_Count = 208;
-    valued_property_offsets-->IK7_Link = 210;
-    valued_property_offsets-->IK8_Count = 212;
-    valued_property_offsets-->IK8_Link = 214;
-    valued_property_offsets-->IK9_Count = 216;
-    valued_property_offsets-->IK9_Link = 218;
-    valued_property_offsets-->IK10_Count = 220;
-    valued_property_offsets-->IK10_Link = 222;
-    valued_property_offsets-->IK11_Count = 224;
-    valued_property_offsets-->IK11_Link = 226;
-    valued_property_offsets-->IK12_Count = 228;
-    valued_property_offsets-->IK12_Link = 230;
-    valued_property_offsets-->IK13_Count = 232;
-    valued_property_offsets-->IK13_Link = 234;
-    valued_property_offsets-->IK14_Count = 236;
-    valued_property_offsets-->IK14_Link = 238;
-    valued_property_offsets-->IK15_Count = 240;
-    valued_property_offsets-->IK15_Link = 242;
-    valued_property_offsets-->KD_Count = 244;
-    valued_property_offsets-->name = 246;
-    valued_property_offsets-->parse_name = 248;
-    valued_property_offsets-->action_bitmap = 250;
+    valued_property_offsets-->found_in = 168;
+    attributed_property_offsets-->absent = 170;
+    valued_property_offsets-->cap_short_name = 172;
+    attributed_property_offsets-->mark_as_room = 174;
+    attributed_property_offsets-->mark_as_thing = 176;
+    valued_property_offsets-->component_parent = 178;
+    valued_property_offsets-->component_child = 180;
+    valued_property_offsets-->component_sibling = 182;
+    valued_property_offsets-->regional_found_in = 184;
+    valued_property_offsets-->IK1_Count = 186;
+    valued_property_offsets-->IK1_Link = 188;
+    valued_property_offsets-->IK2_Count = 190;
+    valued_property_offsets-->IK2_Link = 192;
+    valued_property_offsets-->IK3_Count = 194;
+    valued_property_offsets-->IK3_Link = 196;
+    valued_property_offsets-->IK4_Count = 198;
+    valued_property_offsets-->IK4_Link = 200;
+    valued_property_offsets-->IK5_Count = 202;
+    valued_property_offsets-->IK5_Link = 204;
+    valued_property_offsets-->IK6_Count = 206;
+    valued_property_offsets-->IK6_Link = 208;
+    valued_property_offsets-->IK7_Count = 210;
+    valued_property_offsets-->IK7_Link = 212;
+    valued_property_offsets-->IK8_Count = 214;
+    valued_property_offsets-->IK8_Link = 216;
+    valued_property_offsets-->IK9_Count = 218;
+    valued_property_offsets-->IK9_Link = 220;
+    valued_property_offsets-->IK10_Count = 222;
+    valued_property_offsets-->IK10_Link = 224;
+    valued_property_offsets-->IK11_Count = 226;
+    valued_property_offsets-->IK11_Link = 228;
+    valued_property_offsets-->IK12_Count = 230;
+    valued_property_offsets-->IK12_Link = 232;
+    valued_property_offsets-->IK13_Count = 234;
+    valued_property_offsets-->IK13_Link = 236;
+    valued_property_offsets-->IK14_Count = 238;
+    valued_property_offsets-->IK14_Link = 240;
+    valued_property_offsets-->IK15_Count = 242;
+    valued_property_offsets-->IK15_Link = 244;
+    valued_property_offsets-->KD_Count = 246;
+    valued_property_offsets-->name = 248;
+    valued_property_offsets-->parse_name = 250;
+    valued_property_offsets-->action_bitmap = 252;
 ];
 
 
@@ -10505,7 +10509,7 @@ Array KindHierarchy --> K0_kind (0) K1_room (0) K2_thing (0) K3_direction (0) K4
 Constant IK1_First = I124_family_room;
 Constant IK2_First = selfobj;
 Constant IK3_First = I50_north;
-Constant IK4_First = nothing;
+Constant IK4_First = I126_oak_door;
 Constant IK5_First = nothing;
 Constant IK6_First = nothing;
 Constant IK7_First = nothing;
@@ -10532,10 +10536,11 @@ Constant DirectionObject_9 = I59_down;
 Constant DirectionObject_10 = in_obj;
 Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
- 0 0 0 0 0 0 I125_office 0 0 0 0 0 ! Exits from: I124_family_room
- I126_study 0 0 0 0 0 0 I124_family_room 0 0 0 0 ! Exits from: I125_office
- 0 0 0 I125_office 0 0 I127_bedroom 0 0 0 0 0 ! Exits from: I126_study
- 0 0 0 0 0 0 0 I126_study 0 0 0 0 ! Exits from: I127_bedroom
+ 0 0 0 I126_oak_door 0 0 I128_office 0 0 0 0 0 ! Exits from: I124_family_room
+ I126_oak_door 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I125_your_room
+ I129_study 0 0 0 0 0 0 I124_family_room 0 0 0 0 ! Exits from: I128_office
+ 0 0 0 I128_office 0 0 I130_bedroom 0 0 0 0 0 ! Exits from: I129_study
+ 0 0 0 0 0 0 0 I129_study 0 0 0 0 ! Exits from: I130_bedroom
 ;
 
 Class VPH_Class;
@@ -10987,7 +10992,7 @@ Object selfobj ""
     with cap_short_name BC_143
     has mark_as_thing
     with IK2_Count 0
-    with IK2_Link nothing
+    with IK2_Link I126_oak_door
     with IK8_Count 0
     with IK8_Link nothing
     with KD_Count 8
@@ -11002,22 +11007,22 @@ Object selfobj ""
 Object I124_family_room ""
     class K1_room
     with short_name BC_148
+    with description BC_149
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_149
+    with cap_short_name BC_150
     has mark_as_room
     with IK1_Count 0
-    with IK1_Link I125_office
+    with IK1_Link I125_your_room
     with KD_Count 1
     with name 'family' 'room' 'rooms//p' 
-    with description BC_150
     with list_together BC_151
     with plural BC_152
     with article BC_153
 ;
 
-Object I125_office ""
+Object I125_your_room ""
     class K1_room
     with short_name BC_154
     has proper
@@ -11026,49 +11031,119 @@ Object I125_office ""
     with cap_short_name BC_155
     has mark_as_room
     with IK1_Count 1
-    with IK1_Link I126_study
+    with IK1_Link I128_office
     with KD_Count 1
-    with name 'office' 'rooms//p' 
+    with name 'my' 'room' 'rooms//p' 
     with description BC_156
     with list_together BC_157
     with plural BC_158
     with article BC_159
 ;
 
-Object I126_study ""
-    class K1_room
+Object I126_oak_door ""
+    class K4_door
     with short_name BC_160
-    has proper
+    with description BC_161
+    with with_key I127_brass_key
+    has lockable
+    has locked
     with vector 0
-    with room_index -1
-    with cap_short_name BC_161
-    has mark_as_room
-    with IK1_Count 2
-    with IK1_Link I127_bedroom
-    with KD_Count 1
-    with name 'study' 'rooms//p' 
-    with description BC_162
+    with door_dir [ 
+        loc ! room of actor
+        ;
+        loc = location;
+        if (loc == thedark) loc = real_location;
+        if (loc == I125_your_room) return I50_north; return I53_south;],
+    with door_to [ 
+        loc ! room of actor
+        ;
+        loc = location;
+        if (loc == thedark) loc = real_location;
+        if (loc == I125_your_room) return I124_family_room; return I125_your_room;],
+    with found_in I125_your_room I124_family_room
+    has mark_as_thing
+    with IK2_Count 1
+    with IK2_Link I127_brass_key
+    with IK4_Count 0
+    with IK4_Link nothing
+    with KD_Count 4
+    with name 'oak' 'door' 'doors//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_162
     with list_together BC_163
     with plural BC_164
     with article BC_165
 ;
 
-Object I127_bedroom ""
-    class K1_room
+Object I127_brass_key ""
+    class K2_thing
     with short_name BC_166
-    has proper
     with vector 0
-    with room_index -1
-    with cap_short_name BC_167
-    has mark_as_room
-    with IK1_Count 3
-    with IK1_Link nothing
-    with KD_Count 1
-    with name 'bedroom' 'rooms//p' 
-    with description BC_168
+    has mark_as_thing
+    with IK2_Count 2
+    with IK2_Link nothing
+    with KD_Count 2
+    with name 'brass' 'key' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_167
+    with initial BC_168
     with list_together BC_169
     with plural BC_170
     with article BC_171
+;
+
+Object I128_office ""
+    class K1_room
+    with short_name BC_172
+    has proper
+    with vector 0
+    with room_index -1
+    with cap_short_name BC_173
+    has mark_as_room
+    with IK1_Count 2
+    with IK1_Link I129_study
+    with KD_Count 1
+    with name 'office' 'rooms//p' 
+    with description BC_174
+    with list_together BC_175
+    with plural BC_176
+    with article BC_177
+;
+
+Object I129_study ""
+    class K1_room
+    with short_name BC_178
+    has proper
+    with vector 0
+    with room_index -1
+    with cap_short_name BC_179
+    has mark_as_room
+    with IK1_Count 3
+    with IK1_Link I130_bedroom
+    with KD_Count 1
+    with name 'study' 'rooms//p' 
+    with description BC_180
+    with list_together BC_181
+    with plural BC_182
+    with article BC_183
+;
+
+Object I130_bedroom ""
+    class K1_room
+    with short_name BC_184
+    has proper
+    with vector 0
+    with room_index -1
+    with cap_short_name BC_185
+    has mark_as_room
+    with IK1_Count 4
+    with IK1_Link nothing
+    with KD_Count 1
+    with name 'bedroom' 'rooms//p' 
+    with description BC_186
+    with list_together BC_187
+    with plural BC_188
+    with article BC_189
 ;
 
 Constant I70_english_language = 1;
@@ -11122,12 +11197,12 @@ Constant I122_masculine_gender = 2;
 Constant I123_feminine_gender = 3;
 Array Global_Vars -->
   (false) ! 7 darkness witnessed
-  (BC_172) ! 25 command prompt
+  (BC_190) ! 25 command prompt
   (I70_english_language) ! 29 language of play
-  (BC_173) ! 32 story author
-  (BC_174) ! 33 story headline
-  (BC_175) ! 34 story genre
-  (BC_176) ! 35 story description
+  (BC_191) ! 32 story author
+  (BC_192) ! 33 story headline
+  (BC_193) ! 34 story genre
+  (BC_194) ! 35 story description
   (1) ! 36 release number
   (0) ! 37 story creation year
   (0) ! 45 locale paragraph count
@@ -11142,14 +11217,14 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0664 0 (BC_177) (BC_178) (BC_179) (BC_180) (BC_181) ;
+Array tab_0_0 table $0664 0 (BC_195) (BC_196) (BC_197) (BC_198) (BC_199) ;
 Array tab_0_1 table $0465 1 (0) (0) (1) (0) (0) ;
 Array tab_0_2 table $2066 2 (Consult_Grammar_93) (Consult_Grammar_94) (Consult_Grammar_95) (Consult_Grammar_96) (Consult_Grammar_97) ;
 Array tab_0_3 table $0067 3 (IMMEDIATELY_RESTART_VM_R) (IMMEDIATELY_RESTORE_SAVED_R) ( TABLE_NOVALUE) (IMMEDIATELY_QUIT_R) (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4 ( TABLE_NOVALUE) ( TABLE_NOVALUE) (V27_amusing_a_victorious_pla) ( TABLE_NOVALUE) ( TABLE_NOVALUE) ;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE;
-Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -11159,7 +11234,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $03  ! Column 1
+  $0f  ! Column 1
   
   ! End of table
   NULL NULL;
@@ -11887,8 +11962,8 @@ Array ActionHappened --> 0 0 0 0 0;
 ! When play begins:
 [ R_810 ;
     if (debug_rules) DB_Rule(R_810, 810);
-    ! [1: say ~'No! Wait guys! Don't do this!'^^Your friends push you out of the bedroom, and lock the door behind you. In your own house! Well, at least you know where the key is to to get back in...wait...do you?^^Well, the house isn't that big. We'll find it eventually.^^Thus, starting your search.~]
-    say__p=1;ParaContent(); print "~No! Wait guys! Don't do this!~^^Your friends push you out of the bedroom, and lock the door behind you. In your own house! Well, at least you know where the key is to to get back in...wait...do you?^^Well, the house isn't that big. We'll find it eventually.^^Thus, starting your search."; new_line; .L_Say1; .L_SayX1;
+    ! [1: say ~'No! Wait guys! Don't do this!' Your friends push you out of the bedroom, and lock the door behind you. In your own house! Well, at least you know where the key is to to get back in...wait...do you?~]
+    say__p=1;ParaContent(); print "~No! Wait guys! Don't do this!~ Your friends push you out of the bedroom, and lock the door behind you. In your own house! Well, at least you know where the key is to to get back in...wait...do you?"; new_line; .L_Say1; .L_SayX1;
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -28165,8 +28240,8 @@ Constant SLOW_ROUTE_FINDING;
 ! Relations.i6t: Cache Control
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant NUM_DOORS = 0;
-Constant NUM_ROOMS = 4;
+Constant NUM_DOORS = 1;
+Constant NUM_ROOMS = 5;
 
 Array DoorRoutingViable -> NUM_DOORS+1;
 
@@ -28368,7 +28443,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ! Relations.i6t: Relation Route-Finding
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant MAX_ROUTE_LENGTH = 17 + 32;
+Constant MAX_ROUTE_LENGTH = 20 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -46007,7 +46082,7 @@ Array Rel_Record_67 -->
             if (Y == RLANY_CAN_GET_X or RLANY_CAN_GET_Y) rfalse;
             return DefaultValueOfKOV(10);
         } else {
-            for (Z1=nothing: false: ) {
+            for (Z1=IK4_First: Z1: Z1=Z1.IK4_Link) {
                 if (Rel_Handler_67(rr, RELS_TEST, X, Z1)) {
                     if (Y == RLANY_CAN_GET_X or RLANY_CAN_GET_Y) rtrue;
                     return Z1;
@@ -46024,7 +46099,7 @@ Array Rel_Record_67 -->
                 }
             }
         } else {
-            for (Z1=nothing: false: ) {
+            for (Z1=IK4_First: Z1: Z1=Z1.IK4_Link) {
                 if (Rel_Handler_67(rr, RELS_TEST, X, Z1)) {
                     LIST_OF_TY_InsertItem(Y, Z1);
                 }
@@ -46034,7 +46109,7 @@ Array Rel_Record_67 -->
         RELS_LIST: LIST_OF_TY_SetLength(X, 0);
         if (Y == RLIST_ALL_X) {
             for (Z1=IK1_First: Z1: Z1=Z1.IK1_Link) {
-                for (Z3=nothing: false: ) {
+                for (Z3=IK4_First: Z3: Z3=Z3.IK4_Link) {
                     if (Rel_Handler_67(rr, RELS_TEST, Z1, Z3)) {
                         LIST_OF_TY_InsertItem(X, Z1, false, 0, true);
                     }
@@ -46042,7 +46117,7 @@ Array Rel_Record_67 -->
             }
         } else if (Y == RLIST_ALL_Y) {
             for (Z1=IK1_First: Z1: Z1=Z1.IK1_Link) {
-                for (Z3=nothing: false: ) {
+                for (Z3=IK4_First: Z3: Z3=Z3.IK4_Link) {
                     if (Rel_Handler_67(rr, RELS_TEST, Z1, Z3)) {
                         LIST_OF_TY_InsertItem(X, Z3, false, 0, true);
                     }
@@ -47611,23 +47686,27 @@ Verb 'notify'
 
 
 
-Constant TX_PS_38 = ">";
+Constant TX_PS_43 = ">";
+Constant TX_PS_38 = "A nice oak door that leads to your room. It is also the only thing keeping you from stangling your friends.";
 Constant TX_PS_3 = "An Interactive Fiction";
 Constant TX_PS_32 = "As good-looking as ever.";
-Constant TX_PS_37 = "Bedroom";
+Constant TX_PS_42 = "Bedroom";
 Constant TX_PS_4 = "Dylan Vodzak";
 Constant TX_PS_34 = "Family Room";
-Constant TX_PS_39 = "Fiction";
-Constant TX_PS_35 = "Office";
-Constant TX_PS_43 = "QUIT";
-Constant TX_PS_40 = "RESTART";
-Constant TX_PS_41 = "RESTORE a saved game";
-Constant TX_PS_36 = "Study";
+Constant TX_PS_44 = "Fiction";
+Constant TX_PS_40 = "Office";
+Constant TX_PS_48 = "QUIT";
+Constant TX_PS_45 = "RESTART";
+Constant TX_PS_46 = "RESTORE a saved game";
+Constant TX_PS_41 = "Study";
 Constant TX_PS_2 = "The Prank";
-Constant TX_PS_44 = "UNDO the last command";
+Constant TX_PS_35 = "This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.";
+Constant TX_PS_49 = "UNDO the last command";
+Constant TX_PS_36 = "Your Room";
 Constant TX_PS_33 = "Yourself";
 Constant TX_PS_9 = "animals";
 Constant TX_PS_14 = "backdrops";
+Constant TX_PS_39 = "brass key";
 Constant TX_PS_11 = "containers";
 Constant TX_PS_15 = "devices";
 Constant TX_PS_17 = "directions";
@@ -47639,11 +47718,12 @@ Constant TX_PS_7 = "men";
 Constant TX_PS_18 = "north";
 Constant TX_PS_20 = "northeast";
 Constant TX_PS_21 = "northwest";
+Constant TX_PS_37 = "oak door";
 Constant TX_PS_30 = "outside";
 Constant TX_PS_6 = "people";
 Constant TX_PS_13 = "player's holdalls";
 Constant TX_PS_16 = "regions";
-Constant TX_PS_42 = "see some suggestions for AMUSING things to do";
+Constant TX_PS_47 = "see some suggestions for AMUSING things to do";
 Constant TX_PS_22 = "south";
 Constant TX_PS_23 = "southeast";
 Constant TX_PS_24 = "southwest";
@@ -47701,6 +47781,7 @@ Array TX_L_31 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_31;
 #ifndef room_index; Constant room_index = 0; #endif;
 #ifndef door_dir; Constant door_dir = 0; #endif;
 #ifndef door_to; Constant door_to = 0; #endif;
+#ifndef found_in; Constant found_in = 0; #endif;
 #ifndef absent; Constant absent = 0; #endif;
 #ifndef cap_short_name; Constant cap_short_name = 0; #endif;
 #ifndef mark_as_room; Constant mark_as_room = 0; #endif;
@@ -54944,39 +55025,57 @@ Array BC_145 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_146 --> PACKED_TEXT_STORAGE TX_PS_6;
 Array BC_147 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_148 --> PACKED_TEXT_STORAGE TX_PS_34;
-Array BC_149 --> PACKED_TEXT_STORAGE TX_PS_34;
-Array BC_150 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_149 --> PACKED_TEXT_STORAGE TX_PS_35;
+Array BC_150 --> PACKED_TEXT_STORAGE TX_PS_34;
 Array BC_151 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_152 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_153 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_154 --> PACKED_TEXT_STORAGE TX_PS_35;
-Array BC_155 --> PACKED_TEXT_STORAGE TX_PS_35;
+Array BC_154 --> PACKED_TEXT_STORAGE TX_PS_36;
+Array BC_155 --> PACKED_TEXT_STORAGE TX_PS_36;
 Array BC_156 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_157 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_158 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_159 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_160 --> PACKED_TEXT_STORAGE TX_PS_36;
-Array BC_161 --> PACKED_TEXT_STORAGE TX_PS_36;
+Array BC_160 --> PACKED_TEXT_STORAGE TX_PS_37;
+Array BC_161 --> PACKED_TEXT_STORAGE TX_PS_38;
 Array BC_162 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_163 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_164 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_164 --> PACKED_TEXT_STORAGE TX_PS_10;
 Array BC_165 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_166 --> PACKED_TEXT_STORAGE TX_PS_37;
-Array BC_167 --> PACKED_TEXT_STORAGE TX_PS_37;
+Array BC_166 --> PACKED_TEXT_STORAGE TX_PS_39;
+Array BC_167 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_168 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_169 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_170 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_171 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_172 --> PACKED_TEXT_STORAGE TX_PS_38;
-Array BC_173 --> PACKED_TEXT_STORAGE TX_PS_4;
-Array BC_174 --> PACKED_TEXT_STORAGE TX_PS_3;
-Array BC_175 --> PACKED_TEXT_STORAGE TX_PS_39;
+Array BC_172 --> PACKED_TEXT_STORAGE TX_PS_40;
+Array BC_173 --> PACKED_TEXT_STORAGE TX_PS_40;
+Array BC_174 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_175 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_176 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_177 --> PACKED_TEXT_STORAGE TX_PS_40;
+Array BC_177 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_178 --> PACKED_TEXT_STORAGE TX_PS_41;
-Array BC_179 --> PACKED_TEXT_STORAGE TX_PS_42;
-Array BC_180 --> PACKED_TEXT_STORAGE TX_PS_43;
-Array BC_181 --> PACKED_TEXT_STORAGE TX_PS_44;
+Array BC_179 --> PACKED_TEXT_STORAGE TX_PS_41;
+Array BC_180 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_181 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_182 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_183 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_184 --> PACKED_TEXT_STORAGE TX_PS_42;
+Array BC_185 --> PACKED_TEXT_STORAGE TX_PS_42;
+Array BC_186 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_187 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_188 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_189 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_190 --> PACKED_TEXT_STORAGE TX_PS_43;
+Array BC_191 --> PACKED_TEXT_STORAGE TX_PS_4;
+Array BC_192 --> PACKED_TEXT_STORAGE TX_PS_3;
+Array BC_193 --> PACKED_TEXT_STORAGE TX_PS_44;
+Array BC_194 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_195 --> PACKED_TEXT_STORAGE TX_PS_45;
+Array BC_196 --> PACKED_TEXT_STORAGE TX_PS_46;
+Array BC_197 --> PACKED_TEXT_STORAGE TX_PS_47;
+Array BC_198 --> PACKED_TEXT_STORAGE TX_PS_48;
+Array BC_199 --> PACKED_TEXT_STORAGE TX_PS_49;
 
 
 

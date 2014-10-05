@@ -1,33 +1,82 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x15bbd0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1f1f60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x15bbd0" />
-  <item nodeId="node-0x15bbd0">
+  <activeNode nodeId="node-0x1f1f60" />
+  <item nodeId="node-0x1f1f60">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 &quot;No! Wait guys! Don&apos;t do this!&quot; Your friends push you out of the bedroom, and lock the door behind you. In your own house! Well, at least you know where the key is to to get back in...wait...do you?
 
-Well, the house isn&apos;t that big. We&apos;ll find it eventually.
-
-Thus, starting your search.
-
 The Prank
 An Interactive Fiction by Dylan Vodzak
-Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141005 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Family Room
+This is where my friends and I were hanging out earlier. But we left because there wasn&apos;t much to do, and my room had more games and such inside it. The room is a bit dull, but it has a nice carpet in the center of the room to make up for it. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+You can see an oak door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">NO</temporary>
+    <temporary score="5">NO</temporary>
     <children>
-      <child nodeId="node-0x15bc20" />
+      <child nodeId="node-0x1f2c20" />
+      <child nodeId="node-0x1f1fb0" />
     </children>
   </item>
-  <item nodeId="node-0x15bc20">
+  <item nodeId="node-0x1f1fb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f2000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f2000">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the oak door)
+(first taking the oak door)
+That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f2b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f2b60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f2bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f2bb0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Your Room
+You can see an oak door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x1f2c20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -37,10 +86,10 @@ Office
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x15b900" />
+      <child nodeId="node-0x1f2c90" />
     </children>
   </item>
-  <item nodeId="node-0x15b900">
+  <item nodeId="node-0x1f2c90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Study
@@ -50,10 +99,10 @@ Study
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x15b950" />
+      <child nodeId="node-0x159c00" />
     </children>
   </item>
-  <item nodeId="node-0x15b950">
+  <item nodeId="node-0x159c00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -63,10 +112,10 @@ Bedroom
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x15b9a0" />
+      <child nodeId="node-0x159bb0" />
     </children>
   </item>
-  <item nodeId="node-0x15b9a0">
+  <item nodeId="node-0x159bb0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Study
@@ -76,10 +125,10 @@ Study
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x15b9f0" />
+      <child nodeId="node-0x159b60" />
     </children>
   </item>
-  <item nodeId="node-0x15b9f0">
+  <item nodeId="node-0x159b60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -89,10 +138,10 @@ Office
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x15ba40" />
+      <child nodeId="node-0x159b10" />
     </children>
   </item>
-  <item nodeId="node-0x15ba40">
+  <item nodeId="node-0x159b10">
     <command xml:space="preserve">w</command>
     <played>YES</played>
     <changed>YES</changed>
