@@ -4390,7 +4390,7 @@ Global lightflag = false;
 ! ListWriter.i6t: Memory
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant REQUISITION_STACK_SIZE = 3*34;
+Constant REQUISITION_STACK_SIZE = 3*38;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -10543,8 +10543,8 @@ Array Map_Storage -->
  0 0 0 I137_oak_door 0 0 I139_office 0 0 0 0 0 ! Exits from: I124_family_room
  I137_oak_door 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I136_your_room
  I143_study 0 0 0 0 0 0 I124_family_room 0 0 0 0 ! Exits from: I139_office
- 0 0 0 I139_office 0 0 I144_bedroom 0 0 0 0 0 ! Exits from: I143_study
- 0 0 0 0 0 0 0 I143_study 0 0 0 0 ! Exits from: I144_bedroom
+ 0 0 0 I139_office 0 0 I148_bedroom 0 0 0 0 0 ! Exits from: I143_study
+ 0 0 0 0 0 0 0 I143_study 0 0 0 0 ! Exits from: I148_bedroom
 ;
 
 Class VPH_Class;
@@ -11230,7 +11230,7 @@ Object I137_oak_door ""
     with found_in I136_your_room I124_family_room
     has mark_as_thing
     with IK2_Count 12
-    with IK2_Link I138_brass_key
+    with IK2_Link I131_brown_desk
     with IK4_Count 0
     with IK4_Link nothing
     with KD_Count 4
@@ -11242,45 +11242,28 @@ Object I137_oak_door ""
     with article BC_213
 ;
 
-Object I138_brass_key ""
-    class K2_thing
-    with short_name BC_214
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 13
-    with IK2_Link I131_brown_desk
-    with KD_Count 2
-    with name 'brass' 'key' 'things//p' 
-    with action_bitmap 0 0 0 0 0 
-    with description BC_215
-    with initial BC_216
-    with list_together BC_217
-    with plural BC_218
-    with article BC_219
-;
-
 Object I139_office ""
     class K1_room
-    with short_name BC_220
-    with description BC_221
+    with short_name BC_214
+    with description BC_215
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_222
+    with cap_short_name BC_216
     has mark_as_room
     with IK1_Count 2
     with IK1_Link I143_study
     with KD_Count 1
     with name 'office' 'rooms//p' 
-    with list_together BC_223
-    with plural BC_224
-    with article BC_225
+    with list_together BC_217
+    with plural BC_218
+    with article BC_219
 ;
 
 Object -> I131_brown_desk ""
     class K5_container
-    with short_name BC_226
-    with description BC_227
+    with short_name BC_220
+    with description BC_221
     with with_key I130_brown_key
     has static
     has scenery
@@ -11297,24 +11280,41 @@ Object -> I131_brown_desk ""
     with KD_Count 5
     with name 'brown' 'desk' 'containers//p' 
     with action_bitmap 0 0 0 0 0 
-    with initial BC_228
-    with list_together BC_229
-    with plural BC_230
-    with article BC_231
+    with initial BC_222
+    with list_together BC_223
+    with plural BC_224
+    with article BC_225
 ;
 
 Object -> -> I140_safe_instructions ""
     class K2_thing
-    with short_name BC_232
-    with description BC_233
+    with short_name BC_226
+    with description BC_227
     has proper
     with vector 0
-    with cap_short_name BC_234
+    with cap_short_name BC_228
     has mark_as_thing
     with IK2_Count 14
-    with IK2_Link I141_bookcase
+    with IK2_Link I138_brass_key
     with KD_Count 2
     with name 'safe' 'instructions' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_229
+    with list_together BC_230
+    with plural BC_231
+    with article BC_232
+;
+
+Object -> I138_brass_key ""
+    class K2_thing
+    with short_name BC_233
+    with description BC_234
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 13
+    with IK2_Link I141_bookcase
+    with KD_Count 2
+    with name 'brass' 'key' 'things//p' 
     with action_bitmap 0 0 0 0 0 
     with initial BC_235
     with list_together BC_236
@@ -11350,7 +11350,7 @@ Object -> I142_shelf ""
     with vector 0
     has mark_as_thing
     with IK2_Count 16
-    with IK2_Link I127_yellow_trunk
+    with IK2_Link I144_grandfather_clock
     with KD_Count 2
     with name 'shelf' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11360,46 +11360,123 @@ Object -> I142_shelf ""
     with article BC_250
 ;
 
-Object I143_study ""
-    class K1_room
+Object -> I144_grandfather_clock ""
+    class K2_thing
     with short_name BC_251
     with description BC_252
-    has proper
-    has ~light
+    has static
+    has scenery
     with vector 0
-    with room_index -1
-    with cap_short_name BC_253
-    has mark_as_room
-    with IK1_Count 3
-    with IK1_Link I144_bedroom
-    with KD_Count 1
-    with name 'study' 'rooms//p' 
+    has mark_as_thing
+    with IK2_Count 17
+    with IK2_Link I145_couch
+    with KD_Count 2
+    with name 'grandfather' 'clock' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_253
     with list_together BC_254
     with plural BC_255
     with article BC_256
 ;
 
-Object I144_bedroom ""
-    class K1_room
+Object -> I145_couch ""
+    class K2_thing
     with short_name BC_257
-    has proper
+    with description BC_258
+    has static
+    has scenery
     with vector 0
-    with room_index -1
-    with cap_short_name BC_258
-    has mark_as_room
-    with IK1_Count 4
-    with IK1_Link nothing
-    with KD_Count 1
-    with name 'bedroom' 'rooms//p' 
-    with description BC_259
+    has mark_as_thing
+    with IK2_Count 18
+    with IK2_Link I146_rug
+    with KD_Count 2
+    with name 'couch' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_259
     with list_together BC_260
     with plural BC_261
     with article BC_262
 ;
 
+Object -> I146_rug ""
+    class K2_thing
+    with short_name BC_263
+    with description BC_264
+    has static
+    has scenery
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 19
+    with IK2_Link I147_ficus
+    with KD_Count 2
+    with name 'rug' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_265
+    with list_together BC_266
+    with plural BC_267
+    with article BC_268
+;
+
+Object -> I147_ficus ""
+    class K2_thing
+    with short_name BC_269
+    with description BC_270
+    has static
+    has scenery
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 20
+    with IK2_Link I127_yellow_trunk
+    with KD_Count 2
+    with name 'ficus' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_271
+    with list_together BC_272
+    with plural BC_273
+    with article BC_274
+;
+
+Object I143_study ""
+    class K1_room
+    with short_name BC_275
+    with description BC_276
+    has proper
+    has ~light
+    with vector 0
+    with room_index -1
+    with cap_short_name BC_277
+    has mark_as_room
+    with IK1_Count 3
+    with IK1_Link I148_bedroom
+    with KD_Count 1
+    with name 'study' 'rooms//p' 
+    with list_together BC_278
+    with plural BC_279
+    with article BC_280
+;
+
+Object I148_bedroom ""
+    class K1_room
+    with short_name BC_281
+    with description BC_282
+    has proper
+    with vector 0
+    with room_index -1
+    with cap_short_name BC_283
+    has mark_as_room
+    with IK1_Count 4
+    with IK1_Link nothing
+    with KD_Count 1
+    with name 'bedroom' 'rooms//p' 
+    with list_together BC_284
+    with plural BC_285
+    with article BC_286
+;
+
 Object -> I127_yellow_trunk ""
     class K5_container
-    with short_name BC_263
+    with short_name BC_287
+    with description BC_288
     with with_key I129_yellow_key
     has static
     has scenery
@@ -11416,17 +11493,16 @@ Object -> I127_yellow_trunk ""
     with KD_Count 5
     with name 'yellow' 'trunk' 'containers//p' 
     with action_bitmap 0 0 0 0 0 
-    with description BC_264
-    with initial BC_265
-    with list_together BC_266
-    with plural BC_267
-    with article BC_268
+    with initial BC_289
+    with list_together BC_290
+    with plural BC_291
+    with article BC_292
 ;
 
 Object -> -> I126_red_key ""
     class K2_thing
-    with short_name BC_269
-    with description BC_270
+    with short_name BC_293
+    with description BC_294
     with vector 0
     has mark_as_thing
     with IK2_Count 2
@@ -11434,10 +11510,10 @@ Object -> -> I126_red_key ""
     with KD_Count 2
     with name 'red' 'key' 'things//p' 
     with action_bitmap 0 0 0 0 0 
-    with initial BC_271
-    with list_together BC_272
-    with plural BC_273
-    with article BC_274
+    with initial BC_295
+    with list_together BC_296
+    with plural BC_297
+    with article BC_298
 ;
 
 Constant I70_english_language = 1;
@@ -11491,12 +11567,12 @@ Constant I122_masculine_gender = 2;
 Constant I123_feminine_gender = 3;
 Array Global_Vars -->
   (false) ! 7 darkness witnessed
-  (BC_275) ! 25 command prompt
+  (BC_299) ! 25 command prompt
   (I70_english_language) ! 29 language of play
-  (BC_276) ! 32 story author
-  (BC_277) ! 33 story headline
-  (BC_278) ! 34 story genre
-  (BC_279) ! 35 story description
+  (BC_300) ! 32 story author
+  (BC_301) ! 33 story headline
+  (BC_302) ! 34 story genre
+  (BC_303) ! 35 story description
   (1) ! 36 release number
   (0) ! 37 story creation year
   (0) ! 45 locale paragraph count
@@ -11511,14 +11587,14 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0664 0 (BC_280) (BC_281) (BC_282) (BC_283) (BC_284) ;
+Array tab_0_0 table $0664 0 (BC_304) (BC_305) (BC_306) (BC_307) (BC_308) ;
 Array tab_0_1 table $0465 1 (0) (0) (1) (0) (0) ;
 Array tab_0_2 table $2066 2 (Consult_Grammar_95) (Consult_Grammar_96) (Consult_Grammar_97) (Consult_Grammar_98) (Consult_Grammar_99) ;
 Array tab_0_3 table $0067 3 (IMMEDIATELY_RESTART_VM_R) (IMMEDIATELY_RESTORE_SAVED_R) ( TABLE_NOVALUE) (IMMEDIATELY_QUIT_R) (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4 ( TABLE_NOVALUE) ( TABLE_NOVALUE) (V27_amusing_a_victorious_pla) ( TABLE_NOVALUE) ( TABLE_NOVALUE) ;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
-Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -11528,7 +11604,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $ff $ff $03  ! Column 1
+  $ff $ff $3f  ! Column 1
   
   ! End of table
   NULL NULL;
@@ -29060,7 +29136,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ! Relations.i6t: Relation Route-Finding
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant MAX_ROUTE_LENGTH = 34 + 32;
+Constant MAX_ROUTE_LENGTH = 38 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -48386,57 +48462,67 @@ Verb 'spin'
 
 
 
-Constant TX_PS_72 = ">";
-Constant TX_PS_61 = "A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, ~1997~.";
-Constant TX_PS_63 = "A bookcase filled with a bunch of cool science related books. None of them particularly stand out.";
+Constant TX_PS_83 = ">";
+Constant TX_PS_60 = "A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, ~1997~.";
+Constant TX_PS_70 = "A big couch that you often take naps on. Nothing seems really important about it, other than the fact that its really comfy.";
+Constant TX_PS_68 = "A big grandfather clock that your parents have had forever. Upon checking the time, you discover that a lot of time has passed since your friends arrived.";
+Constant TX_PS_64 = "A bookcase filled with a bunch of cool science related books. None of them particularly stand out.";
 Constant TX_PS_41 = "A carpet that has big yellow hibicus's on it. It doesn't seem very flat however. An air pocket of sorts slightly sticks out. You're surprised you even noticed it. ";
 Constant TX_PS_43 = "A comfy-looking armchair. It is embroided with fake flower on the sides.";
+Constant TX_PS_74 = "A fake plant that seems to be just for decoration. But on further inspection you see a brass key near the base of the plant...";
 Constant TX_PS_45 = "A fat ern with what appears to be Chinese art along the side of it. It doesn't seem to fit into the room at all. Upon further investigation, you discover that it is empty.";
-Constant TX_PS_67 = "A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. ";
+Constant TX_PS_76 = "A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. The guest bedroom is to the east, and the office is to the south.";
 Constant TX_PS_49 = "A heavy duty flashlight used to light up dark areas.";
+Constant TX_PS_62 = "A key to your room that you put in the fake ficus for emergencies just like this.";
 Constant TX_PS_54 = "A nice oak door that leads to your room. It is also the only thing keeping you from stangling your friends.";
 Constant TX_PS_37 = "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this.";
+Constant TX_PS_72 = "A rug smaller than the one in the family room. Nothing seems to special about it, other than the interesting designs.";
 Constant TX_PS_47 = "A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?^^(HINT: When unlocking the safe, type: spin safe to {Entire Value Here}^^For example: spin safe to 1234)";
-Constant TX_PS_65 = "A shelf filled with knick-knacks that don't seem to have any purpose. It would be wise not to touch them. None of them particularly stand out.";
+Constant TX_PS_66 = "A shelf filled with knick-knacks that don't seem to have any purpose. It would be wise not to touch them. None of them particularly stand out.";
+Constant TX_PS_80 = "A yellow trunk that your mom thought was ~stylish~. Although there was a disagreement, it ended up in the guest bedroom anyway. It houses all of your old toys, because your room is too crammed.";
 Constant TX_PS_3 = "An Interactive Fiction";
 Constant TX_PS_32 = "As good-looking as ever.";
-Constant TX_PS_68 = "Bedroom";
+Constant TX_PS_77 = "Bedroom";
 Constant TX_PS_4 = "Dylan Vodzak";
 Constant TX_PS_34 = "Family Room";
-Constant TX_PS_73 = "Fiction";
+Constant TX_PS_84 = "Fiction";
 Constant TX_PS_39 = "Its a brown key for the desk.";
-Constant TX_PS_71 = "Its a red key for the dresser.";
+Constant TX_PS_82 = "Its a red key for the dresser.";
 Constant TX_PS_51 = "Its a yellow key for the trunk.";
-Constant TX_PS_56 = "Office";
-Constant TX_PS_77 = "QUIT";
-Constant TX_PS_74 = "RESTART";
-Constant TX_PS_75 = "RESTORE a saved game";
-Constant TX_PS_60 = "Safe instructions";
+Constant TX_PS_55 = "Office";
+Constant TX_PS_88 = "QUIT";
+Constant TX_PS_85 = "RESTART";
+Constant TX_PS_86 = "RESTORE a saved game";
+Constant TX_PS_59 = "Safe instructions";
 Constant TX_PS_46 = "Safe";
-Constant TX_PS_66 = "Study";
+Constant TX_PS_75 = "Study";
 Constant TX_PS_2 = "The Prank";
-Constant TX_PS_59 = "This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out.";
-Constant TX_PS_35 = "This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.";
-Constant TX_PS_57 = "This is your dad's office. However he doesn't use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.";
-Constant TX_PS_78 = "UNDO the last command";
+Constant TX_PS_78 = "The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.  ";
+Constant TX_PS_58 = "This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out.";
+Constant TX_PS_35 = "This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.";
+Constant TX_PS_56 = "This is your dad's office. However he doesn't use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.";
+Constant TX_PS_89 = "UNDO the last command";
 Constant TX_PS_52 = "Your Room";
 Constant TX_PS_33 = "Yourself";
 Constant TX_PS_9 = "animals";
 Constant TX_PS_14 = "backdrops";
-Constant TX_PS_62 = "bookcase";
-Constant TX_PS_55 = "brass key";
-Constant TX_PS_58 = "brown desk";
+Constant TX_PS_63 = "bookcase";
+Constant TX_PS_61 = "brass key";
+Constant TX_PS_57 = "brown desk";
 Constant TX_PS_38 = "brown key";
 Constant TX_PS_40 = "carpet";
 Constant TX_PS_42 = "chair";
 Constant TX_PS_11 = "containers";
+Constant TX_PS_69 = "couch";
 Constant TX_PS_15 = "devices";
 Constant TX_PS_17 = "directions";
 Constant TX_PS_10 = "doors";
 Constant TX_PS_28 = "down";
 Constant TX_PS_25 = "east";
 Constant TX_PS_44 = "ern";
+Constant TX_PS_73 = "ficus";
 Constant TX_PS_48 = "flashlight";
+Constant TX_PS_67 = "grandfather clock";
 Constant TX_PS_29 = "inside";
 Constant TX_PS_7 = "men";
 Constant TX_PS_18 = "north";
@@ -48447,10 +48533,11 @@ Constant TX_PS_30 = "outside";
 Constant TX_PS_6 = "people";
 Constant TX_PS_13 = "player's holdalls";
 Constant TX_PS_36 = "red dresser";
-Constant TX_PS_70 = "red key";
+Constant TX_PS_81 = "red key";
 Constant TX_PS_16 = "regions";
-Constant TX_PS_76 = "see some suggestions for AMUSING things to do";
-Constant TX_PS_64 = "shelf";
+Constant TX_PS_71 = "rug";
+Constant TX_PS_87 = "see some suggestions for AMUSING things to do";
+Constant TX_PS_65 = "shelf";
 Constant TX_PS_22 = "south";
 Constant TX_PS_23 = "southeast";
 Constant TX_PS_24 = "southwest";
@@ -48461,7 +48548,7 @@ Constant TX_PS_12 = "vehicles";
 Constant TX_PS_26 = "west";
 Constant TX_PS_8 = "women";
 Constant TX_PS_50 = "yellow key";
-Constant TX_PS_69 = "yellow trunk";
+Constant TX_PS_79 = "yellow trunk";
 Constant TX_PS_31 = "yourself";
 Array TX_L_31 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_31;
 
@@ -55821,76 +55908,100 @@ Array BC_211 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_212 --> PACKED_TEXT_STORAGE TX_PS_10;
 Array BC_213 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_214 --> PACKED_TEXT_STORAGE TX_PS_55;
-Array BC_215 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_216 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_215 --> PACKED_TEXT_STORAGE TX_PS_56;
+Array BC_216 --> PACKED_TEXT_STORAGE TX_PS_55;
 Array BC_217 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_218 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_219 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_220 --> PACKED_TEXT_STORAGE TX_PS_56;
-Array BC_221 --> PACKED_TEXT_STORAGE TX_PS_57;
-Array BC_222 --> PACKED_TEXT_STORAGE TX_PS_56;
+Array BC_220 --> PACKED_TEXT_STORAGE TX_PS_57;
+Array BC_221 --> PACKED_TEXT_STORAGE TX_PS_58;
+Array BC_222 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_223 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_224 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_224 --> PACKED_TEXT_STORAGE TX_PS_11;
 Array BC_225 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_226 --> PACKED_TEXT_STORAGE TX_PS_58;
-Array BC_227 --> PACKED_TEXT_STORAGE TX_PS_59;
-Array BC_228 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_226 --> PACKED_TEXT_STORAGE TX_PS_59;
+Array BC_227 --> PACKED_TEXT_STORAGE TX_PS_60;
+Array BC_228 --> PACKED_TEXT_STORAGE TX_PS_59;
 Array BC_229 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_230 --> PACKED_TEXT_STORAGE TX_PS_11;
+Array BC_230 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_231 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_232 --> PACKED_TEXT_STORAGE TX_PS_60;
+Array BC_232 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_233 --> PACKED_TEXT_STORAGE TX_PS_61;
-Array BC_234 --> PACKED_TEXT_STORAGE TX_PS_60;
+Array BC_234 --> PACKED_TEXT_STORAGE TX_PS_62;
 Array BC_235 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_236 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_237 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_238 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_239 --> PACKED_TEXT_STORAGE TX_PS_62;
-Array BC_240 --> PACKED_TEXT_STORAGE TX_PS_63;
+Array BC_239 --> PACKED_TEXT_STORAGE TX_PS_63;
+Array BC_240 --> PACKED_TEXT_STORAGE TX_PS_64;
 Array BC_241 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_242 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_243 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_244 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_245 --> PACKED_TEXT_STORAGE TX_PS_64;
-Array BC_246 --> PACKED_TEXT_STORAGE TX_PS_65;
+Array BC_245 --> PACKED_TEXT_STORAGE TX_PS_65;
+Array BC_246 --> PACKED_TEXT_STORAGE TX_PS_66;
 Array BC_247 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_248 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_249 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_250 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_251 --> PACKED_TEXT_STORAGE TX_PS_66;
-Array BC_252 --> PACKED_TEXT_STORAGE TX_PS_67;
-Array BC_253 --> PACKED_TEXT_STORAGE TX_PS_66;
+Array BC_251 --> PACKED_TEXT_STORAGE TX_PS_67;
+Array BC_252 --> PACKED_TEXT_STORAGE TX_PS_68;
+Array BC_253 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_254 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_255 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_256 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_257 --> PACKED_TEXT_STORAGE TX_PS_68;
-Array BC_258 --> PACKED_TEXT_STORAGE TX_PS_68;
+Array BC_257 --> PACKED_TEXT_STORAGE TX_PS_69;
+Array BC_258 --> PACKED_TEXT_STORAGE TX_PS_70;
 Array BC_259 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_260 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_261 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_262 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_263 --> PACKED_TEXT_STORAGE TX_PS_69;
-Array BC_264 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_263 --> PACKED_TEXT_STORAGE TX_PS_71;
+Array BC_264 --> PACKED_TEXT_STORAGE TX_PS_72;
 Array BC_265 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_266 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_267 --> PACKED_TEXT_STORAGE TX_PS_11;
+Array BC_267 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_268 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_269 --> PACKED_TEXT_STORAGE TX_PS_70;
-Array BC_270 --> PACKED_TEXT_STORAGE TX_PS_71;
+Array BC_269 --> PACKED_TEXT_STORAGE TX_PS_73;
+Array BC_270 --> PACKED_TEXT_STORAGE TX_PS_74;
 Array BC_271 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_272 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_273 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_274 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_275 --> PACKED_TEXT_STORAGE TX_PS_72;
-Array BC_276 --> PACKED_TEXT_STORAGE TX_PS_4;
-Array BC_277 --> PACKED_TEXT_STORAGE TX_PS_3;
-Array BC_278 --> PACKED_TEXT_STORAGE TX_PS_73;
+Array BC_275 --> PACKED_TEXT_STORAGE TX_PS_75;
+Array BC_276 --> PACKED_TEXT_STORAGE TX_PS_76;
+Array BC_277 --> PACKED_TEXT_STORAGE TX_PS_75;
+Array BC_278 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_279 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_280 --> PACKED_TEXT_STORAGE TX_PS_74;
-Array BC_281 --> PACKED_TEXT_STORAGE TX_PS_75;
-Array BC_282 --> PACKED_TEXT_STORAGE TX_PS_76;
+Array BC_280 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_281 --> PACKED_TEXT_STORAGE TX_PS_77;
+Array BC_282 --> PACKED_TEXT_STORAGE TX_PS_78;
 Array BC_283 --> PACKED_TEXT_STORAGE TX_PS_77;
-Array BC_284 --> PACKED_TEXT_STORAGE TX_PS_78;
+Array BC_284 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_285 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_286 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_287 --> PACKED_TEXT_STORAGE TX_PS_79;
+Array BC_288 --> PACKED_TEXT_STORAGE TX_PS_80;
+Array BC_289 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_290 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_291 --> PACKED_TEXT_STORAGE TX_PS_11;
+Array BC_292 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_293 --> PACKED_TEXT_STORAGE TX_PS_81;
+Array BC_294 --> PACKED_TEXT_STORAGE TX_PS_82;
+Array BC_295 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_296 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_297 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_298 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_299 --> PACKED_TEXT_STORAGE TX_PS_83;
+Array BC_300 --> PACKED_TEXT_STORAGE TX_PS_4;
+Array BC_301 --> PACKED_TEXT_STORAGE TX_PS_3;
+Array BC_302 --> PACKED_TEXT_STORAGE TX_PS_84;
+Array BC_303 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_304 --> PACKED_TEXT_STORAGE TX_PS_85;
+Array BC_305 --> PACKED_TEXT_STORAGE TX_PS_86;
+Array BC_306 --> PACKED_TEXT_STORAGE TX_PS_87;
+Array BC_307 --> PACKED_TEXT_STORAGE TX_PS_88;
+Array BC_308 --> PACKED_TEXT_STORAGE TX_PS_89;
 
 
 

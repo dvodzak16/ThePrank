@@ -6,7 +6,7 @@ Your friends push you out of the bedroom, and lock the door behind you. In your 
 
 [FAMILY ROOM CHANGES]
 
-Family Room is a room. The description is "This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south."
+Family Room is a room. The description is "This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south."
 
 The red dresser is scenery. It is a closed openable container. It is in the Family Room. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
 
@@ -21,6 +21,8 @@ The yellow key is a thing. The yellow key can be found or lost. The yellow key i
 
 The brown key is a thing. The brown key is in the red dresser. The brown key unlocks the brown desk. The description is "Its a brown key for the desk."
 
+[Searched infrom on how to do this]
+
 Instead of looking under the carpet when the yellow key is lost:
 	move the yellow key to the player;
 	now the yellow key is found;
@@ -30,6 +32,7 @@ The chair is scenery in the Family Room. The description is "A comfy-looking arm
  
 The ern is scenery in the Family Room. The description is "A fat ern with what appears to be Chinese art along the side of it. It doesn't seem to fit into the room at all. Upon further investigation, you discover that it is empty."
 
+[Searched inform on how to do this]
 
 The Safe is scenery in the Family Room. "A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -58,6 +61,7 @@ After switching on the flashlight:
 After switching off the flashlight:
 	say "You click the flashlight off.";
 	now the flashlight is unlit.
+
 
 
 [Your Room]
@@ -89,17 +93,24 @@ The shelf is scenery in the office. "A shelf filled with knick-knacks that don't
 [STUDY CHANGES]
 
 
-Study is a dark room. It is north of the Office. The description of the Study is "A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. "
+Study is a dark room. It is north of the Office. The description of the Study is "A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. The guest bedroom is to the east, and the office is to the south."
 
+The grandfather clock is scenery in the Office. The description is "A big grandfather clock that your parents have had forever. Upon checking the time, you discover that a lot of time has passed since your friends arrived."
 
+The couch is scenery in the Office. The description is "A big couch that you often take naps on. Nothing seems really important about it, other than the fact that its really comfy."
 
+The rug is scenery in the Office. The description is "A rug smaller than the one in the family room. Nothing seems to special about it, other than the interesting designs."
+
+The ficus is scenery in the Office. The description is "A fake plant that seems to be just for decoration. But on further inspection you see a brass key near the base of the plant..."
+
+The brass key is a thing in the Office. The description is "A key to your room that you put in the fake ficus for emergencies just like this."
 
 [BEDROOM CHANGES]
 
+Bedroom is a room. It is east of the Study. The description is "The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.  "
 
-Bedroom is a room. It is east of the Study. 
 
-The yellow trunk is scenery. It is a closed and openable container. It is in the the Bedroom. It is lockable and locked.
+The yellow trunk is scenery. It is a closed and openable container. It is in the the Bedroom. It is lockable and locked. The description is "A yellow trunk that your mom thought was 'stylish'. Although there was a disagreement, it ended up in the guest bedroom anyway. It houses all of your old toys, because your room is too crammed."
 
 Instead of opening the trunk: say "A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.";
 	move the red key to the player.
