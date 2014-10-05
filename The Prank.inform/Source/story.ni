@@ -107,11 +107,19 @@ The brass key is a thing in the Office. The description is "A key to your room t
 
 [BEDROOM CHANGES]
 
-Bedroom is a room. It is east of the Study. The description is "The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.  "
+Bedroom is a room. It is east of the Study. The description is "The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west."
 
+The bed is scenery in the Bedroom. The description is "A king sized bed that seems really comfortable."
+
+The TV is scenery in the Bedroom. The description is "A large flatscreen TV that seems to make this room a little cozier. You and your friends were watching it earlier, but it is turned off now."
+
+The black desk is scenery in the Bedroom. The description is "A regular desk that your mom never uses. It doesn't even seem like there is anything on it."
 
 The yellow trunk is scenery. It is a closed and openable container. It is in the the Bedroom. It is lockable and locked. The description is "A yellow trunk that your mom thought was 'stylish'. Although there was a disagreement, it ended up in the guest bedroom anyway. It houses all of your old toys, because your room is too crammed."
 
 Instead of opening the trunk: say "A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.";
 	move the red key to the player.
-
+	
+Instead of going south in Your Room:
+	say "Unlocking the door, you quickly barge into your room, tackling your friends. You all get up and laugh about it for a while. They didn't realize you had a key in the house somewhere. You then tell them your adventure.";
+	end the story finally.

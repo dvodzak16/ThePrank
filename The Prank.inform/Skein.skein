@@ -14,11 +14,11 @@ An Interactive Fiction by Dylan Vodzak
 Release 1 / Serial number 141005 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Family Room
-This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="41">NO</temporary>
     <children>
       <child nodeId="node-0x3f3ef0" />
