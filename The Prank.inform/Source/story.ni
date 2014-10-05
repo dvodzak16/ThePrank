@@ -10,6 +10,9 @@ Family Room is a room. The description is "This is where my friends and I were h
 
 The red dresser is scenery. It is a closed openable container. It is in the Family Room. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
 
+Instead of opening the red dresser: say "DVD's and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.";
+	move the brown key to the player.
+
 The red key unlocks the red dresser. The red key is in the yellow trunk. The description is "Its a red key for the dresser."
 
 The carpet is scenery in the Family Room. The description is "A carpet that has big yellow hibicus's on it. It doesn't seem very flat however. An air pocket of sorts slightly sticks out. You're surprised you even noticed it. "
@@ -70,9 +73,14 @@ The oak door is scenery. The oak door is south of the Family Room and north of t
 [OFFICE CHANGES]
 
 
-Office is a room. It is east of the Family Room. The description is "This is your dad's office. However he doesn't use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn't a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north."
+Office is a room. It is east of the Family Room. The description is "This is your dad's office. However he doesn't use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north."
+
+Safe instructions is a thing in the brown desk. The description is "A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, '1997'."
 
 The brown desk is scenery in the office. It is a closed and openable container. It is lockable and locked. The description is "This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out."
+
+Instead of opening the brown desk: say "Opening the desk, you see the safe instructions that your dad put in here. This might come in handy.";
+	move the Safe instructions to the player.
 
 The bookcase is scenery in the office. The description is "A bookcase filled with a bunch of cool science related books. None of them particularly stand out."
 
@@ -85,10 +93,14 @@ Study is a dark room. It is north of the Office. The description of the Study is
 
 
 
+
 [BEDROOM CHANGES]
 
 
 Bedroom is a room. It is east of the Study. 
 
 The yellow trunk is scenery. It is a closed and openable container. It is in the the Bedroom. It is lockable and locked.
+
+Instead of opening the trunk: say "A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.";
+	move the red key to the player.
 
