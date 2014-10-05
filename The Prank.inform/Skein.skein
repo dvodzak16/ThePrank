@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4875f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xc03ea20" />
+  <activeNode nodeId="node-0x4875f0" />
   <item nodeId="node-0x4875f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -19,7 +19,7 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="29">NO</temporary>
+    <temporary score="36">NO</temporary>
     <children>
       <child nodeId="node-0x4a11e0" />
       <child nodeId="node-0x282ae0" />
@@ -173,14 +173,63 @@ You can see an oak door here.
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn&apos;t a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="36">YES</temporary>
     <children>
       <child nodeId="node-0x4a1250" />
+      <child nodeId="node-0x486420" />
     </children>
+  </item>
+  <item nodeId="node-0x486420">
+    <command xml:space="preserve">x desk</command>
+    <result xml:space="preserve">This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x11fa30" />
+    </children>
+  </item>
+  <item nodeId="node-0x11fa30">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0da2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0da2b0">
+    <command xml:space="preserve">unlock desk</command>
+    <result xml:space="preserve">(with the brown desk)
+(first taking the brown desk)
+That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x120240" />
+    </children>
+  </item>
+  <item nodeId="node-0x120240">
+    <command xml:space="preserve">unlock desk with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
   </item>
   <item nodeId="node-0x4a1250">
     <command xml:space="preserve">n</command>
@@ -242,15 +291,29 @@ Office
   </item>
   <item nodeId="node-0xc03ea20">
     <command xml:space="preserve">x safe</command>
-    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here? (HINT: When unlocking the safe, type: spin safe to {Entire value here} For example: spin safe to 1234)
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin safe to {Entire value here}
+
+For example: spin safe to 1234)
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="28">YES</temporary>
+    <temporary score="31">YES</temporary>
     <children>
       <child nodeId="node-0xc096230" />
+      <child nodeId="node-0xc0f0cb0" />
     </children>
+  </item>
+  <item nodeId="node-0xc0f0cb0">
+    <command xml:space="preserve">spin safe to 1234</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
   </item>
   <item nodeId="node-0xc096230">
     <command xml:space="preserve">unlock safe</command>

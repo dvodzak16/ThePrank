@@ -8,13 +8,15 @@ Your friends push you out of the bedroom, and lock the door behind you. In your 
 
 Family Room is a room. The description is "This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south."
 
-The  red dresser is scenery. It is a closed openable container. It is in the Family Room. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
+The red dresser is scenery. It is a closed openable container. It is in the Family Room. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
 
-The red key unlocks the red dresser. 
+The red key unlocks the red dresser. The red key is in the yellow trunk.
 
 The carpet is scenery in the Family Room. The description is "A carpet that has big yellow hibicus's on it. It doesn't seem very flat however. An air pocket of sorts slightly sticks out. You're surprised you even noticed it. "
 
-The yellow key is a thing. The yellow key can be found or lost. The yellow key is lost.
+The yellow key is a thing. The yellow key can be found or lost. The yellow key is lost. The yellow key unlocks the yellow trunk.
+
+The brown key is a thing. The brown key is in the red dresser. The brown key unlocks the brown desk.
 
 Instead of looking under the carpet when the yellow key is lost:
 	move the yellow key to the player;
@@ -28,7 +30,7 @@ The ern is scenery in the Family Room. The description is "A fat ern with what a
 
 The Safe is scenery in the Family Room. "A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
-(HINT: When unlocking the safe, type: spin safe to {Entire value here}
+(HINT: When unlocking the safe, type: spin safe to {Entire Value Here}
 
 For example: spin safe to 1234)" 
 
@@ -68,8 +70,9 @@ The oak door is scenery. The oak door is south of the Family Room and north of t
 [OFFICE CHANGES]
 
 
-Office is a room. It is east of the Family Room.
+Office is a room. It is east of the Family Room. The description is "This is your dad's office. However he doesn't use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn't a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north."
 
+The brown desk is scenery in the office. It is a closed and openable container. It is lockable and locked. The description is "This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out."
 
 [STUDY CHANGES]
 
