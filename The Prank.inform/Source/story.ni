@@ -49,9 +49,9 @@ Instead of looking behind painting:
 
 The Safe is scenery. "A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
-(HINT: When unlocking the safe, type: spin safe to {Entire Value Here}
+(HINT: When unlocking the safe, type: spin dial to {Entire Value Here}
 
-For example: spin safe to 1234)" 
+For example: spin dial to 1234)" 
 
 In the Safe is a flashlight. The Safe is closed and fixed in place. Understand "dial" as the Safe.
 
@@ -96,7 +96,7 @@ Instructions is a thing in the brown desk. The description is "A 10 paged pamphl
 
 The brown desk is scenery in the office. It is a closed and openable container. It is lockable and locked. The description is "This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out."
 
-Instead of opening the brown desk: say "Opening the desk, you see the safe instructions that your dad put in here. This might come in handy.";
+Instead of opening the brown desk: say "Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy.";
 	move the Instructions to the player.
 
 The bookcase is scenery in the office. The description is "A bookcase filled with a bunch of cool science related books. None of them particularly stand out."
@@ -116,7 +116,7 @@ The rug is scenery in the Study. The description is "A rug smaller than the one 
 
 The ficus is scenery in the Study. The description is "A fake plant that seems to be just for decoration. But on further inspection you see a brass key near the base of the plant..."
 
-The brass key is a thing in the Study. The description is "A key to your room that you put in the fake ficus for emergencies just like this."
+The brass key is a thing in the Study. It is undescribed. The description is "A key to your room that you put in the fake ficus for emergencies just like this."
 
 [BEDROOM CHANGES]
 

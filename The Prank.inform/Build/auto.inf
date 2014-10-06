@@ -11385,6 +11385,7 @@ Object -> I139_brass_key ""
     class K2_thing
     with short_name BC_257
     with description BC_258
+    has concealed
     with vector 0
     has mark_as_thing
     with IK2_Count 14
@@ -12906,8 +12907,8 @@ Array ActionHappened --> 0 0 0 0 0;
     if ((((action ==##Open) &&  (actor==player) && ((noun == I131_brown_desk) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_820, 820);
-    ! [1: say ~Opening the desk, you see the safe instructions that your dad put in here. This might come in handy.~]
-    say__p=1;ParaContent(); print "Opening the desk, you see the safe instructions that your dad put in here. This might come in handy."; new_line; .L_Say8; .L_SayX8;
+    ! [1: say ~Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy.~]
+    say__p=1;ParaContent(); print "Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy."; new_line; .L_Say8; .L_SayX8;
     ! [2: move the instructions to the player]
     MoveObject(I141_instructions, player, 0, false);
     RulebookFails(); rtrue;
@@ -48658,7 +48659,7 @@ Constant TX_PS_37 = "A red dresser that your parents decided to put in the famil
 Constant TX_PS_90 = "A regular desk that your mom never uses. It doesn't even seem like there is anything on it.";
 Constant TX_PS_47 = "A relatively bland painting. It looks like its being pushed off of the wall slightly. What's behind it?";
 Constant TX_PS_76 = "A rug smaller than the one in the family room. Nothing seems to special about it, other than the interesting designs.";
-Constant TX_PS_51 = "A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?^^(HINT: When unlocking the safe, type: spin safe to {Entire Value Here}^^For example: spin safe to 1234)";
+Constant TX_PS_51 = "A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?^^(HINT: When unlocking the safe, type: spin dial to {Entire Value Here}^^For example: spin dial to 1234)";
 Constant TX_PS_66 = "A shelf filled with knick-knacks that don't seem to have any purpose. It would be wise not to touch them. None of them particularly stand out.";
 Constant TX_PS_82 = "A yellow trunk that your mom thought was ~stylish~. Although there was a disagreement, it ended up in the guest bedroom anyway. It houses all of your old toys, because your room is too crammed.";
 Constant TX_PS_3 = "An Interactive Fiction";
