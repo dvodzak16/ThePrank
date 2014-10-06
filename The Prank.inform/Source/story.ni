@@ -1,4 +1,4 @@
-"The Prank" by Dylan Vodzak
+"Open the Door" by Dylan Vodzak
 
 When play begins: say "'No! Wait guys! Don't do this!' 
 Your friends push you out of the bedroom, and lock the door behind you. In your own house! Well, at least you know where the key is to to get back in...wait...do you?"
@@ -6,7 +6,7 @@ Your friends push you out of the bedroom, and lock the door behind you. In your 
 
 [FAMILY ROOM CHANGES]
 
-Family Room is a room. The description is "This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south."
+Family Room is a room. The description is "This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south."
 
 The red dresser is scenery. It is a closed openable container. It is in the Family Room. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
 
@@ -30,11 +30,24 @@ Instead of looking under the carpet when the yellow key is lost:
 	
 The chair is scenery in the Family Room. The description is "A comfy-looking armchair. It is embroided with fake flower on the sides."
  
-The ern is scenery in the Family Room. The description is "A fat ern with what appears to be Chinese art along the side of it. It doesn't seem to fit into the room at all. Upon further investigation, you discover that it is empty."
+The urn is scenery in the Family Room. The description is "A fat ern with what appears to be Chinese art along the side of it. It doesn't seem to fit into the room at all. Upon further investigation, you discover that it is empty."
+
+[Credit to Mrs. Kiang]
+
+The painting is scenery. It is in the Family Room. Painting is fixed in place. The description of the painting is "A relatively bland painting. It looks like its being pushed off of the wall slightly. What's behind it?"
+
+Looking behind is an action applying to one thing.
+Understand "look behind [something]" as looking behind.
+
+Instead of looking behind: say "Nothing out of the ordinary here."
+
+Instead of looking behind painting:
+	say "Upon peering behind the painting, you find a safe. This must have been installed when you were at school.";
+	move safe to the family room.
 
 [Searched inform on how to do this]
 
-The Safe is scenery in the Family Room. "A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+The Safe is scenery. "A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
 (HINT: When unlocking the safe, type: spin safe to {Entire Value Here}
 
@@ -79,12 +92,12 @@ The oak door is scenery. The oak door is south of the Family Room and north of t
 
 Office is a room. It is east of the Family Room. The description is "This is your dad's office. However he doesn't use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north."
 
-Safe instructions is a thing in the brown desk. The description is "A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, '1997'."
+Instructions is a thing in the brown desk. The description is "A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, '1997'."
 
 The brown desk is scenery in the office. It is a closed and openable container. It is lockable and locked. The description is "This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out."
 
 Instead of opening the brown desk: say "Opening the desk, you see the safe instructions that your dad put in here. This might come in handy.";
-	move the Safe instructions to the player.
+	move the Instructions to the player.
 
 The bookcase is scenery in the office. The description is "A bookcase filled with a bunch of cool science related books. None of them particularly stand out."
 
@@ -95,15 +108,15 @@ The shelf is scenery in the office. "A shelf filled with knick-knacks that don't
 
 Study is a dark room. It is north of the Office. The description of the Study is "A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. The guest bedroom is to the east, and the office is to the south."
 
-The grandfather clock is scenery in the Office. The description is "A big grandfather clock that your parents have had forever. Upon checking the time, you discover that a lot of time has passed since your friends arrived."
+The grandfather clock is scenery in the Study. The description is "A big grandfather clock that your parents have had forever. Upon checking the time, you discover that a lot of time has passed since your friends arrived."
 
-The couch is scenery in the Office. The description is "A big couch that you often take naps on. Nothing seems really important about it, other than the fact that its really comfy."
+The couch is scenery in the Study. The description is "A big couch that you often take naps on. Nothing seems really important about it, other than the fact that its really comfy."
 
-The rug is scenery in the Office. The description is "A rug smaller than the one in the family room. Nothing seems to special about it, other than the interesting designs."
+The rug is scenery in the Study. The description is "A rug smaller than the one in the family room. Nothing seems to special about it, other than the interesting designs."
 
-The ficus is scenery in the Office. The description is "A fake plant that seems to be just for decoration. But on further inspection you see a brass key near the base of the plant..."
+The ficus is scenery in the Study. The description is "A fake plant that seems to be just for decoration. But on further inspection you see a brass key near the base of the plant..."
 
-The brass key is a thing in the Office. The description is "A key to your room that you put in the fake ficus for emergencies just like this."
+The brass key is a thing in the Study. The description is "A key to your room that you put in the fake ficus for emergencies just like this."
 
 [BEDROOM CHANGES]
 
@@ -120,6 +133,6 @@ The yellow trunk is scenery. It is a closed and openable container. It is in the
 Instead of opening the trunk: say "A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.";
 	move the red key to the player.
 	
-Instead of going south in Your Room:
+Instead of unlocking the door with the brass key:
 	say "Unlocking the door, you quickly barge into your room, tackling your friends. You all get up and laugh about it for a while. They didn't realize you had a key in the house somewhere. You then tell them your adventure.";
 	end the story finally.

@@ -9,7 +9,7 @@ project folder "/Users/dvodzak16/GitHub/ThePrank/The Prank.inform"
 
 ! Blorb instructions
 
-storyfile leafname "The Prank.gblorb"
+storyfile leafname "Open the Door.gblorb"
 storyfile "/Users/dvodzak16/GitHub/ThePrank/The Prank.inform/Build/output.ulx" include
 ifiction "/Users/dvodzak16/GitHub/ThePrank/The Prank.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
@@ -20,7 +20,7 @@ picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover
 placeholder [IFID] = "3FB30D4E-7A1C-4C7E-B23D-A20EB538FDEC"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2014"
-placeholder [TITLE] = "The Prank"
+placeholder [TITLE] = "Open the Door"
 placeholder [AUTHOR] = "Dylan Vodzak"
 placeholder [BLURB] = "A work of interactive fiction."
 
