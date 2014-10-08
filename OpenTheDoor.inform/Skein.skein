@@ -1,0 +1,4542 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x4f0570" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xdc7abd0" />
+  <item nodeId="node-0x4f0570">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+&quot;No! Wait guys! Don&apos;t do this!&quot; Your friends push you out of the bedroom, and lock the door behind you. In your own house! Well, at least you know where the key is to to get back in...wait...do you?
+
+Open the Door
+An Interactive Fiction by Dylan Vodzak
+Release 1 / Serial number 141007 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="201">NO</temporary>
+    <children>
+      <child nodeId="node-0x4f4b50" />
+      <child nodeId="node-0x4f3ab0" />
+      <child nodeId="node-0x4f28c0" />
+      <child nodeId="node-0x4f2850" />
+      <child nodeId="node-0x4f2540" />
+      <child nodeId="node-0x4f1000" />
+      <child nodeId="node-0x4f0f90" />
+      <child nodeId="node-0x4f13b0" />
+      <child nodeId="node-0x4f0eb0" />
+      <child nodeId="node-0xdc63f40" />
+      <child nodeId="node-0x4f0cf0" />
+      <child nodeId="node-0x4f0800" />
+      <child nodeId="node-0x4f0610" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0610">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0680" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0680">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the oak door)
+(first taking the oak door)
+That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f06f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f06f0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f07a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f07a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Your Room
+You can see an oak door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f0800">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin safe to {Entire value here}
+
+For example: spin safe to 1234)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0960" />
+      <child nodeId="node-0x4f0870" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0870">
+    <command xml:space="preserve">spin safe to 1234</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f0960">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the Safe with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f09b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f09b0">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0a00">
+    <command xml:space="preserve">unlock key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0a70">
+    <command xml:space="preserve">spin</command>
+    <result xml:space="preserve">What do you want to spin?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0ae0">
+    <command xml:space="preserve">spin safe</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0c10">
+    <command xml:space="preserve">spin safe to 1997</command>
+    <result xml:space="preserve">You hear a, &quot;Click&quot; and the safe door swings open. You can see a flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0900" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0900">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0c80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a flashlight
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f0cf0">
+    <command xml:space="preserve">spin safe to 3939</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0d60">
+    <command xml:space="preserve">spin safe to 18385</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0dd0">
+    <command xml:space="preserve">spin safe to 1997</command>
+    <result xml:space="preserve">You hear a, &quot;Click&quot; and the safe door swings open. You can see a flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0e40">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0xdc63f40">
+    <command xml:space="preserve">x urn</command>
+    <result xml:space="preserve">A fat ern with what appears to be Chinese art along the side of it. It doesn&apos;t seem to fit into the room at all. Upon further investigation, you discover that it is empty.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x450f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x450f70">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">A relatively bland painting. It looks like its being pushed off of the wall slightly. What&apos;s behind it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x44fe60" />
+    </children>
+  </item>
+  <item nodeId="node-0x44fe60">
+    <command xml:space="preserve">open painting</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a4d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a4d00">
+    <command xml:space="preserve">behind painting</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe878f00" />
+    </children>
+  </item>
+  <item nodeId="node-0xe878f00">
+    <command xml:space="preserve">kill myself</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe836090" />
+    </children>
+  </item>
+  <item nodeId="node-0xe836090">
+    <command xml:space="preserve">look behind painting</command>
+    <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc2fe40" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc2fe40">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x456590" />
+    </children>
+  </item>
+  <item nodeId="node-0x456590">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the Safe with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8726f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8726f0">
+    <command xml:space="preserve">unlock safe with fist</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x459e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x459e40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe82cec0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe82cec0">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin dial to {Entire Value Here}
+
+For example: spin dial to 1234)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe84fd30" />
+    </children>
+  </item>
+  <item nodeId="node-0xe84fd30">
+    <command xml:space="preserve">2331314</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe82eea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe82eea0">
+    <command xml:space="preserve">unlock safe :spin dial to {1234}</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe82dce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe82dce0">
+    <command xml:space="preserve">spin dial {1234}</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8751a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8751a0">
+    <command xml:space="preserve">x combination lock</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe832840" />
+    </children>
+  </item>
+  <item nodeId="node-0xe832840">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the Safe with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8354f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8354f0">
+    <command xml:space="preserve">spin dial to {1234}</command>
+    <result xml:space="preserve">I didn&apos;t understand that number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe891580" />
+    </children>
+  </item>
+  <item nodeId="node-0xe891580">
+    <command xml:space="preserve">spin dial 1234</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe86b590" />
+    </children>
+  </item>
+  <item nodeId="node-0xe86b590">
+    <command xml:space="preserve">spin dial to 1234</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8483d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8483d0">
+    <command xml:space="preserve">fuck you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc62a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc62a80">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe834030" />
+    </children>
+  </item>
+  <item nodeId="node-0xe834030">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin dial to {Entire Value Here}
+
+For example: spin dial to 1234)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe844b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xe844b30">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe88cfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe88cfe0">
+    <command xml:space="preserve">x carpet</command>
+    <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. An air pocket of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe871810" />
+    </children>
+  </item>
+  <item nodeId="node-0xe871810">
+    <command xml:space="preserve">x air pocket</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8345c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8345c0">
+    <command xml:space="preserve">x air pocket</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc436b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc436b0">
+    <command xml:space="preserve">x air pocket</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe835090" />
+    </children>
+  </item>
+  <item nodeId="node-0xe835090">
+    <command xml:space="preserve">x dresser</command>
+    <result xml:space="preserve">A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc59140" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc59140">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe885680" />
+    </children>
+  </item>
+  <item nodeId="node-0xe885680">
+    <command xml:space="preserve">cancer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8a0ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8a0ac0">
+    <command xml:space="preserve">x brown desk</command>
+    <result xml:space="preserve">This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe847d60" />
+    </children>
+  </item>
+  <item nodeId="node-0xe847d60">
+    <command xml:space="preserve">x locked drawer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe899a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xe899a60">
+    <command xml:space="preserve">x drawer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8baa10" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8baa10">
+    <command xml:space="preserve">x bookcase</command>
+    <result xml:space="preserve">A bookcase filled with a bunch of cool science related books. None of them particularly stand out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc5b3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc5b3c0">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">A shelf filled with knick-knacks that don&apos;t seem to have any purpose. It would be wise not to touch them. None of them particularly stand out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe88d310" />
+    </children>
+  </item>
+  <item nodeId="node-0xe88d310">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe844440" />
+    </children>
+  </item>
+  <item nodeId="node-0xe844440">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8b7f40" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8b7f40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc2eaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc2eaa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc5ff90" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc5ff90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8970d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8970d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc59d60" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc59d60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc453f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc453f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc2ab40" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc2ab40">
+    <command xml:space="preserve">fuck yoi</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8940f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8940f0">
+    <command xml:space="preserve">fuck you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe870f30" />
+    </children>
+  </item>
+  <item nodeId="node-0xe870f30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdf25d20" />
+    </children>
+  </item>
+  <item nodeId="node-0xdf25d20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8c9f10" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8c9f10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8c4b90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8c4b90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc69130" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc69130">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc6cb00" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc6cb00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8c54e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8c54e0">
+    <command xml:space="preserve">x carpet</command>
+    <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. An air pocket of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8b4d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8b4d00">
+    <command xml:space="preserve">lift carpet</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8bf600" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8bf600">
+    <command xml:space="preserve">reach under carpet</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8e97a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8e97a0">
+    <command xml:space="preserve">shit under carpet</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8eb1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8eb1d0">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc6de90" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc6de90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8d62c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8d62c0">
+    <command xml:space="preserve">x yellow key</command>
+    <result xml:space="preserve">Its a yellow key for the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8e9ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8e9ce0">
+    <command xml:space="preserve">who</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8ec160" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8ec160">
+    <command xml:space="preserve">wow</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8d6e80" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8d6e80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8de6d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8de6d0">
+    <command xml:space="preserve">northeast</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8dc860" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8dc860">
+    <command xml:space="preserve">break through wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc57700" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc57700">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8f2d10" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8f2d10">
+    <command xml:space="preserve">open oak door with yellow key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe896eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe896eb0">
+    <command xml:space="preserve">fuck you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8c2dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8c2dc0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc4c610" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc4c610">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8c1170" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8c1170">
+    <command xml:space="preserve">open drawer with yellow key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8ab690" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8ab690">
+    <command xml:space="preserve">fuck you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdca8f50" />
+    </children>
+  </item>
+  <item nodeId="node-0xdca8f50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8c90b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8c90b0">
+    <command xml:space="preserve">use yellow key to trun on light</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8e6e00" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8e6e00">
+    <command xml:space="preserve">please</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8078f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8078f0">
+    <command xml:space="preserve">please</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8093d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8093d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe806310" />
+    </children>
+  </item>
+  <item nodeId="node-0xe806310">
+    <command xml:space="preserve">open yellow trunk with the yellow key</command>
+    <result xml:space="preserve">You unlock the yellow trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8a4360" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8a4360">
+    <command xml:space="preserve">open yellow trunk</command>
+    <result xml:space="preserve">A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe807330" />
+    </children>
+  </item>
+  <item nodeId="node-0xe807330">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8e75a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8e75a0">
+    <command xml:space="preserve">take toys</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc54b60" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc54b60">
+    <command xml:space="preserve">fuck toys</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26859b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26859b0">
+    <command xml:space="preserve">the fluffy ones feel great</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe805be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe805be0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2684760" />
+    </children>
+  </item>
+  <item nodeId="node-0x2684760">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">A king sized bed that seems really comfortable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdcb8f90" />
+    </children>
+  </item>
+  <item nodeId="node-0xdcb8f90">
+    <command xml:space="preserve">x TV</command>
+    <result xml:space="preserve">A large flatscreen TV that seems to make this room a little cozier. You and your friends were watching it earlier, but it is turned off now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x267f3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x267f3d0">
+    <command xml:space="preserve">x  black desk</command>
+    <result xml:space="preserve">A regular desk that your mom never uses. It doesn&apos;t even seem like there is anything on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdca5860" />
+    </children>
+  </item>
+  <item nodeId="node-0xdca5860">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc610f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc610f0">
+    <command xml:space="preserve">ee</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x263b4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x263b4f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc632b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc632b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x261bcb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x261bcb0">
+    <command xml:space="preserve">open oak door with red dick</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc67780" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc67780">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2691670" />
+    </children>
+  </item>
+  <item nodeId="node-0x2691670">
+    <command xml:space="preserve">look behind painintg</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2607290" />
+    </children>
+  </item>
+  <item nodeId="node-0x2607290">
+    <command xml:space="preserve">look behind painting</command>
+    <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe81a350" />
+    </children>
+  </item>
+  <item nodeId="node-0xe81a350">
+    <command xml:space="preserve">open safe with red key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to be something you can unlock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc9de10" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc9de10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x260c110" />
+    </children>
+  </item>
+  <item nodeId="node-0x260c110">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc8b840" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc8b840">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2683d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x2683d70">
+    <command xml:space="preserve">x drawer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26acde0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26acde0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26f4000" />
+    </children>
+  </item>
+  <item nodeId="node-0x26f4000">
+    <command xml:space="preserve">x red key</command>
+    <result xml:space="preserve">Its a red key for the dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8fab00" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8fab00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8e6f80" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8e6f80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8f1990" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8f1990">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8f03c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8f03c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26edd00" />
+    </children>
+  </item>
+  <item nodeId="node-0x26edd00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdcb20d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdcb20d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc4fa90" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc4fa90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc775f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc775f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc677f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc677f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc92ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc92ae0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xde6c010" />
+    </children>
+  </item>
+  <item nodeId="node-0xde6c010">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc3da40" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc3da40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdcda240" />
+    </children>
+  </item>
+  <item nodeId="node-0xdcda240">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc303f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc303f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdceb290" />
+    </children>
+  </item>
+  <item nodeId="node-0xdceb290">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8f0430" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8f0430">
+    <command xml:space="preserve">open dresser with red key</command>
+    <result xml:space="preserve">You unlock the red dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe80d330" />
+    </children>
+  </item>
+  <item nodeId="node-0xe80d330">
+    <command xml:space="preserve">suck a dick</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe819670" />
+    </children>
+  </item>
+  <item nodeId="node-0xe819670">
+    <command xml:space="preserve">x dresser</command>
+    <result xml:space="preserve">A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8f51e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8f51e0">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">DVD&apos;s and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8ddb60" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8ddb60">
+    <command xml:space="preserve">take brown key</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26b5af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26b5af0">
+    <command xml:space="preserve">fuck you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8cc4e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8cc4e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26f3f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x26f3f00">
+    <command xml:space="preserve">open oak door with oak dick</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open the oak door with the oak door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe882b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xe882b30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdca4e70" />
+    </children>
+  </item>
+  <item nodeId="node-0xdca4e70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26a31b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26a31b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26ee040" />
+    </children>
+  </item>
+  <item nodeId="node-0x26ee040">
+    <command xml:space="preserve">x brown key</command>
+    <result xml:space="preserve">Its a brown key for the desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8e7040" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8e7040">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a brown key
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26f9490" />
+    </children>
+  </item>
+  <item nodeId="node-0x26f9490">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26c40a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26c40a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdcb6f10" />
+    </children>
+  </item>
+  <item nodeId="node-0xdcb6f10">
+    <command xml:space="preserve">open desk with brown key</command>
+    <result xml:space="preserve">You unlock the brown desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdceca60" />
+    </children>
+  </item>
+  <item nodeId="node-0xdceca60">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe80def0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe80def0">
+    <command xml:space="preserve">x instructions</command>
+    <result xml:space="preserve">A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, &quot;1997&quot;.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe80e5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe80e5b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8f8550" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8f8550">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin dial to {Entire Value Here}
+
+For example: spin dial to 1234)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdca6410" />
+    </children>
+  </item>
+  <item nodeId="node-0xdca6410">
+    <command xml:space="preserve">spin dial 19976]</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdcd0c00" />
+    </children>
+  </item>
+  <item nodeId="node-0xdcd0c00">
+    <command xml:space="preserve">spind tial 1997</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe802ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe802ae0">
+    <command xml:space="preserve">spin dial 1997</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26159b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26159b0">
+    <command xml:space="preserve">spin dial to 1997</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot; and the safe door swings open. You can see a flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26f9ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26f9ed0">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe80cdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe80cdc0">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You click the flashlight on
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8adfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8adfd0">
+    <command xml:space="preserve">turn off flashlight</command>
+    <result xml:space="preserve">You click the flashlight off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26e99b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26e99b0">
+    <command xml:space="preserve">save battery</command>
+    <result xml:space="preserve">I only understood you as far as wanting to save.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe800d90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe800d90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2613050" />
+    </children>
+  </item>
+  <item nodeId="node-0x2613050">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x269ccc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x269ccc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdcd1230" />
+    </children>
+  </item>
+  <item nodeId="node-0xdcd1230">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc07350" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc07350">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26c5050" />
+    </children>
+  </item>
+  <item nodeId="node-0x26c5050">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You click the flashlight on
+Study
+A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. The guest bedroom is to the east, and the office is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26a19a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26a19a0">
+    <command xml:space="preserve">x grandfather clock</command>
+    <result xml:space="preserve">A big grandfather clock that your parents have had forever. Upon checking the time, you discover that a lot of time has passed since your friends arrived.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xe80a140" />
+    </children>
+  </item>
+  <item nodeId="node-0xe80a140">
+    <command xml:space="preserve">x couch</command>
+    <result xml:space="preserve">A big couch that you often take naps on. Nothing seems really important about it, other than the fact that its really comfy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26c2c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x26c2c60">
+    <command xml:space="preserve">x rug</command>
+    <result xml:space="preserve">A rug smaller than the one in the family room. Nothing seems to special about it, other than the interesting designs.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2669e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x2669e20">
+    <command xml:space="preserve">x potted fiscus</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f2da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f2da0">
+    <command xml:space="preserve">x potted ficus</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26a3e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x26a3e30">
+    <command xml:space="preserve">x ficus</command>
+    <result xml:space="preserve">A fake plant that seems to be just for decoration. But on further inspection you see a brass key near the base of the plant...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xa363da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa363da0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a flashlight (providing light)
+  Instructions
+  a brown key
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2600d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x2600d30">
+    <command xml:space="preserve">take brass key </command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc0d8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc0d8c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3491b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3491b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xa376e70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa376e70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2614750" />
+    </children>
+  </item>
+  <item nodeId="node-0x2614750">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Study
+A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. The guest bedroom is to the east, and the office is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26e4910" />
+    </children>
+  </item>
+  <item nodeId="node-0x26e4910">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26d1d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x26d1d90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Study
+A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. The guest bedroom is to the east, and the office is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x3a8d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x3a8d80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xa380300" />
+    </children>
+  </item>
+  <item nodeId="node-0xa380300">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26b1280" />
+    </children>
+  </item>
+  <item nodeId="node-0x26b1280">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f1610" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f1610">
+    <command xml:space="preserve">open oak door with brass key</command>
+    <result xml:space="preserve">Unlocking the door, you quickly barge into your room, tackling your friends. You all get up and laugh about it for a while. They didn&apos;t realize you had a key in the house somewhere. You then tell them your adventure.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x2679630" />
+    </children>
+  </item>
+  <item nodeId="node-0x2679630">
+    <command xml:space="preserve">fuck you</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x26d7cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x26d7cb0">
+    <command xml:space="preserve">mother fucker</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x261e360" />
+    </children>
+  </item>
+  <item nodeId="node-0x261e360">
+    <command xml:space="preserve">that was hard</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f6860" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f6860">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x3b6c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x3b6c40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ec340" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ec340">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+    <children>
+      <child nodeId="node-0xa35af10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa35af10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="180">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f0eb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1180" />
+      <child nodeId="node-0x4f0b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0b50">
+    <command xml:space="preserve">x desk</command>
+    <result xml:space="preserve">This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0ba0">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f10a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f10a0">
+    <command xml:space="preserve">unlock desk</command>
+    <result xml:space="preserve">(with the brown desk)
+(first taking the brown desk)
+That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1110" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1110">
+    <command xml:space="preserve">unlock desk with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f1180">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f11f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f11f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1260" />
+      <child nodeId="node-0xa32ea00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ea00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4a6740" />
+    </children>
+  </item>
+  <item nodeId="node-0x4a6740">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x451850" />
+    </children>
+  </item>
+  <item nodeId="node-0x451850">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f1260">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f12d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f12d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1340" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1340">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f13b0">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">A relatively bland painting. It looks like its being pushed off of the wall slightly. What&apos;s behind it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1500" />
+      <child nodeId="node-0x4f1420" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1420">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1490" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1490">
+    <command xml:space="preserve">look behind painting</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f1500">
+    <command xml:space="preserve">look behind painting</command>
+    <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f0f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f0f20">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin safe to {Entire Value Here}
+
+For example: spin safe to 1234)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f0f90">
+    <command xml:space="preserve">x oak door</command>
+    <result xml:space="preserve">A nice oak door that leads to your room. It is also the only thing keeping you from stangling your friends.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f1000">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2310" />
+      <child nodeId="node-0x4f17b0" />
+      <child nodeId="node-0x4f2380" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2380">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the oak door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f23f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f23f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Family Room
+This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2460" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2460">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f24d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f24d0">
+    <command xml:space="preserve">take brass key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f17b0">
+    <command xml:space="preserve">look under carper</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1820" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1820">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1890" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1890">
+    <command xml:space="preserve">take yellow key</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1900" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1900">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1970" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1970">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f19e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f19e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1a50">
+    <command xml:space="preserve">unlock trunk with yellow key</command>
+    <result xml:space="preserve">You unlock the yellow trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1ac0">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1b30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1ba0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1c10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1c80">
+    <command xml:space="preserve">unlock dresser with red key</command>
+    <result xml:space="preserve">You unlock the red dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1cf0">
+    <command xml:space="preserve">open red dresser</command>
+    <result xml:space="preserve">DVD&apos;s and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1d60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1dd0">
+    <command xml:space="preserve">unlock desk with brown key</command>
+    <result xml:space="preserve">You unlock the brown desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1e40">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1eb0">
+    <command xml:space="preserve">x safe instructions</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1570" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1570">
+    <command xml:space="preserve">x instructions</command>
+    <result xml:space="preserve">A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, &quot;1997&quot;.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f15e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f15e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1650" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1650">
+    <command xml:space="preserve">look behind painting</command>
+    <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f16c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f16c0">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin dial to {Entire Value Here}
+
+For example: spin dial to 1234)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1730" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1730">
+    <command xml:space="preserve">spin dial to 1997</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot; and the safe door swings open. You can see a flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1f20">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f1f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f1f90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2000" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2000">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2070" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2070">
+    <command xml:space="preserve">turn flashlight on</command>
+    <result xml:space="preserve">You click the flashlight on
+Study
+A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. The guest bedroom is to the east, and the office is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f20e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f20e0">
+    <command xml:space="preserve">take brass key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2150" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2150">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f21c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f21c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2230" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2230">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f22a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f22a0">
+    <command xml:space="preserve">unlock door with brass key</command>
+    <result xml:space="preserve">Unlocking the door, you quickly barge into your room, tackling your friends. You all get up and laugh about it for a while. They didn&apos;t realize you had a key in the house somewhere. You then tell them your adventure.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="166">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f2310">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f2540">
+    <command xml:space="preserve">x carpet</command>
+    <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. An air pocket of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xdccf330" />
+      <child nodeId="node-0x4f2620" />
+      <child nodeId="node-0x4f25b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f25b0">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">This might come in handy. I guess it wasn&apos;t an air-pocket in the carpet after all.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f2620">
+    <command xml:space="preserve">take carpet</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2690" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2690">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2700" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2700">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2770" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2770">
+    <command xml:space="preserve">x yellow key</command>
+    <result xml:space="preserve">Its a yellow key for the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f27e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f27e0">
+    <command xml:space="preserve">e</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+  </item>
+  <item nodeId="node-0xdccf330">
+    <command xml:space="preserve">lift carpet</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xe855da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe855da0">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0x453530" />
+    </children>
+  </item>
+  <item nodeId="node-0x453530">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0x45ed50" />
+    </children>
+  </item>
+  <item nodeId="node-0x45ed50">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">A relatively bland painting placed awkardly on the wall. It looks like its being pushed off of the wall slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xe862fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe862fe0">
+    <command xml:space="preserve">look behind painting</command>
+    <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0x451250" />
+    </children>
+  </item>
+  <item nodeId="node-0x451250">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to be something you can unlock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xe834c20" />
+    </children>
+  </item>
+  <item nodeId="node-0xe834c20">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin dial to {Entire Value Here}
+
+For example: spin dial to 1234)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0x4d20f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4d20f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0x2684860" />
+    </children>
+  </item>
+  <item nodeId="node-0x2684860">
+    <command xml:space="preserve">x dresser</command>
+    <result xml:space="preserve">A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xdf42ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdf42ba0">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">DVD&apos;s and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc22520" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc22520">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a brown key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0x44f010" />
+    </children>
+  </item>
+  <item nodeId="node-0x44f010">
+    <command xml:space="preserve">x dvds</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc59690" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc59690">
+    <command xml:space="preserve">x dvd</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xe840c80" />
+    </children>
+  </item>
+  <item nodeId="node-0xe840c80">
+    <command xml:space="preserve">x cds</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc9dab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc9dab0">
+    <command xml:space="preserve">xcd</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8c4300" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8c4300">
+    <command xml:space="preserve">x cd</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0x450760" />
+    </children>
+  </item>
+  <item nodeId="node-0x450760">
+    <command xml:space="preserve">x armchair</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8ee6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8ee6c0">
+    <command xml:space="preserve">x arm chair</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="201">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc7abd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc7abd0">
+    <command xml:space="preserve">x urn</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="200">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f2850">
+    <command xml:space="preserve">spin safe to 1132</command>
+    <result xml:space="preserve">Click! and nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f28c0">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3a40" />
+      <child nodeId="node-0x4f3180" />
+      <child nodeId="node-0x4f2930" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2930">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f29a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f29a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2a10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2a80">
+    <command xml:space="preserve">unlock yellow trunk</command>
+    <result xml:space="preserve">(with the yellow key)
+You unlock the yellow trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2af0">
+    <command xml:space="preserve">open trukn</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2b60">
+    <command xml:space="preserve">open trun</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2bd0">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">You open the yellow trunk, revealing a red key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2c40">
+    <command xml:space="preserve">take red key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2cb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2d20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2d90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2e00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2e70" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2e70">
+    <command xml:space="preserve">unlock dresser with red key</command>
+    <result xml:space="preserve">You unlock the red dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2ee0">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">You open the red dresser, revealing a brown key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2f50">
+    <command xml:space="preserve">take brown key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f2fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f2fc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3030" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3030">
+    <command xml:space="preserve">unlock desk with brown key</command>
+    <result xml:space="preserve">You unlock the brown desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f30a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f30a0">
+    <command xml:space="preserve">open brown desk</command>
+    <result xml:space="preserve">Opening the desk, you see the safe instructions that your dad put in here. This might come in handy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3110" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3110">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  an instructions
+  a brown key
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f3180">
+    <command xml:space="preserve">take carpet</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f31f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f31f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn&apos;t a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3260" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3260">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f32d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f32d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3340" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3340">
+    <command xml:space="preserve">unlock trunk</command>
+    <result xml:space="preserve">(with the yellow key)
+You unlock the yellow trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f33b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f33b0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3420" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3420">
+    <command xml:space="preserve">take red key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3490" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3490">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">You open the yellow trunk, revealing a red key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3500" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3500">
+    <command xml:space="preserve">take red key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3570" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3570">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Study
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f35e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f35e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn&apos;t a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3650" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3650">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A safe is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f36c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f36c0">
+    <command xml:space="preserve">unlock dresser</command>
+    <result xml:space="preserve">What do you want to unlock the red dresser with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3730" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3730">
+    <command xml:space="preserve">unlock dresser with red key</command>
+    <result xml:space="preserve">You unlock the red dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f37a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f37a0">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">You open the red dresser, revealing a brown key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3810" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3810">
+    <command xml:space="preserve">take brown key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3880" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3880">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, because you convinced them that it wasn&apos;t a good idea to stay. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f38f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f38f0">
+    <command xml:space="preserve">unlock desk with brown key</command>
+    <result xml:space="preserve">You unlock the brown desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3960" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3960">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a brown key
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f39d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f39d0">
+    <command xml:space="preserve">x yellow key</command>
+    <result xml:space="preserve">You see nothing special about the yellow key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f3a40">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f3ab0">
+    <command xml:space="preserve">look behind painting</command>
+    <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3b20" />
+      <child nodeId="node-0x4f3c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3c00">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3c70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3ce0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3d50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3dc0">
+    <command xml:space="preserve">unlock yellow trunk</command>
+    <result xml:space="preserve">(with the yellow key)
+You unlock the yellow trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3e30">
+    <command xml:space="preserve">open yellow trunk</command>
+    <result xml:space="preserve">A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3ea0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3f10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3f80" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3f80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3ff0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4060" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4060">
+    <command xml:space="preserve">unlock dresser</command>
+    <result xml:space="preserve">What do you want to unlock the red dresser with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f40d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f40d0">
+    <command xml:space="preserve">unlock dresser with red key</command>
+    <result xml:space="preserve">You unlock the red dresser.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4140" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4140">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">DVD&apos;s and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f41b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f41b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4220" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4220">
+    <command xml:space="preserve">unlock brown desk with brown key</command>
+    <result xml:space="preserve">You unlock the brown desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4290" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4290">
+    <command xml:space="preserve">open brown desk</command>
+    <result xml:space="preserve">Opening the desk, you see the safe instructions that your dad put in here. This might come in handy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4300" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4300">
+    <command xml:space="preserve">x safe instructions</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4370" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4370">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f43e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f43e0">
+    <command xml:space="preserve">look behind painting</command>
+    <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4450" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4450">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
+
+(HINT: When unlocking the safe, type: spin safe to {Entire Value Here}
+
+For example: spin safe to 1234)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f44c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f44c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Instructions
+  a brown key
+  a red key
+  a yellow key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4530" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4530">
+    <command xml:space="preserve">spin safe to 1997</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot; and the safe door swings open. You can see a flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f45a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f45a0">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4610" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4610">
+    <command xml:space="preserve">turn flashlight on</command>
+    <result xml:space="preserve">You click the flashlight on
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4680" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4680">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f46f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f46f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Study
+A hangout area for the house other then the family room. You remember that the lightbulb sputtered out while you and your friends were in there, making everyone retreat to your room. There is a grandfather clock in the the northwest corner of the room. A couch is resting against the north wall, and a potted ficus is in the southwest corner. A rug is sprawled across the floor. The guest bedroom is to the east, and the office is to the south.
+
+You can see a brass key here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4760" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4760">
+    <command xml:space="preserve">take brass key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f47d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f47d0">
+    <command xml:space="preserve">x brass key</command>
+    <result xml:space="preserve">A key to your room that you put in the fake ficus for emergencies just like this.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4840" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4840">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f48b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f48b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4920" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4920">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4990" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4990">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Unlocking the door, you quickly barge into your room, tackling your friends. You all get up and laugh about it for a while. They didn&apos;t realize you had a key in the house somewhere. You then tell them your adventure.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4a00">
+    <command xml:space="preserve">unlock door with brass key</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4a70">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4ae0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f3b20">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f3b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f3b90">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+You can see a painting here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x4f4b50">
+    <command xml:space="preserve">Take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4bc0">
+    <command xml:space="preserve">unlock oak door</command>
+    <result xml:space="preserve">(with the brass key)
+You unlock the oak door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4c30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the oak door)
+
+Your Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+</Skein>
