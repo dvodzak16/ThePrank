@@ -8,9 +8,11 @@ Your friends push you out of the bedroom, and lock the door behind you. In your 
 
 Family Room is a room. The description is "This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south."
 
-The red dresser is scenery. It is a closed openable container. It is in the Family Room. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
+The red dresser is a closed openable container. It is in the Family Room. It is undescribed. It is lockable and locked. The description is "A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this."
 
-Instead of opening the red dresser: say "DVD's and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.";
+Instead of taking the red dresser: say "That's too heavy.";
+
+After opening the red dresser: say "DVD's and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.";
 	move the brown key to the player.
 
 The red key unlocks the red dresser. The red key is in the yellow trunk. The description is "Its a red key for the dresser."
@@ -98,7 +100,7 @@ Instructions is a thing in the brown desk. The description is "A 10 paged pamphl
 
 The brown desk is scenery in the office. It is a closed and openable container. It is lockable and locked. The description is "This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out."
 
-Instead of opening the brown desk: say "Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy.";
+After opening the brown desk: say "Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy.";
 	move the Instructions to the player.
 
 The bookcase is scenery in the office. The description is "A bookcase filled with a bunch of cool science related books. None of them particularly stand out."
@@ -132,7 +134,7 @@ The black desk is scenery in the Bedroom. The description is "A regular desk tha
 
 The yellow trunk is scenery. It is a closed and openable container. It is in the the Bedroom. It is lockable and locked. The description is "A yellow trunk that your mom thought was 'stylish'. Although there was a disagreement, it ended up in the guest bedroom anyway. It houses all of your old toys, because your room is too crammed."
 
-Instead of opening the trunk: say "A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.";
+After opening the trunk: say "A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.";
 	move the red key to the player.
 	
 Instead of unlocking the door with the brass key:
