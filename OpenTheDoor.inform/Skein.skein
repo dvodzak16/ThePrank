@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x4f0570" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1de500" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x2047b0" />
-  <item nodeId="node-0x4f0570">
+  <activeNode nodeId="node-0x1de500" />
+  <item nodeId="node-0x1de500">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -16,65 +16,149 @@ Release 1 / Serial number 141007 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 Family Room
 This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
 
-You can see a red dresser (closed) here.
-
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="237">NO</temporary>
+    <temporary score="254">NO</temporary>
     <children>
-      <child nodeId="node-0x4f4b50" />
-      <child nodeId="node-0x4f3ab0" />
-      <child nodeId="node-0x4f28c0" />
-      <child nodeId="node-0x4f2850" />
-      <child nodeId="node-0x4f2540" />
-      <child nodeId="node-0x4f1000" />
-      <child nodeId="node-0x2047b0" />
-      <child nodeId="node-0x4f13b0" />
-      <child nodeId="node-0x4f0eb0" />
-      <child nodeId="node-0xdc63f40" />
-      <child nodeId="node-0x4f0cf0" />
-      <child nodeId="node-0x4f0800" />
-      <child nodeId="node-0x4f0610" />
+      <child nodeId="node-0x747f070" />
+      <child nodeId="node-0x747e0b0" />
+      <child nodeId="node-0x747cd70" />
+      <child nodeId="node-0x747cd00" />
+      <child nodeId="node-0x747bf00" />
+      <child nodeId="node-0x747af40" />
+      <child nodeId="node-0x747ad80" />
+      <child nodeId="node-0x747aca0" />
+      <child nodeId="node-0x747a7d0" />
+      <child nodeId="node-0x7475cf0" />
+      <child nodeId="node-0x74756a0" />
+      <child nodeId="node-0x74755e0" />
+      <child nodeId="node-0x1de570" />
     </children>
   </item>
-  <item nodeId="node-0x4f0610">
+  <item nodeId="node-0x1de570">
+    <command xml:space="preserve">x dresser</command>
+    <result xml:space="preserve">A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0x1de5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1de5c0">
+    <command xml:space="preserve">look under carpet</command>
+    <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0x74752a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74752a0">
+    <command xml:space="preserve">x yellow key</command>
+    <result xml:space="preserve">Its a yellow key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0x74752f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74752f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Family Room
+This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0x7475340" />
+    </children>
+  </item>
+  <item nodeId="node-0x7475340">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Office
+This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0x7475390" />
+    </children>
+  </item>
+  <item nodeId="node-0x7475390">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the oak door)
-It seems to be locked.
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="254">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0680" />
+      <child nodeId="node-0x7475460" />
     </children>
   </item>
-  <item nodeId="node-0x4f0680">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the oak door)
-(first taking the oak door)
-That&apos;s fixed in place.
+  <item nodeId="node-0x7475460">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="254">YES</temporary>
     <children>
-      <child nodeId="node-0x4f06f0" />
+      <child nodeId="node-0x74754b0" />
     </children>
   </item>
-  <item nodeId="node-0x4f06f0">
+  <item nodeId="node-0x74754b0">
     <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
+    <result xml:space="preserve">You are carrying:
+  a yellow key
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0x7475500" />
+    </children>
   </item>
-  <item nodeId="node-0x4f0800">
+  <item nodeId="node-0x7475500">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0x7475570" />
+    </children>
+  </item>
+  <item nodeId="node-0x7475570">
+    <command xml:space="preserve">x trunk</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+  </item>
+  <item nodeId="node-0x74755e0">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -87,11 +171,11 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="31">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0960" />
-      <child nodeId="node-0x4f0870" />
+      <child nodeId="node-0x7475400" />
+      <child nodeId="node-0x7475710" />
     </children>
   </item>
-  <item nodeId="node-0x4f0870">
+  <item nodeId="node-0x7475710">
     <command xml:space="preserve">spin safe to 1234</command>
     <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
 
@@ -100,7 +184,7 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
   </item>
-  <item nodeId="node-0x4f0960">
+  <item nodeId="node-0x7475400">
     <command xml:space="preserve">unlock safe</command>
     <result xml:space="preserve">What do you want to unlock the Safe with?
 
@@ -109,10 +193,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f09b0" />
+      <child nodeId="node-0x7475780" />
     </children>
   </item>
-  <item nodeId="node-0x4f09b0">
+  <item nodeId="node-0x7475780">
     <command xml:space="preserve">key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -121,10 +205,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0a00" />
+      <child nodeId="node-0x74757f0" />
     </children>
   </item>
-  <item nodeId="node-0x4f0a00">
+  <item nodeId="node-0x74757f0">
     <command xml:space="preserve">unlock key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -133,10 +217,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0a70" />
+      <child nodeId="node-0x7475860" />
     </children>
   </item>
-  <item nodeId="node-0x4f0a70">
+  <item nodeId="node-0x7475860">
     <command xml:space="preserve">spin</command>
     <result xml:space="preserve">What do you want to spin?
 
@@ -145,10 +229,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0ae0" />
+      <child nodeId="node-0x74758d0" />
     </children>
   </item>
-  <item nodeId="node-0x4f0ae0">
+  <item nodeId="node-0x74758d0">
     <command xml:space="preserve">spin safe</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -157,10 +241,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0c10" />
+      <child nodeId="node-0x7475940" />
     </children>
   </item>
-  <item nodeId="node-0x4f0c10">
+  <item nodeId="node-0x7475940">
     <command xml:space="preserve">spin safe to 1997</command>
     <result xml:space="preserve">You hear a, &quot;Click&quot; and the safe door swings open. You can see a flashlight.
 
@@ -169,10 +253,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0900" />
+      <child nodeId="node-0x74759b0" />
     </children>
   </item>
-  <item nodeId="node-0x4f0900">
+  <item nodeId="node-0x74759b0">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -181,10 +265,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0c80" />
+      <child nodeId="node-0x7475650" />
     </children>
   </item>
-  <item nodeId="node-0x4f0c80">
+  <item nodeId="node-0x7475650">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a flashlight
@@ -194,7 +278,7 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x4f0cf0">
+  <item nodeId="node-0x74756a0">
     <command xml:space="preserve">spin safe to 3939</command>
     <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
 
@@ -203,10 +287,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0d60" />
+      <child nodeId="node-0x7475ba0" />
     </children>
   </item>
-  <item nodeId="node-0x4f0d60">
+  <item nodeId="node-0x7475ba0">
     <command xml:space="preserve">spin safe to 18385</command>
     <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
 
@@ -215,10 +299,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0dd0" />
+      <child nodeId="node-0x7475c10" />
     </children>
   </item>
-  <item nodeId="node-0x4f0dd0">
+  <item nodeId="node-0x7475c10">
     <command xml:space="preserve">spin safe to 1997</command>
     <result xml:space="preserve">You hear a, &quot;Click&quot; and the safe door swings open. You can see a flashlight.
 
@@ -227,10 +311,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0e40" />
+      <child nodeId="node-0x7475c80" />
     </children>
   </item>
-  <item nodeId="node-0x4f0e40">
+  <item nodeId="node-0x7475c80">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -239,7 +323,7 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0xdc63f40">
+  <item nodeId="node-0x7475cf0">
     <command xml:space="preserve">x urn</command>
     <result xml:space="preserve">A fat ern with what appears to be Chinese art along the side of it. It doesn&apos;t seem to fit into the room at all. Upon further investigation, you discover that it is empty.
 
@@ -248,10 +332,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x450f70" />
+      <child nodeId="node-0x7475d60" />
     </children>
   </item>
-  <item nodeId="node-0x450f70">
+  <item nodeId="node-0x7475d60">
     <command xml:space="preserve">x painting</command>
     <result xml:space="preserve">A relatively bland painting. It looks like its being pushed off of the wall slightly. What&apos;s behind it?
 
@@ -260,10 +344,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x44fe60" />
+      <child nodeId="node-0x7475dd0" />
     </children>
   </item>
-  <item nodeId="node-0x44fe60">
+  <item nodeId="node-0x7475dd0">
     <command xml:space="preserve">open painting</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
@@ -272,10 +356,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2a4d00" />
+      <child nodeId="node-0x7475e40" />
     </children>
   </item>
-  <item nodeId="node-0x2a4d00">
+  <item nodeId="node-0x7475e40">
     <command xml:space="preserve">behind painting</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -284,10 +368,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe878f00" />
+      <child nodeId="node-0x7475eb0" />
     </children>
   </item>
-  <item nodeId="node-0xe878f00">
+  <item nodeId="node-0x7475eb0">
     <command xml:space="preserve">kill myself</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -296,10 +380,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe836090" />
+      <child nodeId="node-0x7475f20" />
     </children>
   </item>
-  <item nodeId="node-0xe836090">
+  <item nodeId="node-0x7475f20">
     <command xml:space="preserve">look behind painting</command>
     <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
 
@@ -308,10 +392,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc2fe40" />
+      <child nodeId="node-0x7475f90" />
     </children>
   </item>
-  <item nodeId="node-0xdc2fe40">
+  <item nodeId="node-0x7475f90">
     <command xml:space="preserve">open safe</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
@@ -320,10 +404,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x456590" />
+      <child nodeId="node-0x7476000" />
     </children>
   </item>
-  <item nodeId="node-0x456590">
+  <item nodeId="node-0x7476000">
     <command xml:space="preserve">unlock safe</command>
     <result xml:space="preserve">What do you want to unlock the Safe with?
 
@@ -332,10 +416,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8726f0" />
+      <child nodeId="node-0x7475a20" />
     </children>
   </item>
-  <item nodeId="node-0xe8726f0">
+  <item nodeId="node-0x7475a20">
     <command xml:space="preserve">unlock safe with fist</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -344,10 +428,10 @@ For example: spin safe to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x459e40" />
+      <child nodeId="node-0x7475a90" />
     </children>
   </item>
-  <item nodeId="node-0x459e40">
+  <item nodeId="node-0x7475a90">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Family Room
 This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
@@ -357,10 +441,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe82cec0" />
+      <child nodeId="node-0x7475b00" />
     </children>
   </item>
-  <item nodeId="node-0xe82cec0">
+  <item nodeId="node-0x7475b00">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -373,10 +457,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe84fd30" />
+      <child nodeId="node-0x74762b0" />
     </children>
   </item>
-  <item nodeId="node-0xe84fd30">
+  <item nodeId="node-0x74762b0">
     <command xml:space="preserve">2331314</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -385,10 +469,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe82eea0" />
+      <child nodeId="node-0x7476320" />
     </children>
   </item>
-  <item nodeId="node-0xe82eea0">
+  <item nodeId="node-0x7476320">
     <command xml:space="preserve">unlock safe :spin dial to {1234}</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -397,10 +481,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe82dce0" />
+      <child nodeId="node-0x7476390" />
     </children>
   </item>
-  <item nodeId="node-0xe82dce0">
+  <item nodeId="node-0x7476390">
     <command xml:space="preserve">spin dial {1234}</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -409,10 +493,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8751a0" />
+      <child nodeId="node-0x7476400" />
     </children>
   </item>
-  <item nodeId="node-0xe8751a0">
+  <item nodeId="node-0x7476400">
     <command xml:space="preserve">x combination lock</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -421,10 +505,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe832840" />
+      <child nodeId="node-0x7476470" />
     </children>
   </item>
-  <item nodeId="node-0xe832840">
+  <item nodeId="node-0x7476470">
     <command xml:space="preserve">unlock safe</command>
     <result xml:space="preserve">What do you want to unlock the Safe with?
 
@@ -433,10 +517,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8354f0" />
+      <child nodeId="node-0x74764e0" />
     </children>
   </item>
-  <item nodeId="node-0xe8354f0">
+  <item nodeId="node-0x74764e0">
     <command xml:space="preserve">spin dial to {1234}</command>
     <result xml:space="preserve">I didn&apos;t understand that number.
 
@@ -445,10 +529,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe891580" />
+      <child nodeId="node-0x7476550" />
     </children>
   </item>
-  <item nodeId="node-0xe891580">
+  <item nodeId="node-0x7476550">
     <command xml:space="preserve">spin dial 1234</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -457,10 +541,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe86b590" />
+      <child nodeId="node-0x74765c0" />
     </children>
   </item>
-  <item nodeId="node-0xe86b590">
+  <item nodeId="node-0x74765c0">
     <command xml:space="preserve">spin dial to 1234</command>
     <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
 
@@ -469,10 +553,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8483d0" />
+      <child nodeId="node-0x7476630" />
     </children>
   </item>
-  <item nodeId="node-0xe8483d0">
+  <item nodeId="node-0x7476630">
     <command xml:space="preserve">fuck you</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -481,10 +565,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc62a80" />
+      <child nodeId="node-0x74766a0" />
     </children>
   </item>
-  <item nodeId="node-0xdc62a80">
+  <item nodeId="node-0x74766a0">
     <command xml:space="preserve">open safe</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
@@ -493,10 +577,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe834030" />
+      <child nodeId="node-0x7476710" />
     </children>
   </item>
-  <item nodeId="node-0xe834030">
+  <item nodeId="node-0x7476710">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -509,10 +593,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe844b30" />
+      <child nodeId="node-0x7476780" />
     </children>
   </item>
-  <item nodeId="node-0xe844b30">
+  <item nodeId="node-0x7476780">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Family Room
 This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
@@ -522,10 +606,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe88cfe0" />
+      <child nodeId="node-0x74767f0" />
     </children>
   </item>
-  <item nodeId="node-0xe88cfe0">
+  <item nodeId="node-0x74767f0">
     <command xml:space="preserve">x carpet</command>
     <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. An air pocket of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
 
@@ -534,10 +618,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe871810" />
+      <child nodeId="node-0x7476860" />
     </children>
   </item>
-  <item nodeId="node-0xe871810">
+  <item nodeId="node-0x7476860">
     <command xml:space="preserve">x air pocket</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -546,10 +630,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8345c0" />
+      <child nodeId="node-0x74768d0" />
     </children>
   </item>
-  <item nodeId="node-0xe8345c0">
+  <item nodeId="node-0x74768d0">
     <command xml:space="preserve">x air pocket</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -558,10 +642,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc436b0" />
+      <child nodeId="node-0x7476940" />
     </children>
   </item>
-  <item nodeId="node-0xdc436b0">
+  <item nodeId="node-0x7476940">
     <command xml:space="preserve">x air pocket</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -570,10 +654,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe835090" />
+      <child nodeId="node-0x74769b0" />
     </children>
   </item>
-  <item nodeId="node-0xe835090">
+  <item nodeId="node-0x74769b0">
     <command xml:space="preserve">x dresser</command>
     <result xml:space="preserve">A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this.
 
@@ -582,10 +666,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc59140" />
+      <child nodeId="node-0x7476070" />
     </children>
   </item>
-  <item nodeId="node-0xdc59140">
+  <item nodeId="node-0x7476070">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -596,10 +680,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe885680" />
+      <child nodeId="node-0x74760e0" />
     </children>
   </item>
-  <item nodeId="node-0xe885680">
+  <item nodeId="node-0x74760e0">
     <command xml:space="preserve">cancer</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -608,10 +692,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8a0ac0" />
+      <child nodeId="node-0x7476150" />
     </children>
   </item>
-  <item nodeId="node-0xe8a0ac0">
+  <item nodeId="node-0x7476150">
     <command xml:space="preserve">x brown desk</command>
     <result xml:space="preserve">This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out.
 
@@ -620,10 +704,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe847d60" />
+      <child nodeId="node-0x74761c0" />
     </children>
   </item>
-  <item nodeId="node-0xe847d60">
+  <item nodeId="node-0x74761c0">
     <command xml:space="preserve">x locked drawer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -632,10 +716,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe899a60" />
+      <child nodeId="node-0x7476230" />
     </children>
   </item>
-  <item nodeId="node-0xe899a60">
+  <item nodeId="node-0x7476230">
     <command xml:space="preserve">x drawer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -644,10 +728,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8baa10" />
+      <child nodeId="node-0x7476a20" />
     </children>
   </item>
-  <item nodeId="node-0xe8baa10">
+  <item nodeId="node-0x7476a20">
     <command xml:space="preserve">x bookcase</command>
     <result xml:space="preserve">A bookcase filled with a bunch of cool science related books. None of them particularly stand out.
 
@@ -656,10 +740,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc5b3c0" />
+      <child nodeId="node-0x7476a90" />
     </children>
   </item>
-  <item nodeId="node-0xdc5b3c0">
+  <item nodeId="node-0x7476a90">
     <command xml:space="preserve">x shelf</command>
     <result xml:space="preserve">A shelf filled with knick-knacks that don&apos;t seem to have any purpose. It would be wise not to touch them. None of them particularly stand out.
 
@@ -668,10 +752,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe88d310" />
+      <child nodeId="node-0x7476b00" />
     </children>
   </item>
-  <item nodeId="node-0xe88d310">
+  <item nodeId="node-0x7476b00">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -680,10 +764,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe844440" />
+      <child nodeId="node-0x7476b70" />
     </children>
   </item>
-  <item nodeId="node-0xe844440">
+  <item nodeId="node-0x7476b70">
     <command xml:space="preserve">get all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -692,10 +776,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8b7f40" />
+      <child nodeId="node-0x7476be0" />
     </children>
   </item>
-  <item nodeId="node-0xe8b7f40">
+  <item nodeId="node-0x7476be0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Office
 This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
@@ -705,10 +789,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc2eaa0" />
+      <child nodeId="node-0x7476c50" />
     </children>
   </item>
-  <item nodeId="node-0xdc2eaa0">
+  <item nodeId="node-0x7476c50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -717,10 +801,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc5ff90" />
+      <child nodeId="node-0x7476cc0" />
     </children>
   </item>
-  <item nodeId="node-0xdc5ff90">
+  <item nodeId="node-0x7476cc0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -731,10 +815,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8970d0" />
+      <child nodeId="node-0x7476d30" />
     </children>
   </item>
-  <item nodeId="node-0xe8970d0">
+  <item nodeId="node-0x7476d30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -745,10 +829,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc59d60" />
+      <child nodeId="node-0x7476da0" />
     </children>
   </item>
-  <item nodeId="node-0xdc59d60">
+  <item nodeId="node-0x7476da0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -757,10 +841,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc453f0" />
+      <child nodeId="node-0x7476e10" />
     </children>
   </item>
-  <item nodeId="node-0xdc453f0">
+  <item nodeId="node-0x7476e10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -771,10 +855,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc2ab40" />
+      <child nodeId="node-0x7476e80" />
     </children>
   </item>
-  <item nodeId="node-0xdc2ab40">
+  <item nodeId="node-0x7476e80">
     <command xml:space="preserve">fuck yoi</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -783,10 +867,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8940f0" />
+      <child nodeId="node-0x7476ef0" />
     </children>
   </item>
-  <item nodeId="node-0xe8940f0">
+  <item nodeId="node-0x7476ef0">
     <command xml:space="preserve">fuck you</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -795,10 +879,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe870f30" />
+      <child nodeId="node-0x7476f60" />
     </children>
   </item>
-  <item nodeId="node-0xe870f30">
+  <item nodeId="node-0x7476f60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -809,10 +893,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdf25d20" />
+      <child nodeId="node-0x7476fd0" />
     </children>
   </item>
-  <item nodeId="node-0xdf25d20">
+  <item nodeId="node-0x7476fd0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -823,10 +907,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8c9f10" />
+      <child nodeId="node-0x7477040" />
     </children>
   </item>
-  <item nodeId="node-0xe8c9f10">
+  <item nodeId="node-0x7477040">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -836,10 +920,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8c4b90" />
+      <child nodeId="node-0x74770b0" />
     </children>
   </item>
-  <item nodeId="node-0xe8c4b90">
+  <item nodeId="node-0x74770b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -848,10 +932,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc69130" />
+      <child nodeId="node-0x7477120" />
     </children>
   </item>
-  <item nodeId="node-0xdc69130">
+  <item nodeId="node-0x7477120">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -862,10 +946,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc6cb00" />
+      <child nodeId="node-0x7477190" />
     </children>
   </item>
-  <item nodeId="node-0xdc6cb00">
+  <item nodeId="node-0x7477190">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -876,10 +960,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8c54e0" />
+      <child nodeId="node-0x7477200" />
     </children>
   </item>
-  <item nodeId="node-0xe8c54e0">
+  <item nodeId="node-0x7477200">
     <command xml:space="preserve">x carpet</command>
     <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. An air pocket of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
 
@@ -888,10 +972,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8b4d00" />
+      <child nodeId="node-0x7477270" />
     </children>
   </item>
-  <item nodeId="node-0xe8b4d00">
+  <item nodeId="node-0x7477270">
     <command xml:space="preserve">lift carpet</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -900,10 +984,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8bf600" />
+      <child nodeId="node-0x74772e0" />
     </children>
   </item>
-  <item nodeId="node-0xe8bf600">
+  <item nodeId="node-0x74772e0">
     <command xml:space="preserve">reach under carpet</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -912,10 +996,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8e97a0" />
+      <child nodeId="node-0x7477350" />
     </children>
   </item>
-  <item nodeId="node-0xe8e97a0">
+  <item nodeId="node-0x7477350">
     <command xml:space="preserve">shit under carpet</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -924,10 +1008,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8eb1d0" />
+      <child nodeId="node-0x74773c0" />
     </children>
   </item>
-  <item nodeId="node-0xe8eb1d0">
+  <item nodeId="node-0x74773c0">
     <command xml:space="preserve">look under carpet</command>
     <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
 
@@ -936,10 +1020,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc6de90" />
+      <child nodeId="node-0x7477430" />
     </children>
   </item>
-  <item nodeId="node-0xdc6de90">
+  <item nodeId="node-0x7477430">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a yellow key
@@ -949,10 +1033,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8d62c0" />
+      <child nodeId="node-0x74774a0" />
     </children>
   </item>
-  <item nodeId="node-0xe8d62c0">
+  <item nodeId="node-0x74774a0">
     <command xml:space="preserve">x yellow key</command>
     <result xml:space="preserve">Its a yellow key for the trunk.
 
@@ -961,10 +1045,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8e9ce0" />
+      <child nodeId="node-0x7477510" />
     </children>
   </item>
-  <item nodeId="node-0xe8e9ce0">
+  <item nodeId="node-0x7477510">
     <command xml:space="preserve">who</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -973,10 +1057,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8ec160" />
+      <child nodeId="node-0x7477580" />
     </children>
   </item>
-  <item nodeId="node-0xe8ec160">
+  <item nodeId="node-0x7477580">
     <command xml:space="preserve">wow</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -985,10 +1069,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8d6e80" />
+      <child nodeId="node-0x74775f0" />
     </children>
   </item>
-  <item nodeId="node-0xe8d6e80">
+  <item nodeId="node-0x74775f0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Family Room
 This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
@@ -998,10 +1082,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8de6d0" />
+      <child nodeId="node-0x7477660" />
     </children>
   </item>
-  <item nodeId="node-0xe8de6d0">
+  <item nodeId="node-0x7477660">
     <command xml:space="preserve">northeast</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1010,10 +1094,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8dc860" />
+      <child nodeId="node-0x74776d0" />
     </children>
   </item>
-  <item nodeId="node-0xe8dc860">
+  <item nodeId="node-0x74776d0">
     <command xml:space="preserve">break through wall</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1022,10 +1106,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc57700" />
+      <child nodeId="node-0x7477740" />
     </children>
   </item>
-  <item nodeId="node-0xdc57700">
+  <item nodeId="node-0x7477740">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -1035,10 +1119,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8f2d10" />
+      <child nodeId="node-0x74777b0" />
     </children>
   </item>
-  <item nodeId="node-0xe8f2d10">
+  <item nodeId="node-0x74777b0">
     <command xml:space="preserve">open oak door with yellow key</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -1047,10 +1131,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe896eb0" />
+      <child nodeId="node-0x7477820" />
     </children>
   </item>
-  <item nodeId="node-0xe896eb0">
+  <item nodeId="node-0x7477820">
     <command xml:space="preserve">fuck you</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1059,10 +1143,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8c2dc0" />
+      <child nodeId="node-0x7477890" />
     </children>
   </item>
-  <item nodeId="node-0xe8c2dc0">
+  <item nodeId="node-0x7477890">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -1072,10 +1156,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc4c610" />
+      <child nodeId="node-0x7477900" />
     </children>
   </item>
-  <item nodeId="node-0xdc4c610">
+  <item nodeId="node-0x7477900">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -1086,10 +1170,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8c1170" />
+      <child nodeId="node-0x7477970" />
     </children>
   </item>
-  <item nodeId="node-0xe8c1170">
+  <item nodeId="node-0x7477970">
     <command xml:space="preserve">open drawer with yellow key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1098,10 +1182,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8ab690" />
+      <child nodeId="node-0x74779e0" />
     </children>
   </item>
-  <item nodeId="node-0xe8ab690">
+  <item nodeId="node-0x74779e0">
     <command xml:space="preserve">fuck you</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1110,10 +1194,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdca8f50" />
+      <child nodeId="node-0x7477a50" />
     </children>
   </item>
-  <item nodeId="node-0xdca8f50">
+  <item nodeId="node-0x7477a50">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -1124,10 +1208,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8c90b0" />
+      <child nodeId="node-0x7477ac0" />
     </children>
   </item>
-  <item nodeId="node-0xe8c90b0">
+  <item nodeId="node-0x7477ac0">
     <command xml:space="preserve">use yellow key to trun on light</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1136,10 +1220,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8e6e00" />
+      <child nodeId="node-0x7477b30" />
     </children>
   </item>
-  <item nodeId="node-0xe8e6e00">
+  <item nodeId="node-0x7477b30">
     <command xml:space="preserve">please</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1148,10 +1232,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8078f0" />
+      <child nodeId="node-0x7477ba0" />
     </children>
   </item>
-  <item nodeId="node-0xe8078f0">
+  <item nodeId="node-0x7477ba0">
     <command xml:space="preserve">please</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1160,10 +1244,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8093d0" />
+      <child nodeId="node-0x7477c10" />
     </children>
   </item>
-  <item nodeId="node-0xe8093d0">
+  <item nodeId="node-0x7477c10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -1174,10 +1258,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe806310" />
+      <child nodeId="node-0x7477c80" />
     </children>
   </item>
-  <item nodeId="node-0xe806310">
+  <item nodeId="node-0x7477c80">
     <command xml:space="preserve">open yellow trunk with the yellow key</command>
     <result xml:space="preserve">You unlock the yellow trunk.
 
@@ -1186,10 +1270,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8a4360" />
+      <child nodeId="node-0x7477cf0" />
     </children>
   </item>
-  <item nodeId="node-0xe8a4360">
+  <item nodeId="node-0x7477cf0">
     <command xml:space="preserve">open yellow trunk</command>
     <result xml:space="preserve">A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.
 
@@ -1198,10 +1282,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe807330" />
+      <child nodeId="node-0x7477d60" />
     </children>
   </item>
-  <item nodeId="node-0xe807330">
+  <item nodeId="node-0x7477d60">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a red key
@@ -1212,10 +1296,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8e75a0" />
+      <child nodeId="node-0x7477dd0" />
     </children>
   </item>
-  <item nodeId="node-0xe8e75a0">
+  <item nodeId="node-0x7477dd0">
     <command xml:space="preserve">take toys</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1224,10 +1308,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc54b60" />
+      <child nodeId="node-0x7477e40" />
     </children>
   </item>
-  <item nodeId="node-0xdc54b60">
+  <item nodeId="node-0x7477e40">
     <command xml:space="preserve">fuck toys</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1236,10 +1320,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26859b0" />
+      <child nodeId="node-0x7477eb0" />
     </children>
   </item>
-  <item nodeId="node-0x26859b0">
+  <item nodeId="node-0x7477eb0">
     <command xml:space="preserve">the fluffy ones feel great</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1248,10 +1332,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe805be0" />
+      <child nodeId="node-0x7477f20" />
     </children>
   </item>
-  <item nodeId="node-0xe805be0">
+  <item nodeId="node-0x7477f20">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Bedroom
 The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
@@ -1261,10 +1345,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2684760" />
+      <child nodeId="node-0x7477f90" />
     </children>
   </item>
-  <item nodeId="node-0x2684760">
+  <item nodeId="node-0x7477f90">
     <command xml:space="preserve">x bed</command>
     <result xml:space="preserve">A king sized bed that seems really comfortable.
 
@@ -1273,10 +1357,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdcb8f90" />
+      <child nodeId="node-0x7478000" />
     </children>
   </item>
-  <item nodeId="node-0xdcb8f90">
+  <item nodeId="node-0x7478000">
     <command xml:space="preserve">x TV</command>
     <result xml:space="preserve">A large flatscreen TV that seems to make this room a little cozier. You and your friends were watching it earlier, but it is turned off now.
 
@@ -1285,10 +1369,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x267f3d0" />
+      <child nodeId="node-0x7478070" />
     </children>
   </item>
-  <item nodeId="node-0x267f3d0">
+  <item nodeId="node-0x7478070">
     <command xml:space="preserve">x  black desk</command>
     <result xml:space="preserve">A regular desk that your mom never uses. It doesn&apos;t even seem like there is anything on it.
 
@@ -1297,10 +1381,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdca5860" />
+      <child nodeId="node-0x74780e0" />
     </children>
   </item>
-  <item nodeId="node-0xdca5860">
+  <item nodeId="node-0x74780e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Darkness
@@ -1311,10 +1395,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc610f0" />
+      <child nodeId="node-0x7478150" />
     </children>
   </item>
-  <item nodeId="node-0xdc610f0">
+  <item nodeId="node-0x7478150">
     <command xml:space="preserve">ee</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1323,10 +1407,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x263b4f0" />
+      <child nodeId="node-0x74781c0" />
     </children>
   </item>
-  <item nodeId="node-0x263b4f0">
+  <item nodeId="node-0x74781c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -1337,10 +1421,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc632b0" />
+      <child nodeId="node-0x7478230" />
     </children>
   </item>
-  <item nodeId="node-0xdc632b0">
+  <item nodeId="node-0x7478230">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -1351,10 +1435,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x261bcb0" />
+      <child nodeId="node-0x74782a0" />
     </children>
   </item>
-  <item nodeId="node-0x261bcb0">
+  <item nodeId="node-0x74782a0">
     <command xml:space="preserve">open oak door with red dick</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1363,10 +1447,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc67780" />
+      <child nodeId="node-0x7478310" />
     </children>
   </item>
-  <item nodeId="node-0xdc67780">
+  <item nodeId="node-0x7478310">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -1376,10 +1460,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2691670" />
+      <child nodeId="node-0x7478380" />
     </children>
   </item>
-  <item nodeId="node-0x2691670">
+  <item nodeId="node-0x7478380">
     <command xml:space="preserve">look behind painintg</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1388,10 +1472,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2607290" />
+      <child nodeId="node-0x74783f0" />
     </children>
   </item>
-  <item nodeId="node-0x2607290">
+  <item nodeId="node-0x74783f0">
     <command xml:space="preserve">look behind painting</command>
     <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
 
@@ -1400,10 +1484,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe81a350" />
+      <child nodeId="node-0x7478460" />
     </children>
   </item>
-  <item nodeId="node-0xe81a350">
+  <item nodeId="node-0x7478460">
     <command xml:space="preserve">open safe with red key</command>
     <result xml:space="preserve">That doesn&apos;t seem to be something you can unlock.
 
@@ -1412,10 +1496,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc9de10" />
+      <child nodeId="node-0x74784d0" />
     </children>
   </item>
-  <item nodeId="node-0xdc9de10">
+  <item nodeId="node-0x74784d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -1425,10 +1509,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x260c110" />
+      <child nodeId="node-0x7478540" />
     </children>
   </item>
-  <item nodeId="node-0x260c110">
+  <item nodeId="node-0x7478540">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Family Room
 This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
@@ -1438,10 +1522,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc8b840" />
+      <child nodeId="node-0x74785b0" />
     </children>
   </item>
-  <item nodeId="node-0xdc8b840">
+  <item nodeId="node-0x74785b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -1452,10 +1536,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2683d70" />
+      <child nodeId="node-0x7478620" />
     </children>
   </item>
-  <item nodeId="node-0x2683d70">
+  <item nodeId="node-0x7478620">
     <command xml:space="preserve">x drawer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1464,10 +1548,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26acde0" />
+      <child nodeId="node-0x7478690" />
     </children>
   </item>
-  <item nodeId="node-0x26acde0">
+  <item nodeId="node-0x7478690">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a red key
@@ -1478,10 +1562,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26f4000" />
+      <child nodeId="node-0x7478700" />
     </children>
   </item>
-  <item nodeId="node-0x26f4000">
+  <item nodeId="node-0x7478700">
     <command xml:space="preserve">x red key</command>
     <result xml:space="preserve">Its a red key for the dresser.
 
@@ -1490,10 +1574,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8fab00" />
+      <child nodeId="node-0x7478770" />
     </children>
   </item>
-  <item nodeId="node-0xe8fab00">
+  <item nodeId="node-0x7478770">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -1504,10 +1588,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8e6f80" />
+      <child nodeId="node-0x74787e0" />
     </children>
   </item>
-  <item nodeId="node-0xe8e6f80">
+  <item nodeId="node-0x74787e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -1517,10 +1601,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8f1990" />
+      <child nodeId="node-0x7478850" />
     </children>
   </item>
-  <item nodeId="node-0xe8f1990">
+  <item nodeId="node-0x7478850">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -1531,10 +1615,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8f03c0" />
+      <child nodeId="node-0x74788c0" />
     </children>
   </item>
-  <item nodeId="node-0xe8f03c0">
+  <item nodeId="node-0x74788c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1543,10 +1627,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26edd00" />
+      <child nodeId="node-0x7478930" />
     </children>
   </item>
-  <item nodeId="node-0x26edd00">
+  <item nodeId="node-0x7478930">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1555,10 +1639,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdcb20d0" />
+      <child nodeId="node-0x74789a0" />
     </children>
   </item>
-  <item nodeId="node-0xdcb20d0">
+  <item nodeId="node-0x74789a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -1569,10 +1653,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc4fa90" />
+      <child nodeId="node-0x7478a10" />
     </children>
   </item>
-  <item nodeId="node-0xdc4fa90">
+  <item nodeId="node-0x7478a10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -1583,10 +1667,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc775f0" />
+      <child nodeId="node-0x7478a80" />
     </children>
   </item>
-  <item nodeId="node-0xdc775f0">
+  <item nodeId="node-0x7478a80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1595,10 +1679,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc677f0" />
+      <child nodeId="node-0x7478af0" />
     </children>
   </item>
-  <item nodeId="node-0xdc677f0">
+  <item nodeId="node-0x7478af0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1607,10 +1691,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc92ae0" />
+      <child nodeId="node-0x7478b60" />
     </children>
   </item>
-  <item nodeId="node-0xdc92ae0">
+  <item nodeId="node-0x7478b60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1619,10 +1703,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xde6c010" />
+      <child nodeId="node-0x7478bd0" />
     </children>
   </item>
-  <item nodeId="node-0xde6c010">
+  <item nodeId="node-0x7478bd0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Darkness
@@ -1633,10 +1717,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc3da40" />
+      <child nodeId="node-0x7478c40" />
     </children>
   </item>
-  <item nodeId="node-0xdc3da40">
+  <item nodeId="node-0x7478c40">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -1647,10 +1731,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdcda240" />
+      <child nodeId="node-0x7478cb0" />
     </children>
   </item>
-  <item nodeId="node-0xdcda240">
+  <item nodeId="node-0x7478cb0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Darkness
@@ -1661,10 +1745,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc303f0" />
+      <child nodeId="node-0x7478d20" />
     </children>
   </item>
-  <item nodeId="node-0xdc303f0">
+  <item nodeId="node-0x7478d20">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -1675,10 +1759,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdceb290" />
+      <child nodeId="node-0x7478d90" />
     </children>
   </item>
-  <item nodeId="node-0xdceb290">
+  <item nodeId="node-0x7478d90">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -1689,10 +1773,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8f0430" />
+      <child nodeId="node-0x7478e00" />
     </children>
   </item>
-  <item nodeId="node-0xe8f0430">
+  <item nodeId="node-0x7478e00">
     <command xml:space="preserve">open dresser with red key</command>
     <result xml:space="preserve">You unlock the red dresser.
 
@@ -1701,10 +1785,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe80d330" />
+      <child nodeId="node-0x7478e70" />
     </children>
   </item>
-  <item nodeId="node-0xe80d330">
+  <item nodeId="node-0x7478e70">
     <command xml:space="preserve">suck a dick</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1713,10 +1797,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe819670" />
+      <child nodeId="node-0x7478ee0" />
     </children>
   </item>
-  <item nodeId="node-0xe819670">
+  <item nodeId="node-0x7478ee0">
     <command xml:space="preserve">x dresser</command>
     <result xml:space="preserve">A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this.
 
@@ -1725,10 +1809,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8f51e0" />
+      <child nodeId="node-0x7478f50" />
     </children>
   </item>
-  <item nodeId="node-0xe8f51e0">
+  <item nodeId="node-0x7478f50">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">DVD&apos;s and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.
 
@@ -1737,10 +1821,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8ddb60" />
+      <child nodeId="node-0x7478fc0" />
     </children>
   </item>
-  <item nodeId="node-0xe8ddb60">
+  <item nodeId="node-0x7478fc0">
     <command xml:space="preserve">take brown key</command>
     <result xml:space="preserve">You already have that.
 
@@ -1749,10 +1833,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26b5af0" />
+      <child nodeId="node-0x7479030" />
     </children>
   </item>
-  <item nodeId="node-0x26b5af0">
+  <item nodeId="node-0x7479030">
     <command xml:space="preserve">fuck you</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1761,10 +1845,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8cc4e0" />
+      <child nodeId="node-0x74790a0" />
     </children>
   </item>
-  <item nodeId="node-0xe8cc4e0">
+  <item nodeId="node-0x74790a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -1774,10 +1858,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26f3f00" />
+      <child nodeId="node-0x7479110" />
     </children>
   </item>
-  <item nodeId="node-0x26f3f00">
+  <item nodeId="node-0x7479110">
     <command xml:space="preserve">open oak door with oak dick</command>
     <result xml:space="preserve">I only understood you as far as wanting to open the oak door with the oak door.
 
@@ -1786,10 +1870,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe882b30" />
+      <child nodeId="node-0x7479180" />
     </children>
   </item>
-  <item nodeId="node-0xe882b30">
+  <item nodeId="node-0x7479180">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1798,10 +1882,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdca4e70" />
+      <child nodeId="node-0x74791f0" />
     </children>
   </item>
-  <item nodeId="node-0xdca4e70">
+  <item nodeId="node-0x74791f0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1810,10 +1894,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26a31b0" />
+      <child nodeId="node-0x7479260" />
     </children>
   </item>
-  <item nodeId="node-0x26a31b0">
+  <item nodeId="node-0x7479260">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1822,10 +1906,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26ee040" />
+      <child nodeId="node-0x74792d0" />
     </children>
   </item>
-  <item nodeId="node-0x26ee040">
+  <item nodeId="node-0x74792d0">
     <command xml:space="preserve">x brown key</command>
     <result xml:space="preserve">Its a brown key for the desk.
 
@@ -1834,10 +1918,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8e7040" />
+      <child nodeId="node-0x7479340" />
     </children>
   </item>
-  <item nodeId="node-0xe8e7040">
+  <item nodeId="node-0x7479340">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a brown key
@@ -1849,10 +1933,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26f9490" />
+      <child nodeId="node-0x74793b0" />
     </children>
   </item>
-  <item nodeId="node-0x26f9490">
+  <item nodeId="node-0x74793b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -1862,10 +1946,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26c40a0" />
+      <child nodeId="node-0x7479420" />
     </children>
   </item>
-  <item nodeId="node-0x26c40a0">
+  <item nodeId="node-0x7479420">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -1876,10 +1960,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdcb6f10" />
+      <child nodeId="node-0x7479490" />
     </children>
   </item>
-  <item nodeId="node-0xdcb6f10">
+  <item nodeId="node-0x7479490">
     <command xml:space="preserve">open desk with brown key</command>
     <result xml:space="preserve">You unlock the brown desk.
 
@@ -1888,10 +1972,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdceca60" />
+      <child nodeId="node-0x7479500" />
     </children>
   </item>
-  <item nodeId="node-0xdceca60">
+  <item nodeId="node-0x7479500">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy.
 
@@ -1900,10 +1984,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe80def0" />
+      <child nodeId="node-0x7479570" />
     </children>
   </item>
-  <item nodeId="node-0xe80def0">
+  <item nodeId="node-0x7479570">
     <command xml:space="preserve">x instructions</command>
     <result xml:space="preserve">A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, &quot;1997&quot;.
 
@@ -1912,10 +1996,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe80e5b0" />
+      <child nodeId="node-0x74795e0" />
     </children>
   </item>
-  <item nodeId="node-0xe80e5b0">
+  <item nodeId="node-0x74795e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -1926,10 +2010,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8f8550" />
+      <child nodeId="node-0x7479650" />
     </children>
   </item>
-  <item nodeId="node-0xe8f8550">
+  <item nodeId="node-0x7479650">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -1942,10 +2026,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdca6410" />
+      <child nodeId="node-0x74796c0" />
     </children>
   </item>
-  <item nodeId="node-0xdca6410">
+  <item nodeId="node-0x74796c0">
     <command xml:space="preserve">spin dial 19976]</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1954,10 +2038,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdcd0c00" />
+      <child nodeId="node-0x7479730" />
     </children>
   </item>
-  <item nodeId="node-0xdcd0c00">
+  <item nodeId="node-0x7479730">
     <command xml:space="preserve">spind tial 1997</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1966,10 +2050,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe802ae0" />
+      <child nodeId="node-0x74797a0" />
     </children>
   </item>
-  <item nodeId="node-0xe802ae0">
+  <item nodeId="node-0x74797a0">
     <command xml:space="preserve">spin dial 1997</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1978,10 +2062,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26159b0" />
+      <child nodeId="node-0x7479810" />
     </children>
   </item>
-  <item nodeId="node-0x26159b0">
+  <item nodeId="node-0x7479810">
     <command xml:space="preserve">spin dial to 1997</command>
     <result xml:space="preserve">You hear a &quot;Click&quot; and the safe door swings open. You can see a flashlight.
 
@@ -1990,10 +2074,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26f9ed0" />
+      <child nodeId="node-0x7479880" />
     </children>
   </item>
-  <item nodeId="node-0x26f9ed0">
+  <item nodeId="node-0x7479880">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -2002,10 +2086,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe80cdc0" />
+      <child nodeId="node-0x74798f0" />
     </children>
   </item>
-  <item nodeId="node-0xe80cdc0">
+  <item nodeId="node-0x74798f0">
     <command xml:space="preserve">turn on flashlight</command>
     <result xml:space="preserve">You click the flashlight on
 &gt;</result>
@@ -2013,10 +2097,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe8adfd0" />
+      <child nodeId="node-0x7479960" />
     </children>
   </item>
-  <item nodeId="node-0xe8adfd0">
+  <item nodeId="node-0x7479960">
     <command xml:space="preserve">turn off flashlight</command>
     <result xml:space="preserve">You click the flashlight off.
 
@@ -2025,10 +2109,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26e99b0" />
+      <child nodeId="node-0x74799d0" />
     </children>
   </item>
-  <item nodeId="node-0x26e99b0">
+  <item nodeId="node-0x74799d0">
     <command xml:space="preserve">save battery</command>
     <result xml:space="preserve">I only understood you as far as wanting to save.
 
@@ -2037,10 +2121,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe800d90" />
+      <child nodeId="node-0x7479a40" />
     </children>
   </item>
-  <item nodeId="node-0xe800d90">
+  <item nodeId="node-0x7479a40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -2050,10 +2134,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2613050" />
+      <child nodeId="node-0x7479ab0" />
     </children>
   </item>
-  <item nodeId="node-0x2613050">
+  <item nodeId="node-0x7479ab0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -2062,10 +2146,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x269ccc0" />
+      <child nodeId="node-0x7479b20" />
     </children>
   </item>
-  <item nodeId="node-0x269ccc0">
+  <item nodeId="node-0x7479b20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2074,10 +2158,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdcd1230" />
+      <child nodeId="node-0x7479b90" />
     </children>
   </item>
-  <item nodeId="node-0xdcd1230">
+  <item nodeId="node-0x7479b90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -2088,10 +2172,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc07350" />
+      <child nodeId="node-0x7479c00" />
     </children>
   </item>
-  <item nodeId="node-0xdc07350">
+  <item nodeId="node-0x7479c00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -2102,10 +2186,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26c5050" />
+      <child nodeId="node-0x7479c70" />
     </children>
   </item>
-  <item nodeId="node-0x26c5050">
+  <item nodeId="node-0x7479c70">
     <command xml:space="preserve">turn on flashlight</command>
     <result xml:space="preserve">You click the flashlight on
 Study
@@ -2116,10 +2200,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26a19a0" />
+      <child nodeId="node-0x7479ce0" />
     </children>
   </item>
-  <item nodeId="node-0x26a19a0">
+  <item nodeId="node-0x7479ce0">
     <command xml:space="preserve">x grandfather clock</command>
     <result xml:space="preserve">A big grandfather clock that your parents have had forever. Upon checking the time, you discover that a lot of time has passed since your friends arrived.
 
@@ -2128,10 +2212,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xe80a140" />
+      <child nodeId="node-0x7479d50" />
     </children>
   </item>
-  <item nodeId="node-0xe80a140">
+  <item nodeId="node-0x7479d50">
     <command xml:space="preserve">x couch</command>
     <result xml:space="preserve">A big couch that you often take naps on. Nothing seems really important about it, other than the fact that its really comfy.
 
@@ -2140,10 +2224,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26c2c60" />
+      <child nodeId="node-0x7479dc0" />
     </children>
   </item>
-  <item nodeId="node-0x26c2c60">
+  <item nodeId="node-0x7479dc0">
     <command xml:space="preserve">x rug</command>
     <result xml:space="preserve">A rug smaller than the one in the family room. Nothing seems to special about it, other than the interesting designs.
 
@@ -2152,10 +2236,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2669e20" />
+      <child nodeId="node-0x7479e30" />
     </children>
   </item>
-  <item nodeId="node-0x2669e20">
+  <item nodeId="node-0x7479e30">
     <command xml:space="preserve">x potted fiscus</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2164,10 +2248,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x3f2da0" />
+      <child nodeId="node-0x7479ea0" />
     </children>
   </item>
-  <item nodeId="node-0x3f2da0">
+  <item nodeId="node-0x7479ea0">
     <command xml:space="preserve">x potted ficus</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2176,10 +2260,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26a3e30" />
+      <child nodeId="node-0x7479f10" />
     </children>
   </item>
-  <item nodeId="node-0x26a3e30">
+  <item nodeId="node-0x7479f10">
     <command xml:space="preserve">x ficus</command>
     <result xml:space="preserve">A fake plant that seems to be just for decoration. But on further inspection you see a brass key near the base of the plant...
 
@@ -2188,10 +2272,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xa363da0" />
+      <child nodeId="node-0x7479f80" />
     </children>
   </item>
-  <item nodeId="node-0xa363da0">
+  <item nodeId="node-0x7479f80">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a flashlight (providing light)
@@ -2205,10 +2289,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2600d30" />
+      <child nodeId="node-0x7479ff0" />
     </children>
   </item>
-  <item nodeId="node-0x2600d30">
+  <item nodeId="node-0x7479ff0">
     <command xml:space="preserve">take brass key </command>
     <result xml:space="preserve">Taken.
 
@@ -2217,10 +2301,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xdc0d8c0" />
+      <child nodeId="node-0x747a060" />
     </children>
   </item>
-  <item nodeId="node-0xdc0d8c0">
+  <item nodeId="node-0x747a060">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2229,10 +2313,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xa3491b0" />
+      <child nodeId="node-0x747a0d0" />
     </children>
   </item>
-  <item nodeId="node-0xa3491b0">
+  <item nodeId="node-0x747a0d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -2243,10 +2327,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xa376e70" />
+      <child nodeId="node-0x747a140" />
     </children>
   </item>
-  <item nodeId="node-0xa376e70">
+  <item nodeId="node-0x747a140">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2255,10 +2339,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2614750" />
+      <child nodeId="node-0x747a1b0" />
     </children>
   </item>
-  <item nodeId="node-0x2614750">
+  <item nodeId="node-0x747a1b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Study
@@ -2269,10 +2353,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26e4910" />
+      <child nodeId="node-0x747a220" />
     </children>
   </item>
-  <item nodeId="node-0x26e4910">
+  <item nodeId="node-0x747a220">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -2283,10 +2367,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26d1d90" />
+      <child nodeId="node-0x747a290" />
     </children>
   </item>
-  <item nodeId="node-0x26d1d90">
+  <item nodeId="node-0x747a290">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Study
@@ -2297,10 +2381,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x3a8d80" />
+      <child nodeId="node-0x747a300" />
     </children>
   </item>
-  <item nodeId="node-0x3a8d80">
+  <item nodeId="node-0x747a300">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -2311,10 +2395,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xa380300" />
+      <child nodeId="node-0x747a370" />
     </children>
   </item>
-  <item nodeId="node-0xa380300">
+  <item nodeId="node-0x747a370">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -2325,10 +2409,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26b1280" />
+      <child nodeId="node-0x747a3e0" />
     </children>
   </item>
-  <item nodeId="node-0x26b1280">
+  <item nodeId="node-0x747a3e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -2338,10 +2422,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x3f1610" />
+      <child nodeId="node-0x747a450" />
     </children>
   </item>
-  <item nodeId="node-0x3f1610">
+  <item nodeId="node-0x747a450">
     <command xml:space="preserve">open oak door with brass key</command>
     <result xml:space="preserve">Unlocking the door, you quickly barge into your room, tackling your friends. You all get up and laugh about it for a while. They didn&apos;t realize you had a key in the house somewhere. You then tell them your adventure.
 
@@ -2358,10 +2442,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x2679630" />
+      <child nodeId="node-0x747a4c0" />
     </children>
   </item>
-  <item nodeId="node-0x2679630">
+  <item nodeId="node-0x747a4c0">
     <command xml:space="preserve">fuck you</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2371,10 +2455,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x26d7cb0" />
+      <child nodeId="node-0x747a530" />
     </children>
   </item>
-  <item nodeId="node-0x26d7cb0">
+  <item nodeId="node-0x747a530">
     <command xml:space="preserve">mother fucker</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2384,10 +2468,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x261e360" />
+      <child nodeId="node-0x747a5a0" />
     </children>
   </item>
-  <item nodeId="node-0x261e360">
+  <item nodeId="node-0x747a5a0">
     <command xml:space="preserve">that was hard</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2397,10 +2481,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x3f6860" />
+      <child nodeId="node-0x747a610" />
     </children>
   </item>
-  <item nodeId="node-0x3f6860">
+  <item nodeId="node-0x747a610">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2410,10 +2494,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x3b6c40" />
+      <child nodeId="node-0x747a680" />
     </children>
   </item>
-  <item nodeId="node-0x3b6c40">
+  <item nodeId="node-0x747a680">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2423,10 +2507,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x3ec340" />
+      <child nodeId="node-0x747a6f0" />
     </children>
   </item>
-  <item nodeId="node-0x3ec340">
+  <item nodeId="node-0x747a6f0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2436,10 +2520,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0xa35af10" />
+      <child nodeId="node-0x747a760" />
     </children>
   </item>
-  <item nodeId="node-0xa35af10">
+  <item nodeId="node-0x747a760">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2449,7 +2533,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="180">YES</temporary>
   </item>
-  <item nodeId="node-0x4f0eb0">
+  <item nodeId="node-0x747a7d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -2460,11 +2544,11 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1180" />
-      <child nodeId="node-0x4f0b50" />
+      <child nodeId="node-0x747aa00" />
+      <child nodeId="node-0x747a840" />
     </children>
   </item>
-  <item nodeId="node-0x4f0b50">
+  <item nodeId="node-0x747a840">
     <command xml:space="preserve">x desk</command>
     <result xml:space="preserve">This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out.
 
@@ -2473,10 +2557,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x4f0ba0" />
+      <child nodeId="node-0x747a8b0" />
     </children>
   </item>
-  <item nodeId="node-0x4f0ba0">
+  <item nodeId="node-0x747a8b0">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -2485,10 +2569,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x4f10a0" />
+      <child nodeId="node-0x747a920" />
     </children>
   </item>
-  <item nodeId="node-0x4f10a0">
+  <item nodeId="node-0x747a920">
     <command xml:space="preserve">unlock desk</command>
     <result xml:space="preserve">(with the brown desk)
 (first taking the brown desk)
@@ -2499,10 +2583,10 @@ That&apos;s hardly portable.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1110" />
+      <child nodeId="node-0x747a990" />
     </children>
   </item>
-  <item nodeId="node-0x4f1110">
+  <item nodeId="node-0x747a990">
     <command xml:space="preserve">unlock desk with key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2511,7 +2595,7 @@ That&apos;s hardly portable.
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
   </item>
-  <item nodeId="node-0x4f1180">
+  <item nodeId="node-0x747aa00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -2522,10 +2606,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>NO</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x4f11f0" />
+      <child nodeId="node-0x747aa70" />
     </children>
   </item>
-  <item nodeId="node-0x4f11f0">
+  <item nodeId="node-0x747aa70">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -2536,11 +2620,11 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1260" />
-      <child nodeId="node-0xa32ea00" />
+      <child nodeId="node-0x747abc0" />
+      <child nodeId="node-0x747aae0" />
     </children>
   </item>
-  <item nodeId="node-0xa32ea00">
+  <item nodeId="node-0x747aae0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2549,10 +2633,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x4a6740" />
+      <child nodeId="node-0x747ab50" />
     </children>
   </item>
-  <item nodeId="node-0x4a6740">
+  <item nodeId="node-0x747ab50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Darkness
@@ -2562,22 +2646,8 @@ It is pitch dark, and you can&apos;t see a thing.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x451850" />
-    </children>
   </item>
-  <item nodeId="node-0x451850">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Office
-This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You and your friends were only in here for a bit, but then you all moved to the guest bedroom, which is east of the study. There is a brown desk in the southwest corner. A bookcase is in the northwest corner, and a shelf is against the east wall. The family room is to the west and the study is to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f1260">
+  <item nodeId="node-0x747abc0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Study
@@ -2587,10 +2657,10 @@ Study
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x4f12d0" />
+      <child nodeId="node-0x747ac30" />
     </children>
   </item>
-  <item nodeId="node-0x4f12d0">
+  <item nodeId="node-0x747ac30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -2599,17 +2669,8 @@ Office
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f1340" />
-    </children>
   </item>
-  <item nodeId="node-0x4f1340">
-    <command xml:space="preserve">w</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f13b0">
+  <item nodeId="node-0x747aca0">
     <command xml:space="preserve">x painting</command>
     <result xml:space="preserve">A relatively bland painting. It looks like its being pushed off of the wall slightly. What&apos;s behind it?
 
@@ -2618,10 +2679,10 @@ Office
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1500" />
+      <child nodeId="node-0x747ad10" />
     </children>
   </item>
-  <item nodeId="node-0x4f1500">
+  <item nodeId="node-0x747ad10">
     <command xml:space="preserve">look behind painting</command>
     <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
 
@@ -2629,36 +2690,20 @@ Office
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f0f20" />
-    </children>
   </item>
-  <item nodeId="node-0x4f0f20">
-    <command xml:space="preserve">x safe</command>
-    <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
-
-(HINT: When unlocking the safe, type: spin safe to {Entire Value Here}
-
-For example: spin safe to 1234)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-  </item>
-  <item nodeId="node-0x2047b0">
+  <item nodeId="node-0x747ad80">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="236">YES</temporary>
     <children>
-      <child nodeId="node-0xdc2bf10" />
+      <child nodeId="node-0x747adf0" />
     </children>
   </item>
-  <item nodeId="node-0xdc2bf10">
+  <item nodeId="node-0x747adf0">
     <command xml:space="preserve">take dresser</command>
     <result xml:space="preserve">That&apos;s too heavy.
 
@@ -2667,10 +2712,10 @@ For example: spin safe to 1234)
     <changed>NO</changed>
     <temporary score="236">YES</temporary>
     <children>
-      <child nodeId="node-0x45f450" />
+      <child nodeId="node-0x747ae60" />
     </children>
   </item>
-  <item nodeId="node-0x45f450">
+  <item nodeId="node-0x747ae60">
     <command xml:space="preserve">lock dresser</command>
     <result xml:space="preserve">(with the red dresser)
 (first taking the red dresser)
@@ -2681,10 +2726,10 @@ That&apos;s too heavy.
     <changed>YES</changed>
     <temporary score="236">YES</temporary>
     <children>
-      <child nodeId="node-0x2698390" />
+      <child nodeId="node-0x747aed0" />
     </children>
   </item>
-  <item nodeId="node-0x2698390">
+  <item nodeId="node-0x747aed0">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -2693,7 +2738,7 @@ That&apos;s too heavy.
     <changed>YES</changed>
     <temporary score="235">YES</temporary>
   </item>
-  <item nodeId="node-0x4f1000">
+  <item nodeId="node-0x747af40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -2703,12 +2748,21 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2310" />
-      <child nodeId="node-0x4f17b0" />
-      <child nodeId="node-0x4f2380" />
+      <child nodeId="node-0x747b100" />
+      <child nodeId="node-0x747afb0" />
+      <child nodeId="node-0x747be90" />
     </children>
   </item>
-  <item nodeId="node-0x4f2380">
+  <item nodeId="node-0x747be90">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+  </item>
+  <item nodeId="node-0x747afb0">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">What do you want to unlock the oak door with?
 
@@ -2717,10 +2771,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x4f23f0" />
+      <child nodeId="node-0x747b020" />
     </children>
   </item>
-  <item nodeId="node-0x4f23f0">
+  <item nodeId="node-0x747b020">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Family Room
 This is where my friends and I were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. A fat ern is near the door to the office in the northeast. The office is to the east. Your room is to the south.
@@ -2730,10 +2784,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2460" />
+      <child nodeId="node-0x747b090" />
     </children>
   </item>
-  <item nodeId="node-0x4f2460">
+  <item nodeId="node-0x747b090">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2741,20 +2795,8 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x4f24d0" />
-    </children>
   </item>
-  <item nodeId="node-0x4f24d0">
-    <command xml:space="preserve">take brass key</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f17b0">
+  <item nodeId="node-0x747b100">
     <command xml:space="preserve">look under carper</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2763,10 +2805,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1820" />
+      <child nodeId="node-0x747b170" />
     </children>
   </item>
-  <item nodeId="node-0x4f1820">
+  <item nodeId="node-0x747b170">
     <command xml:space="preserve">look under carpet</command>
     <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
 
@@ -2775,10 +2817,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1890" />
+      <child nodeId="node-0x747b1e0" />
     </children>
   </item>
-  <item nodeId="node-0x4f1890">
+  <item nodeId="node-0x747b1e0">
     <command xml:space="preserve">take yellow key</command>
     <result xml:space="preserve">You already have that.
 
@@ -2787,10 +2829,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1900" />
+      <child nodeId="node-0x747b250" />
     </children>
   </item>
-  <item nodeId="node-0x4f1900">
+  <item nodeId="node-0x747b250">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -2801,10 +2843,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1970" />
+      <child nodeId="node-0x747b2c0" />
     </children>
   </item>
-  <item nodeId="node-0x4f1970">
+  <item nodeId="node-0x747b2c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -2815,10 +2857,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f19e0" />
+      <child nodeId="node-0x747b330" />
     </children>
   </item>
-  <item nodeId="node-0x4f19e0">
+  <item nodeId="node-0x747b330">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -2829,10 +2871,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1a50" />
+      <child nodeId="node-0x747b3a0" />
     </children>
   </item>
-  <item nodeId="node-0x4f1a50">
+  <item nodeId="node-0x747b3a0">
     <command xml:space="preserve">unlock trunk with yellow key</command>
     <result xml:space="preserve">You unlock the yellow trunk.
 
@@ -2841,10 +2883,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1ac0" />
+      <child nodeId="node-0x747b410" />
     </children>
   </item>
-  <item nodeId="node-0x4f1ac0">
+  <item nodeId="node-0x747b410">
     <command xml:space="preserve">open trunk</command>
     <result xml:space="preserve">A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.
 
@@ -2853,10 +2895,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1b30" />
+      <child nodeId="node-0x747b480" />
     </children>
   </item>
-  <item nodeId="node-0x4f1b30">
+  <item nodeId="node-0x747b480">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Darkness
@@ -2867,10 +2909,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1ba0" />
+      <child nodeId="node-0x747b4f0" />
     </children>
   </item>
-  <item nodeId="node-0x4f1ba0">
+  <item nodeId="node-0x747b4f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -2881,10 +2923,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1c10" />
+      <child nodeId="node-0x747b560" />
     </children>
   </item>
-  <item nodeId="node-0x4f1c10">
+  <item nodeId="node-0x747b560">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -2895,10 +2937,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1c80" />
+      <child nodeId="node-0x747b5d0" />
     </children>
   </item>
-  <item nodeId="node-0x4f1c80">
+  <item nodeId="node-0x747b5d0">
     <command xml:space="preserve">unlock dresser with red key</command>
     <result xml:space="preserve">You unlock the red dresser.
 
@@ -2907,10 +2949,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1cf0" />
+      <child nodeId="node-0x747b640" />
     </children>
   </item>
-  <item nodeId="node-0x4f1cf0">
+  <item nodeId="node-0x747b640">
     <command xml:space="preserve">open red dresser</command>
     <result xml:space="preserve">DVD&apos;s and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.
 
@@ -2919,10 +2961,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1d60" />
+      <child nodeId="node-0x747b6b0" />
     </children>
   </item>
-  <item nodeId="node-0x4f1d60">
+  <item nodeId="node-0x747b6b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -2933,10 +2975,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1dd0" />
+      <child nodeId="node-0x747b720" />
     </children>
   </item>
-  <item nodeId="node-0x4f1dd0">
+  <item nodeId="node-0x747b720">
     <command xml:space="preserve">unlock desk with brown key</command>
     <result xml:space="preserve">You unlock the brown desk.
 
@@ -2945,10 +2987,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1e40" />
+      <child nodeId="node-0x747b790" />
     </children>
   </item>
-  <item nodeId="node-0x4f1e40">
+  <item nodeId="node-0x747b790">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">Opening the desk, you see instructions to the safe that your dad put in here. This might come in handy.
 
@@ -2957,10 +2999,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1eb0" />
+      <child nodeId="node-0x747b800" />
     </children>
   </item>
-  <item nodeId="node-0x4f1eb0">
+  <item nodeId="node-0x747b800">
     <command xml:space="preserve">x safe instructions</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2969,10 +3011,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1570" />
+      <child nodeId="node-0x747b870" />
     </children>
   </item>
-  <item nodeId="node-0x4f1570">
+  <item nodeId="node-0x747b870">
     <command xml:space="preserve">x instructions</command>
     <result xml:space="preserve">A 10 paged pamphlet on how the safe should be properly set up and mantled into the wall. There is a note scribbled in black sharpie on the corner of one of the pages, &quot;1997&quot;.
 
@@ -2981,10 +3023,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f15e0" />
+      <child nodeId="node-0x747b8e0" />
     </children>
   </item>
-  <item nodeId="node-0x4f15e0">
+  <item nodeId="node-0x747b8e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -2995,10 +3037,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1650" />
+      <child nodeId="node-0x747b950" />
     </children>
   </item>
-  <item nodeId="node-0x4f1650">
+  <item nodeId="node-0x747b950">
     <command xml:space="preserve">look behind painting</command>
     <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
 
@@ -3007,10 +3049,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f16c0" />
+      <child nodeId="node-0x747b9c0" />
     </children>
   </item>
-  <item nodeId="node-0x4f16c0">
+  <item nodeId="node-0x747b9c0">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -3023,10 +3065,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1730" />
+      <child nodeId="node-0x747ba30" />
     </children>
   </item>
-  <item nodeId="node-0x4f1730">
+  <item nodeId="node-0x747ba30">
     <command xml:space="preserve">spin dial to 1997</command>
     <result xml:space="preserve">You hear a &quot;Click&quot; and the safe door swings open. You can see a flashlight.
 
@@ -3035,10 +3077,10 @@ For example: spin dial to 1234)
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1f20" />
+      <child nodeId="node-0x747baa0" />
     </children>
   </item>
-  <item nodeId="node-0x4f1f20">
+  <item nodeId="node-0x747baa0">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -3047,10 +3089,10 @@ For example: spin dial to 1234)
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f1f90" />
+      <child nodeId="node-0x747bb10" />
     </children>
   </item>
-  <item nodeId="node-0x4f1f90">
+  <item nodeId="node-0x747bb10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -3061,10 +3103,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2000" />
+      <child nodeId="node-0x747bb80" />
     </children>
   </item>
-  <item nodeId="node-0x4f2000">
+  <item nodeId="node-0x747bb80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -3075,10 +3117,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2070" />
+      <child nodeId="node-0x747bbf0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2070">
+  <item nodeId="node-0x747bbf0">
     <command xml:space="preserve">turn flashlight on</command>
     <result xml:space="preserve">You click the flashlight on
 Study
@@ -3089,10 +3131,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>YES</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f20e0" />
+      <child nodeId="node-0x747bc60" />
     </children>
   </item>
-  <item nodeId="node-0x4f20e0">
+  <item nodeId="node-0x747bc60">
     <command xml:space="preserve">take brass key</command>
     <result xml:space="preserve">Taken.
 
@@ -3101,10 +3143,10 @@ A hangout area for the house other then the family room. You remember that the l
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2150" />
+      <child nodeId="node-0x747bcd0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2150">
+  <item nodeId="node-0x747bcd0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -3115,10 +3157,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f21c0" />
+      <child nodeId="node-0x747bd40" />
     </children>
   </item>
-  <item nodeId="node-0x4f21c0">
+  <item nodeId="node-0x747bd40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -3129,10 +3171,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2230" />
+      <child nodeId="node-0x747bdb0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2230">
+  <item nodeId="node-0x747bdb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
@@ -3142,10 +3184,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="167">YES</temporary>
     <children>
-      <child nodeId="node-0x4f22a0" />
+      <child nodeId="node-0x747be20" />
     </children>
   </item>
-  <item nodeId="node-0x4f22a0">
+  <item nodeId="node-0x747be20">
     <command xml:space="preserve">unlock door with brass key</command>
     <result xml:space="preserve">Unlocking the door, you quickly barge into your room, tackling your friends. You all get up and laugh about it for a while. They didn&apos;t realize you had a key in the house somewhere. You then tell them your adventure.
 
@@ -3162,16 +3204,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="166">YES</temporary>
   </item>
-  <item nodeId="node-0x4f2310">
-    <command xml:space="preserve">x painting</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="16">YES</temporary>
-  </item>
-  <item nodeId="node-0x4f2540">
+  <item nodeId="node-0x747bf00">
     <command xml:space="preserve">x carpet</command>
     <result xml:space="preserve">A carpet that has big yellow hibicus&apos;s on it. It doesn&apos;t seem very flat however. An air pocket of sorts slightly sticks out. You&apos;re surprised you even noticed it. 
 
@@ -3180,12 +3213,12 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xdccf330" />
-      <child nodeId="node-0x4f2620" />
-      <child nodeId="node-0x4f25b0" />
+      <child nodeId="node-0x747c210" />
+      <child nodeId="node-0x747bfe0" />
+      <child nodeId="node-0x747bf70" />
     </children>
   </item>
-  <item nodeId="node-0x4f25b0">
+  <item nodeId="node-0x747bf70">
     <command xml:space="preserve">look under carpet</command>
     <result xml:space="preserve">This might come in handy. I guess it wasn&apos;t an air-pocket in the carpet after all.
 
@@ -3194,7 +3227,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x4f2620">
+  <item nodeId="node-0x747bfe0">
     <command xml:space="preserve">take carpet</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -3203,10 +3236,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2690" />
+      <child nodeId="node-0x747c050" />
     </children>
   </item>
-  <item nodeId="node-0x4f2690">
+  <item nodeId="node-0x747c050">
     <command xml:space="preserve">look under carpet</command>
     <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
 
@@ -3215,10 +3248,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2700" />
+      <child nodeId="node-0x747c0c0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2700">
+  <item nodeId="node-0x747c0c0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a yellow key
@@ -3228,10 +3261,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2770" />
+      <child nodeId="node-0x747c130" />
     </children>
   </item>
-  <item nodeId="node-0x4f2770">
+  <item nodeId="node-0x747c130">
     <command xml:space="preserve">x yellow key</command>
     <result xml:space="preserve">Its a yellow key for the trunk.
 
@@ -3240,16 +3273,16 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x4f27e0" />
+      <child nodeId="node-0x747c1a0" />
     </children>
   </item>
-  <item nodeId="node-0x4f27e0">
+  <item nodeId="node-0x747c1a0">
     <command xml:space="preserve">e</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="46">YES</temporary>
   </item>
-  <item nodeId="node-0xdccf330">
+  <item nodeId="node-0x747c210">
     <command xml:space="preserve">lift carpet</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -3258,10 +3291,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xe855da0" />
+      <child nodeId="node-0x747c280" />
     </children>
   </item>
-  <item nodeId="node-0xe855da0">
+  <item nodeId="node-0x747c280">
     <command xml:space="preserve">look under carpet</command>
     <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
 
@@ -3270,10 +3303,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x453530" />
+      <child nodeId="node-0x747c2f0" />
     </children>
   </item>
-  <item nodeId="node-0x453530">
+  <item nodeId="node-0x747c2f0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a yellow key
@@ -3283,10 +3316,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x45ed50" />
+      <child nodeId="node-0x747c360" />
     </children>
   </item>
-  <item nodeId="node-0x45ed50">
+  <item nodeId="node-0x747c360">
     <command xml:space="preserve">x painting</command>
     <result xml:space="preserve">A relatively bland painting placed awkardly on the wall. It looks like its being pushed off of the wall slightly.
 
@@ -3295,10 +3328,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xe862fe0" />
+      <child nodeId="node-0x747c3d0" />
     </children>
   </item>
-  <item nodeId="node-0xe862fe0">
+  <item nodeId="node-0x747c3d0">
     <command xml:space="preserve">look behind painting</command>
     <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
 
@@ -3307,10 +3340,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x451250" />
+      <child nodeId="node-0x747c440" />
     </children>
   </item>
-  <item nodeId="node-0x451250">
+  <item nodeId="node-0x747c440">
     <command xml:space="preserve">unlock safe with key</command>
     <result xml:space="preserve">That doesn&apos;t seem to be something you can unlock.
 
@@ -3319,10 +3352,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xe834c20" />
+      <child nodeId="node-0x747c4b0" />
     </children>
   </item>
-  <item nodeId="node-0xe834c20">
+  <item nodeId="node-0x747c4b0">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -3335,10 +3368,10 @@ For example: spin dial to 1234)
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x4d20f0" />
+      <child nodeId="node-0x747c520" />
     </children>
   </item>
-  <item nodeId="node-0x4d20f0">
+  <item nodeId="node-0x747c520">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Family Room
 This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
@@ -3348,10 +3381,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x2684860" />
+      <child nodeId="node-0x747c590" />
     </children>
   </item>
-  <item nodeId="node-0x2684860">
+  <item nodeId="node-0x747c590">
     <command xml:space="preserve">x dresser</command>
     <result xml:space="preserve">A red dresser that your parents decided to put in the family room. Not a whole lot of Fung Shui going on with this.
 
@@ -3360,10 +3393,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xdf42ba0" />
+      <child nodeId="node-0x747c600" />
     </children>
   </item>
-  <item nodeId="node-0xdf42ba0">
+  <item nodeId="node-0x747c600">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">DVD&apos;s and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.
 
@@ -3372,10 +3405,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xdc22520" />
+      <child nodeId="node-0x747c670" />
     </children>
   </item>
-  <item nodeId="node-0xdc22520">
+  <item nodeId="node-0x747c670">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a brown key
@@ -3386,10 +3419,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x44f010" />
+      <child nodeId="node-0x747c6e0" />
     </children>
   </item>
-  <item nodeId="node-0x44f010">
+  <item nodeId="node-0x747c6e0">
     <command xml:space="preserve">x dvds</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3398,10 +3431,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xdc59690" />
+      <child nodeId="node-0x747c750" />
     </children>
   </item>
-  <item nodeId="node-0xdc59690">
+  <item nodeId="node-0x747c750">
     <command xml:space="preserve">x dvd</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3410,10 +3443,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xe840c80" />
+      <child nodeId="node-0x747c7c0" />
     </children>
   </item>
-  <item nodeId="node-0xe840c80">
+  <item nodeId="node-0x747c7c0">
     <command xml:space="preserve">x cds</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3422,10 +3455,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xdc9dab0" />
+      <child nodeId="node-0x747c830" />
     </children>
   </item>
-  <item nodeId="node-0xdc9dab0">
+  <item nodeId="node-0x747c830">
     <command xml:space="preserve">xcd</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -3434,10 +3467,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xe8c4300" />
+      <child nodeId="node-0x747c8a0" />
     </children>
   </item>
-  <item nodeId="node-0xe8c4300">
+  <item nodeId="node-0x747c8a0">
     <command xml:space="preserve">x cd</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3446,10 +3479,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x450760" />
+      <child nodeId="node-0x747c910" />
     </children>
   </item>
-  <item nodeId="node-0x450760">
+  <item nodeId="node-0x747c910">
     <command xml:space="preserve">x armchair</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3458,10 +3491,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xe8ee6c0" />
+      <child nodeId="node-0x747c980" />
     </children>
   </item>
-  <item nodeId="node-0xe8ee6c0">
+  <item nodeId="node-0x747c980">
     <command xml:space="preserve">x arm chair</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3470,10 +3503,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xdc7abd0" />
+      <child nodeId="node-0x747c9f0" />
     </children>
   </item>
-  <item nodeId="node-0xdc7abd0">
+  <item nodeId="node-0x747c9f0">
     <command xml:space="preserve">x urn</command>
     <result xml:space="preserve">A fat urn with what appears to be Chinese art along the side of it. It doesn&apos;t seem to fit into the room at all. Upon further investigation, you discover that it is empty.
 
@@ -3482,10 +3515,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x2a1980" />
+      <child nodeId="node-0x747ca60" />
     </children>
   </item>
-  <item nodeId="node-0x2a1980">
+  <item nodeId="node-0x747ca60">
     <command xml:space="preserve">take urn</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -3494,10 +3527,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x450520" />
+      <child nodeId="node-0x747cad0" />
     </children>
   </item>
-  <item nodeId="node-0x450520">
+  <item nodeId="node-0x747cad0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Family Room
 This is where you and your friends were hanging out earlier. A carpet is in the middle of the room. A painting is on the north wall. A dresser is in the northwest corner of the room, while an armchair is in the southwest corner. An urn is near the door to the office in the northeast. The office is to the east. Your room is to the south.
@@ -3507,10 +3540,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>YES</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x26129a0" />
+      <child nodeId="node-0x747cb40" />
     </children>
   </item>
-  <item nodeId="node-0x26129a0">
+  <item nodeId="node-0x747cb40">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -3523,10 +3556,10 @@ For example: spin dial to 1234)
     <changed>YES</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xdcdcbf0" />
+      <child nodeId="node-0x747cbb0" />
     </children>
   </item>
-  <item nodeId="node-0xdcdcbf0">
+  <item nodeId="node-0x747cbb0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -3537,10 +3570,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0x452270" />
+      <child nodeId="node-0x747cc20" />
     </children>
   </item>
-  <item nodeId="node-0x452270">
+  <item nodeId="node-0x747cc20">
     <command xml:space="preserve">x desk</command>
     <result xml:space="preserve">This is the office desk. It seems to stick out because of its brown color. There is nothing on top of the desk, however there is a locked drawer that stands out.
 
@@ -3549,10 +3582,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="227">YES</temporary>
     <children>
-      <child nodeId="node-0xdc32640" />
+      <child nodeId="node-0x747cc90" />
     </children>
   </item>
-  <item nodeId="node-0xdc32640">
+  <item nodeId="node-0x747cc90">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a brown key
@@ -3563,7 +3596,7 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="226">YES</temporary>
   </item>
-  <item nodeId="node-0x4f2850">
+  <item nodeId="node-0x747cd00">
     <command xml:space="preserve">spin safe to 1132</command>
     <result xml:space="preserve">Click! and nothing else happens.
 
@@ -3572,21 +3605,21 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x4f28c0">
+  <item nodeId="node-0x747cd70">
     <command xml:space="preserve">look under carpet</command>
     <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="41">YES</temporary>
+    <temporary score="244">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3a40" />
-      <child nodeId="node-0x4f3180" />
-      <child nodeId="node-0x4f2930" />
+      <child nodeId="node-0x747e040" />
+      <child nodeId="node-0x747d780" />
+      <child nodeId="node-0x747cde0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2930">
+  <item nodeId="node-0x747cde0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -3594,13 +3627,13 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="41">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="244">YES</temporary>
     <children>
-      <child nodeId="node-0x4f29a0" />
+      <child nodeId="node-0x747ce50" />
     </children>
   </item>
-  <item nodeId="node-0x4f29a0">
+  <item nodeId="node-0x747ce50">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -3608,26 +3641,28 @@ It is pitch dark, and you can&apos;t see a thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="41">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="244">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2a10" />
+      <child nodeId="node-0x747cec0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2a10">
+  <item nodeId="node-0x747cec0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
+The guest bedroom is where your parents sleep. Your room is actually the main bedroom, but your parents were nice enough to switch. A king sized bed is in the northeast corner, while a TV is in the northwest corner. There is also a black desk on the south wall, and a yellow trunk in the southwest corner. The study is back to the west.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="41">YES</temporary>
+    <temporary score="244">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2a80" />
+      <child nodeId="node-0x747d630" />
+      <child nodeId="node-0x747cf30" />
     </children>
   </item>
-  <item nodeId="node-0x4f2a80">
+  <item nodeId="node-0x747cf30">
     <command xml:space="preserve">unlock yellow trunk</command>
     <result xml:space="preserve">(with the yellow key)
 You unlock the yellow trunk.
@@ -3637,10 +3672,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2af0" />
+      <child nodeId="node-0x747cfa0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2af0">
+  <item nodeId="node-0x747cfa0">
     <command xml:space="preserve">open trukn</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3649,10 +3684,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2b60" />
+      <child nodeId="node-0x747d010" />
     </children>
   </item>
-  <item nodeId="node-0x4f2b60">
+  <item nodeId="node-0x747d010">
     <command xml:space="preserve">open trun</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3661,10 +3696,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2bd0" />
+      <child nodeId="node-0x747d080" />
     </children>
   </item>
-  <item nodeId="node-0x4f2bd0">
+  <item nodeId="node-0x747d080">
     <command xml:space="preserve">open trunk</command>
     <result xml:space="preserve">You open the yellow trunk, revealing a red key.
 
@@ -3673,10 +3708,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2c40" />
+      <child nodeId="node-0x747d0f0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2c40">
+  <item nodeId="node-0x747d0f0">
     <command xml:space="preserve">take red key</command>
     <result xml:space="preserve">Taken.
 
@@ -3685,10 +3720,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2cb0" />
+      <child nodeId="node-0x747d160" />
     </children>
   </item>
-  <item nodeId="node-0x4f2cb0">
+  <item nodeId="node-0x747d160">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3697,10 +3732,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2d20" />
+      <child nodeId="node-0x747d1d0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2d20">
+  <item nodeId="node-0x747d1d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Darkness
@@ -3711,10 +3746,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2d90" />
+      <child nodeId="node-0x747d240" />
     </children>
   </item>
-  <item nodeId="node-0x4f2d90">
+  <item nodeId="node-0x747d240">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -3725,10 +3760,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2e00" />
+      <child nodeId="node-0x747d2b0" />
     </children>
   </item>
-  <item nodeId="node-0x4f2e00">
+  <item nodeId="node-0x747d2b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -3739,10 +3774,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2e70" />
+      <child nodeId="node-0x747d320" />
     </children>
   </item>
-  <item nodeId="node-0x4f2e70">
+  <item nodeId="node-0x747d320">
     <command xml:space="preserve">unlock dresser with red key</command>
     <result xml:space="preserve">You unlock the red dresser.
 
@@ -3751,10 +3786,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2ee0" />
+      <child nodeId="node-0x747d390" />
     </children>
   </item>
-  <item nodeId="node-0x4f2ee0">
+  <item nodeId="node-0x747d390">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">You open the red dresser, revealing a brown key.
 
@@ -3763,10 +3798,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2f50" />
+      <child nodeId="node-0x747d400" />
     </children>
   </item>
-  <item nodeId="node-0x4f2f50">
+  <item nodeId="node-0x747d400">
     <command xml:space="preserve">take brown key</command>
     <result xml:space="preserve">Taken.
 
@@ -3775,10 +3810,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2fc0" />
+      <child nodeId="node-0x747d470" />
     </children>
   </item>
-  <item nodeId="node-0x4f2fc0">
+  <item nodeId="node-0x747d470">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -3789,10 +3824,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3030" />
+      <child nodeId="node-0x747d4e0" />
     </children>
   </item>
-  <item nodeId="node-0x4f3030">
+  <item nodeId="node-0x747d4e0">
     <command xml:space="preserve">unlock desk with brown key</command>
     <result xml:space="preserve">You unlock the brown desk.
 
@@ -3801,10 +3836,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f30a0" />
+      <child nodeId="node-0x747d550" />
     </children>
   </item>
-  <item nodeId="node-0x4f30a0">
+  <item nodeId="node-0x747d550">
     <command xml:space="preserve">open brown desk</command>
     <result xml:space="preserve">Opening the desk, you see the safe instructions that your dad put in here. This might come in handy.
 
@@ -3813,10 +3848,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3110" />
+      <child nodeId="node-0x747d5c0" />
     </children>
   </item>
-  <item nodeId="node-0x4f3110">
+  <item nodeId="node-0x747d5c0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   an instructions
@@ -3829,7 +3864,41 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
   </item>
-  <item nodeId="node-0x4f3180">
+  <item nodeId="node-0x747d630">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="244">YES</temporary>
+    <children>
+      <child nodeId="node-0x747d6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x747d6a0">
+    <command xml:space="preserve">unlock trunk</command>
+    <result xml:space="preserve">(with the yellow key)
+You unlock the yellow trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="244">YES</temporary>
+    <children>
+      <child nodeId="node-0x747d710" />
+    </children>
+  </item>
+  <item nodeId="node-0x747d710">
+    <command xml:space="preserve">open trunk</command>
+    <result xml:space="preserve">A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="243">YES</temporary>
+  </item>
+  <item nodeId="node-0x747d780">
     <command xml:space="preserve">take carpet</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -3838,10 +3907,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f31f0" />
+      <child nodeId="node-0x747d7f0" />
     </children>
   </item>
-  <item nodeId="node-0x4f31f0">
+  <item nodeId="node-0x747d7f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -3852,10 +3921,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3260" />
+      <child nodeId="node-0x747d860" />
     </children>
   </item>
-  <item nodeId="node-0x4f3260">
+  <item nodeId="node-0x747d860">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Study
@@ -3865,10 +3934,10 @@ Study
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f32d0" />
+      <child nodeId="node-0x747d8d0" />
     </children>
   </item>
-  <item nodeId="node-0x4f32d0">
+  <item nodeId="node-0x747d8d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -3878,10 +3947,10 @@ Bedroom
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3340" />
+      <child nodeId="node-0x747d940" />
     </children>
   </item>
-  <item nodeId="node-0x4f3340">
+  <item nodeId="node-0x747d940">
     <command xml:space="preserve">unlock trunk</command>
     <result xml:space="preserve">(with the yellow key)
 You unlock the yellow trunk.
@@ -3891,10 +3960,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f33b0" />
+      <child nodeId="node-0x747d9b0" />
     </children>
   </item>
-  <item nodeId="node-0x4f33b0">
+  <item nodeId="node-0x747d9b0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Bedroom
 
@@ -3903,10 +3972,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3420" />
+      <child nodeId="node-0x747da20" />
     </children>
   </item>
-  <item nodeId="node-0x4f3420">
+  <item nodeId="node-0x747da20">
     <command xml:space="preserve">take red key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3915,10 +3984,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3490" />
+      <child nodeId="node-0x747da90" />
     </children>
   </item>
-  <item nodeId="node-0x4f3490">
+  <item nodeId="node-0x747da90">
     <command xml:space="preserve">open trunk</command>
     <result xml:space="preserve">You open the yellow trunk, revealing a red key.
 
@@ -3927,10 +3996,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3500" />
+      <child nodeId="node-0x747db00" />
     </children>
   </item>
-  <item nodeId="node-0x4f3500">
+  <item nodeId="node-0x747db00">
     <command xml:space="preserve">take red key</command>
     <result xml:space="preserve">Taken.
 
@@ -3939,10 +4008,10 @@ You unlock the yellow trunk.
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3570" />
+      <child nodeId="node-0x747db70" />
     </children>
   </item>
-  <item nodeId="node-0x4f3570">
+  <item nodeId="node-0x747db70">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Study
@@ -3952,10 +4021,10 @@ Study
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f35e0" />
+      <child nodeId="node-0x747dbe0" />
     </children>
   </item>
-  <item nodeId="node-0x4f35e0">
+  <item nodeId="node-0x747dbe0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -3966,10 +4035,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3650" />
+      <child nodeId="node-0x747dc50" />
     </children>
   </item>
-  <item nodeId="node-0x4f3650">
+  <item nodeId="node-0x747dc50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -3980,10 +4049,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f36c0" />
+      <child nodeId="node-0x747dcc0" />
     </children>
   </item>
-  <item nodeId="node-0x4f36c0">
+  <item nodeId="node-0x747dcc0">
     <command xml:space="preserve">unlock dresser</command>
     <result xml:space="preserve">What do you want to unlock the red dresser with?
 
@@ -3992,10 +4061,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3730" />
+      <child nodeId="node-0x747dd30" />
     </children>
   </item>
-  <item nodeId="node-0x4f3730">
+  <item nodeId="node-0x747dd30">
     <command xml:space="preserve">unlock dresser with red key</command>
     <result xml:space="preserve">You unlock the red dresser.
 
@@ -4004,10 +4073,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f37a0" />
+      <child nodeId="node-0x747dda0" />
     </children>
   </item>
-  <item nodeId="node-0x4f37a0">
+  <item nodeId="node-0x747dda0">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">You open the red dresser, revealing a brown key.
 
@@ -4016,10 +4085,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3810" />
+      <child nodeId="node-0x747de10" />
     </children>
   </item>
-  <item nodeId="node-0x4f3810">
+  <item nodeId="node-0x747de10">
     <command xml:space="preserve">take brown key</command>
     <result xml:space="preserve">Taken.
 
@@ -4028,10 +4097,10 @@ This is where my friends and I were hanging out earlier. A carpet is in the midd
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3880" />
+      <child nodeId="node-0x747de80" />
     </children>
   </item>
-  <item nodeId="node-0x4f3880">
+  <item nodeId="node-0x747de80">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -4042,10 +4111,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f38f0" />
+      <child nodeId="node-0x747def0" />
     </children>
   </item>
-  <item nodeId="node-0x4f38f0">
+  <item nodeId="node-0x747def0">
     <command xml:space="preserve">unlock desk with brown key</command>
     <result xml:space="preserve">You unlock the brown desk.
 
@@ -4054,10 +4123,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3960" />
+      <child nodeId="node-0x747df60" />
     </children>
   </item>
-  <item nodeId="node-0x4f3960">
+  <item nodeId="node-0x747df60">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a brown key
@@ -4069,10 +4138,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4f39d0" />
+      <child nodeId="node-0x747dfd0" />
     </children>
   </item>
-  <item nodeId="node-0x4f39d0">
+  <item nodeId="node-0x747dfd0">
     <command xml:space="preserve">x yellow key</command>
     <result xml:space="preserve">You see nothing special about the yellow key.
 
@@ -4081,7 +4150,7 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="58">YES</temporary>
   </item>
-  <item nodeId="node-0x4f3a40">
+  <item nodeId="node-0x747e040">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a yellow key
@@ -4091,7 +4160,7 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>YES</changed>
     <temporary score="37">YES</temporary>
   </item>
-  <item nodeId="node-0x4f3ab0">
+  <item nodeId="node-0x747e0b0">
     <command xml:space="preserve">look behind painting</command>
     <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
 
@@ -4100,10 +4169,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3c00" />
+      <child nodeId="node-0x747e120" />
     </children>
   </item>
-  <item nodeId="node-0x4f3c00">
+  <item nodeId="node-0x747e120">
     <command xml:space="preserve">look under carpet</command>
     <result xml:space="preserve">Sweet! A yellow key. You&apos;re lucky to have looked here. You put it in your pocket.
 
@@ -4112,10 +4181,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3c70" />
+      <child nodeId="node-0x747e190" />
     </children>
   </item>
-  <item nodeId="node-0x4f3c70">
+  <item nodeId="node-0x747e190">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -4126,10 +4195,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3ce0" />
+      <child nodeId="node-0x747e200" />
     </children>
   </item>
-  <item nodeId="node-0x4f3ce0">
+  <item nodeId="node-0x747e200">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Darkness
@@ -4140,10 +4209,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3d50" />
+      <child nodeId="node-0x747e270" />
     </children>
   </item>
-  <item nodeId="node-0x4f3d50">
+  <item nodeId="node-0x747e270">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -4154,10 +4223,10 @@ The guest bedroom is where your parents sleep. Your room is actually the main be
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3dc0" />
+      <child nodeId="node-0x747e2e0" />
     </children>
   </item>
-  <item nodeId="node-0x4f3dc0">
+  <item nodeId="node-0x747e2e0">
     <command xml:space="preserve">unlock yellow trunk</command>
     <result xml:space="preserve">(with the yellow key)
 You unlock the yellow trunk.
@@ -4167,10 +4236,10 @@ You unlock the yellow trunk.
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3e30" />
+      <child nodeId="node-0x747e350" />
     </children>
   </item>
-  <item nodeId="node-0x4f3e30">
+  <item nodeId="node-0x747e350">
     <command xml:space="preserve">open yellow trunk</command>
     <result xml:space="preserve">A bunch of toys from your childhood are in here. Out of the corner of your eye, you can see a red key near the bottom of the chest. You pocket the key, it may come in handy.
 
@@ -4179,10 +4248,10 @@ You unlock the yellow trunk.
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3ea0" />
+      <child nodeId="node-0x747e3c0" />
     </children>
   </item>
-  <item nodeId="node-0x4f3ea0">
+  <item nodeId="node-0x747e3c0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a red key
@@ -4193,10 +4262,10 @@ You unlock the yellow trunk.
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3f10" />
+      <child nodeId="node-0x747e430" />
     </children>
   </item>
-  <item nodeId="node-0x4f3f10">
+  <item nodeId="node-0x747e430">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Darkness
@@ -4207,10 +4276,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3f80" />
+      <child nodeId="node-0x747e4a0" />
     </children>
   </item>
-  <item nodeId="node-0x4f3f80">
+  <item nodeId="node-0x747e4a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -4221,10 +4290,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f3ff0" />
+      <child nodeId="node-0x747e510" />
     </children>
   </item>
-  <item nodeId="node-0x4f3ff0">
+  <item nodeId="node-0x747e510">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -4235,10 +4304,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4060" />
+      <child nodeId="node-0x747e580" />
     </children>
   </item>
-  <item nodeId="node-0x4f4060">
+  <item nodeId="node-0x747e580">
     <command xml:space="preserve">unlock dresser</command>
     <result xml:space="preserve">What do you want to unlock the red dresser with?
 
@@ -4247,10 +4316,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f40d0" />
+      <child nodeId="node-0x747e5f0" />
     </children>
   </item>
-  <item nodeId="node-0x4f40d0">
+  <item nodeId="node-0x747e5f0">
     <command xml:space="preserve">unlock dresser with red key</command>
     <result xml:space="preserve">You unlock the red dresser.
 
@@ -4259,10 +4328,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4140" />
+      <child nodeId="node-0x747e660" />
     </children>
   </item>
-  <item nodeId="node-0x4f4140">
+  <item nodeId="node-0x747e660">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">DVD&apos;s and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.
 
@@ -4271,10 +4340,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f41b0" />
+      <child nodeId="node-0x747e6d0" />
     </children>
   </item>
-  <item nodeId="node-0x4f41b0">
+  <item nodeId="node-0x747e6d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -4285,10 +4354,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4220" />
+      <child nodeId="node-0x747e740" />
     </children>
   </item>
-  <item nodeId="node-0x4f4220">
+  <item nodeId="node-0x747e740">
     <command xml:space="preserve">unlock brown desk with brown key</command>
     <result xml:space="preserve">You unlock the brown desk.
 
@@ -4297,10 +4366,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4290" />
+      <child nodeId="node-0x747e7b0" />
     </children>
   </item>
-  <item nodeId="node-0x4f4290">
+  <item nodeId="node-0x747e7b0">
     <command xml:space="preserve">open brown desk</command>
     <result xml:space="preserve">Opening the desk, you see the safe instructions that your dad put in here. This might come in handy.
 
@@ -4309,10 +4378,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4300" />
+      <child nodeId="node-0x747e820" />
     </children>
   </item>
-  <item nodeId="node-0x4f4300">
+  <item nodeId="node-0x747e820">
     <command xml:space="preserve">x safe instructions</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -4321,10 +4390,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4370" />
+      <child nodeId="node-0x747e890" />
     </children>
   </item>
-  <item nodeId="node-0x4f4370">
+  <item nodeId="node-0x747e890">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -4335,10 +4404,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f43e0" />
+      <child nodeId="node-0x747e900" />
     </children>
   </item>
-  <item nodeId="node-0x4f43e0">
+  <item nodeId="node-0x747e900">
     <command xml:space="preserve">look behind painting</command>
     <result xml:space="preserve">Upon peering behind the painting, you find a safe. This must have been installed when you were at school.
 
@@ -4347,10 +4416,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4450" />
+      <child nodeId="node-0x747e970" />
     </children>
   </item>
-  <item nodeId="node-0x4f4450">
+  <item nodeId="node-0x747e970">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A safe that is mounted on the north wall of the room. Your parents just installed it, so the only thing that should be in there is a flashlight that your dad was using to mount it. It appears to have a combination lock. What were your parents thinking when they decided to put this in here?
 
@@ -4363,10 +4432,10 @@ For example: spin safe to 1234)
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f44c0" />
+      <child nodeId="node-0x747e9e0" />
     </children>
   </item>
-  <item nodeId="node-0x4f44c0">
+  <item nodeId="node-0x747e9e0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Instructions
@@ -4379,10 +4448,10 @@ For example: spin safe to 1234)
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4530" />
+      <child nodeId="node-0x747ea50" />
     </children>
   </item>
-  <item nodeId="node-0x4f4530">
+  <item nodeId="node-0x747ea50">
     <command xml:space="preserve">spin safe to 1997</command>
     <result xml:space="preserve">You hear a &quot;Click&quot; and the safe door swings open. You can see a flashlight.
 
@@ -4391,10 +4460,10 @@ For example: spin safe to 1234)
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f45a0" />
+      <child nodeId="node-0x747eac0" />
     </children>
   </item>
-  <item nodeId="node-0x4f45a0">
+  <item nodeId="node-0x747eac0">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -4403,10 +4472,10 @@ For example: spin safe to 1234)
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4610" />
+      <child nodeId="node-0x747eb30" />
     </children>
   </item>
-  <item nodeId="node-0x4f4610">
+  <item nodeId="node-0x747eb30">
     <command xml:space="preserve">turn flashlight on</command>
     <result xml:space="preserve">You click the flashlight on
 &gt;</result>
@@ -4414,10 +4483,10 @@ For example: spin safe to 1234)
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4680" />
+      <child nodeId="node-0x747eba0" />
     </children>
   </item>
-  <item nodeId="node-0x4f4680">
+  <item nodeId="node-0x747eba0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Office
@@ -4428,10 +4497,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f46f0" />
+      <child nodeId="node-0x747ec10" />
     </children>
   </item>
-  <item nodeId="node-0x4f46f0">
+  <item nodeId="node-0x747ec10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Study
@@ -4444,10 +4513,10 @@ You can see a brass key here.
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4760" />
+      <child nodeId="node-0x747ec80" />
     </children>
   </item>
-  <item nodeId="node-0x4f4760">
+  <item nodeId="node-0x747ec80">
     <command xml:space="preserve">take brass key</command>
     <result xml:space="preserve">Taken.
 
@@ -4456,10 +4525,10 @@ You can see a brass key here.
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f47d0" />
+      <child nodeId="node-0x747ecf0" />
     </children>
   </item>
-  <item nodeId="node-0x4f47d0">
+  <item nodeId="node-0x747ecf0">
     <command xml:space="preserve">x brass key</command>
     <result xml:space="preserve">A key to your room that you put in the fake ficus for emergencies just like this.
 
@@ -4468,10 +4537,10 @@ You can see a brass key here.
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4840" />
+      <child nodeId="node-0x747ed60" />
     </children>
   </item>
-  <item nodeId="node-0x4f4840">
+  <item nodeId="node-0x747ed60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Office
@@ -4482,10 +4551,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f48b0" />
+      <child nodeId="node-0x747edd0" />
     </children>
   </item>
-  <item nodeId="node-0x4f48b0">
+  <item nodeId="node-0x747edd0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -4494,10 +4563,10 @@ This is your dad&apos;s office. However he doesn&apos;t use it a whole lot. You 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4920" />
+      <child nodeId="node-0x747ee40" />
     </children>
   </item>
-  <item nodeId="node-0x4f4920">
+  <item nodeId="node-0x747ee40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Family Room
@@ -4508,10 +4577,10 @@ This is where you and your friends were hanging out earlier. A carpet is in the 
     <changed>NO</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4990" />
+      <child nodeId="node-0x747eeb0" />
     </children>
   </item>
-  <item nodeId="node-0x4f4990">
+  <item nodeId="node-0x747eeb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Unlocking the door, you quickly barge into your room, tackling your friends. You all get up and laugh about it for a while. They didn&apos;t realize you had a key in the house somewhere. You then tell them your adventure.
 
@@ -4528,10 +4597,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4a00" />
+      <child nodeId="node-0x747ef20" />
     </children>
   </item>
-  <item nodeId="node-0x4f4a00">
+  <item nodeId="node-0x747ef20">
     <command xml:space="preserve">unlock door with brass key</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -4541,10 +4610,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4a70" />
+      <child nodeId="node-0x747ef90" />
     </children>
   </item>
-  <item nodeId="node-0x4f4a70">
+  <item nodeId="node-0x747ef90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -4554,10 +4623,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="101">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4ae0" />
+      <child nodeId="node-0x747f000" />
     </children>
   </item>
-  <item nodeId="node-0x4f4ae0">
+  <item nodeId="node-0x747f000">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -4567,7 +4636,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="100">YES</temporary>
   </item>
-  <item nodeId="node-0x4f4b50">
+  <item nodeId="node-0x747f070">
     <command xml:space="preserve">Take key</command>
     <result xml:space="preserve">Taken.
 
@@ -4576,10 +4645,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4bc0" />
+      <child nodeId="node-0x747f0e0" />
     </children>
   </item>
-  <item nodeId="node-0x4f4bc0">
+  <item nodeId="node-0x747f0e0">
     <command xml:space="preserve">unlock oak door</command>
     <result xml:space="preserve">(with the brass key)
 You unlock the oak door.
@@ -4589,10 +4658,10 @@ You unlock the oak door.
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x4f4c30" />
+      <child nodeId="node-0x747f150" />
     </children>
   </item>
-  <item nodeId="node-0x4f4c30">
+  <item nodeId="node-0x747f150">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the oak door)
 

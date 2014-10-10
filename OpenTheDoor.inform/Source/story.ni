@@ -15,15 +15,15 @@ Instead of taking the red dresser: say "That's too heavy.";
 After opening the red dresser: say "DVD's and CD cases line the dresser drawers. In one of the drawers, you see a brown key. You pocket the brown key.";
 	move the brown key to the player.
 
-The red key unlocks the red dresser. The red key is in the yellow trunk. The description is "Its a red key for the dresser."
+The red key unlocks the red dresser. The red key is in the yellow trunk. The description is "Its a red key."
 
 The carpet is scenery in the Family Room. The description is "A carpet that has big yellow hibicus's on it. It doesn't seem very flat however. An air pocket of sorts slightly sticks out. You're surprised you even noticed it. "
 
 The air pocket is scenery in the Family Room. The description is "A suspicious looking air pocket. You might want to look under the carpet."
 
-The yellow key is a thing. The yellow key can be found or lost. The yellow key is lost. The yellow key unlocks the yellow trunk. The description is "Its a yellow key for the trunk."
+The yellow key is a thing. The yellow key can be found or lost. The yellow key is lost. The yellow key unlocks the yellow trunk. The description is "Its a yellow key."
 
-The brown key is a thing. The brown key is in the red dresser. The brown key unlocks the brown desk. The description is "Its a brown key for the desk."
+The brown key is a thing. The brown key is in the red dresser. The brown key unlocks the brown desk. The description is "Its a brown key."
 
 [Searched infrom on how to do this]
 
