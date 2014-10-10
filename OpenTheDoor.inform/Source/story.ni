@@ -32,7 +32,7 @@ Instead of looking under the carpet when the yellow key is lost:
 	now the yellow key is found;
 	say "Sweet! A yellow key. You're lucky to have looked here. You put it in your pocket."
 	
-The chair is scenery in the Family Room. The description is "A comfy-looking armchair. It is embroided with fake flower on the sides."
+The armchair is scenery in the Family Room. The description is "A comfy-looking armchair. It is embroided with fake flowers on the sides."
  
 The urn is scenery in the Family Room. The description is "A fat urn with what appears to be Chinese art along the side of it. It doesn't seem to fit into the room at all. Upon further investigation, you discover that it is empty."
 
